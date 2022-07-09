@@ -6,7 +6,7 @@ Repository with translations made by the SimHub community.
 
 ## Index
 - [How to create a translation](#how-to-create-a-translation)
-- [How to send your translation](#how-send-your-translation)
+- [How to send your translation](#how-to-send-your-translation)
 - [Translations](#translations)
 - [Note](#note)
 
@@ -32,4 +32,4 @@ https://github.com/SHWotever/SimHub/wiki/SimHub---Translation
 |  pt-BR  | Portuguese (Brazil) |   v8.0.3   |   100%    | [adlerluiz](https://github.com/adlerluiz)  |
 
 ## Note
-This repository has no link to the SimHub project, it's just to help with translations made by the community!
+This repository has no link with [SimHub](https://www.simhubdash.com/) project, it's just to help with translations made by the community!
