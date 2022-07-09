@@ -1,0 +1,4399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GameConfigurationManager_Title" xml:space="preserve">
+    <value>ゲーム設定</value>
+  </data>
+  <data name="GameConfigurationManager_TelemetryTabTitle" xml:space="preserve">
+    <value>テレメトリー</value>
+  </data>
+  <data name="GameConfigurationManager_TelemetrySettingsSection" xml:space="preserve">
+    <value>テレメトリー設定</value>
+  </data>
+  <data name="GameConfigurationManager_TelemetrySettings_NoSettingsAvailable" xml:space="preserve">
+    <value>テレメトリー設定は必要ありません。ゲームを起動して楽しもう！</value>
+  </data>
+  <data name="AboutPluginSDKLine1" xml:space="preserve">
+    <value>- 新しいデータを作成</value>
+  </data>
+  <data name="AboutPluginSDKLine2" xml:space="preserve">
+    <value>- 新しいアクションを作成</value>
+  </data>
+  <data name="AboutPluginSDKLine3" xml:space="preserve">
+    <value>- ゲームデータを処理</value>
+  </data>
+  <data name="AboutPluginSDKLine4" xml:space="preserve">
+    <value>などなど!</value>
+  </data>
+  <data name="AboutPluginSDKLine5" xml:space="preserve">
+    <value>付属のC# SDKを使って独自のプラグインを作成しよう</value>
+  </data>
+  <data name="AboutPluginSdkOpenSDK" xml:space="preserve">
+    <value>SIMHUB SDKを開く</value>
+  </data>
+  <data name="AdditionalPlugins" xml:space="preserve">
+    <value>追加のプラグイン</value>
+  </data>
+  <data name="AdministratorPrivilegesMessage" xml:space="preserve">
+    <value>管理者権限なしで実行しますか? ゲーム認識の問題が発生したりシステム情報など一部機能が無効となることがあります。管理者権限はSimHub設定からいつでも有効にできます。</value>
+  </data>
+  <data name="AdministratorPrivilegesTitle" xml:space="preserve">
+    <value>管理者権限</value>
+  </data>
+  <data name="AdminPrivilegesAlert" xml:space="preserve">
+    <value>SimHubを正常に機能させるには管理者権限が必要です。今すぐ有効にしますか?</value>
+  </data>
+  <data name="AlwaysOnTop" xml:space="preserve">
+    <value>常に一番上に表示</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_ApplyChangesNow" xml:space="preserve">
+    <value>変更を適用する</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_OpenArduinoSetupTool" xml:space="preserve">
+    <value>Arduinoセットアップツールを開く</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_ScanForNewDevicesOnly" xml:space="preserve">
+    <value>新しいデバイスのみスキャン</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_ResetAndScanForNewDevicesNow" xml:space="preserve">
+    <value>すべてクリアしてスキャン</value>
+  </data>
+  <data name="ArduinoHardwareSettings_CheckBox_ReadButtons" xml:space="preserve">
+    <value>ボタンを読み取る</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_ArduinoDisabled" xml:space="preserve">
+    <value>Arduino無効</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_CustomProtocol" xml:space="preserve">
+    <value>カスタムプロトコル</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_Motors" xml:space="preserve">
+    <value>振動</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_MultipleArduinos" xml:space="preserve">
+    <value>複数のArduino</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_NoDevicesDetected" xml:space="preserve">
+    <value>検出したデバイスなし</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_NotConnected" xml:space="preserve">
+    <value>接続されていません</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_RgbLeds" xml:space="preserve">
+    <value>RGB LED</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_ScanInProgress" xml:space="preserve">
+    <value>スキャン中です…</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_SerialSpeed" xml:space="preserve">
+    <value>シリアル速度</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_SingleArduino" xml:space="preserve">
+    <value>一台のArduino</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_Unplugged" xml:space="preserve">
+    <value>- 接続解除</value>
+  </data>
+  <data name="ArduinoHardwareSettings_LinkButton_MoreInfos" xml:space="preserve">
+    <value>詳細情報…</value>
+  </data>
+  <data name="ArduinoHardwareSettings_RadioButton_NeverScanSelectedPorts" xml:space="preserve">
+    <value>選択したポートをスキャンしない</value>
+  </data>
+  <data name="ArduinoHardwareSettings_RadioButton_ScanAllSerialPorts" xml:space="preserve">
+    <value>すべてのシリアルポートをスキャン</value>
+  </data>
+  <data name="ArduinoHardwareSettings_RadioButton_ScanOnlySelectedPorts" xml:space="preserve">
+    <value>選択したポートのみをスキャン</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_ArduinoScanSettings" xml:space="preserve">
+    <value>ARDUINOスキャン設定</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_DevicesScan" xml:space="preserve">
+    <value>デバイスのスキャン</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_MultipleArduinoSettings" xml:space="preserve">
+    <value>ARDUINO複数設定</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_ChooseHowManyArduinosYouWantToConnectToSimhub" xml:space="preserve">
+    <value>SIMHUBに接続するArduinoの数を選択</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_LcdRefreshSpeed" xml:space="preserve">
+    <value>LCD リフレッシュ速度</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MatrixFont" xml:space="preserve">
+    <value>マトリックスのフォント</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MatrixRedlineBlink" xml:space="preserve">
+    <value>レッドラインでマトリックス点滅</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_7SegGearRedlineBlink" xml:space="preserve">
+    <value>レッドラインで 7セグメントギアインジケーター点滅</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MultipleUsbInfo" xml:space="preserve">
+    <value>USBに接続した複数のArduinoを 1つのダッシュとして扱います。下記の複数Arduino設定を確認してください。</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_NoDevicesConfigured" xml:space="preserve">
+    <value>設定されたデバイスなし</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_UploadSketchInfo" xml:space="preserve">
+    <value>Arduinoを使用する前にSketchをアップロードする必要があります</value>
+  </data>
+  <data name="ArduinoScreenList_Button_NewScreen" xml:space="preserve">
+    <value>新しい画面</value>
+  </data>
+  <data name="ArduinoScreenList_CheckBox_EnableLivePreview" xml:space="preserve">
+    <value>ライブプレビュー</value>
+  </data>
+  <data name="ArduinoScreenList_Indicator_Idle" xml:space="preserve">
+    <value>アイドル</value>
+  </data>
+  <data name="ArduinoScreenList_Indicator_Ingame" xml:space="preserve">
+    <value>ゲーム内</value>
+  </data>
+  <data name="ArduinoScreenList_Label_OrderingInfo" xml:space="preserve">
+    <value>順序が重要です! ドラッグ&amp;ドロップで画面を並べ替えてください | ダブルクリックで終了</value>
+  </data>
+  <data name="ArduinoScreenList_SectionTitle_ManageYourArduinoTextDisplays" xml:space="preserve">
+    <value>ARDUINOのテキスト表示を管理</value>
+  </data>
+  <data name="AutoDetectCurrentGame" xml:space="preserve">
+    <value>現在のゲームを自動検出</value>
+  </data>
+  <data name="AvailableProperties" xml:space="preserve">
+    <value>利用可能なプロパティ</value>
+  </data>
+  <data name="CarSettings_ActionPicker_DecrementRedlineValue" xml:space="preserve">
+    <value>レッドライン値のを下げる</value>
+  </data>
+  <data name="CarSettings_ActionPicker_IncrementRedlineValue" xml:space="preserve">
+    <value>レッドライン値を上げる</value>
+  </data>
+  <data name="CarSettings_Label_RedlineChangeStepsWhenCarIsKnownRpm" xml:space="preserve">
+    <value>車両情報がある場合のレッドライン変化量 (RPM)</value>
+  </data>
+  <data name="CarSettings_Label_RedlineChangeStepsWhenCarIsNotKnownPercents" xml:space="preserve">
+    <value>車両情報がない場合のレッドライン変化量 (パーセント)</value>
+  </data>
+  <data name="CarSettings_Label_RedLinePercentOfMaxRpm" xml:space="preserve">
+    <value>レッドライン (最大RPMに対するパーセント)</value>
+  </data>
+  <data name="CarSettings_Label_ShiftLight1OffsetPercent" xml:space="preserve">
+    <value>シフトライト1 オフセット (パーセント)</value>
+  </data>
+  <data name="CarSettings_Label_ShiftLight2OffsetPercent" xml:space="preserve">
+    <value>シフトライト2 オフセット (パーセント)</value>
+  </data>
+  <data name="CarSettings_SectionTitle_DefaultCarSettingsForTheCurrentGame" xml:space="preserve">
+    <value>デフォルトの車両設定 (選択中のゲームにおける)</value>
+  </data>
+  <data name="Carssettings" xml:space="preserve">
+    <value>車両設定</value>
+  </data>
+  <data name="ClearLicenseButton" xml:space="preserve">
+    <value>ライセンスを消去</value>
+  </data>
+  <data name="ControlPicker_Label_PressType" xml:space="preserve">
+    <value>入力タイプ</value>
+  </data>
+  <data name="ControlPicker_Label_WaitingForInput" xml:space="preserve">
+    <value>入力待ち</value>
+  </data>
+  <data name="ControlPicker_WindowTitle" xml:space="preserve">
+    <value>操作を選択</value>
+  </data>
+  <data name="ControlsAndEvents" xml:space="preserve">
+    <value>操作およびイベント</value>
+  </data>
+  <data name="ControlsEditor_LinkButton_Change" xml:space="preserve">
+    <value>変更する</value>
+  </data>
+  <data name="ControlsEditor_LinkButton_ClickToConfigure" xml:space="preserve">
+    <value>クリックして設定</value>
+  </data>
+  <data name="ControlsEditor_MenuItem_TriggerNow" xml:space="preserve">
+    <value>作動させる</value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_Alerts" xml:space="preserve">
+    <value>アラート</value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_SevenSegmentModules" xml:space="preserve">
+    <value>7セグメントモジュール</value>
+  </data>
+  <data name="DisplaySettings_SevenSegmentModules_BrightnessColumnTitle" xml:space="preserve">
+    <value>明るさ</value>
+  </data>
+  <data name="DisplaySettings_SevenSegmentModules_Checkbox_ReverseDisplay" xml:space="preserve">
+    <value>反転表示</value>
+  </data>
+  <data name="DisplaySettings_SevenSegmentModules_MainIntensity" xml:space="preserve">
+    <value>基本の輝度</value>
+  </data>
+  <data name="DisplaySettings_SevenSegmentModules_OrientationColumnTitle" xml:space="preserve">
+    <value>モジュールの向き</value>
+  </data>
+  <data name="DisplaySettings_TextBlock_ScreenDisplayAnnounce" xml:space="preserve">
+    <value>画面表示通知</value>
+  </data>
+  <data name="DonatorLicense" xml:space="preserve">
+    <value>ライセンス</value>
+  </data>
+  <data name="EnableItNow" xml:space="preserve">
+    <value>有効にする</value>
+  </data>
+  <data name="ExitSimHub" xml:space="preserve">
+    <value>SimHubを終了</value>
+  </data>
+  <data name="FeatureIncludedInDonatorVersion" xml:space="preserve">
+    <value>登録版で使える機能</value>
+  </data>
+  <data name="GameConnected" xml:space="preserve">
+    <value>接続中</value>
+  </data>
+  <data name="GameDisconnected" xml:space="preserve">
+    <value>未接続</value>
+  </data>
+  <data name="GameList_AutomaticSetup_AdministratorPrivilegesMessage" xml:space="preserve">
+    <value>自動設定は管理者として実行しているときにだけ使用できます。今すぐ有効にしますか?</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationFailedMessage" xml:space="preserve">
+    <value>問題が発生しました。ゲームが実行されていないことを確認し、手動設定を試みてください。</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationFailedTitle" xml:space="preserve">
+    <value>設定に失敗しました!</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationSuccessfulMessage" xml:space="preserve">
+    <value>SimHubで {0} が使用可能です。</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationSuccessfulTitle" xml:space="preserve">
+    <value>設定に成功しました！</value>
+  </data>
+  <data name="GameList_Button_StopReorganize" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="GameList_Label_YouCanNowShowHideAndReorganizeGames" xml:space="preserve">
+    <value>ゲームの表示、非表示、並べ替えができます</value>
+  </data>
+  <data name="GameList_MenuItem_ManageShownGames" xml:space="preserve">
+    <value>表示するゲームを管理</value>
+  </data>
+  <data name="GameList_TelemetryNotConfiguredFixItAutomatically" xml:space="preserve">
+    <value>自動的に修正</value>
+  </data>
+  <data name="GameList_TelemetryNotConfiguredFixItManually" xml:space="preserve">
+    <value>手動で修正</value>
+  </data>
+  <data name="GameList_Ignore" xml:space="preserve">
+    <value>表示しない</value>
+  </data>
+  <data name="GameList_TelemetryNotConfiguredWarnMessage" xml:space="preserve">
+    <value>{0} のテレメトリーは設定されていません</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>ゲーム</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_ClearLapHistoryForTheCurrentTrackAndCar" xml:space="preserve">
+    <value>現在のコースと車両のラップ履歴を消去</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_CycleNextDashTemplate" xml:space="preserve">
+    <value>次のダッシュテンプレートに切り替え</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_CyclePreviousDashTemplate" xml:space="preserve">
+    <value>前のダッシュテンプレートに切り替え</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_DiscardCurrentMapAndRedrawIt" xml:space="preserve">
+    <value>現在のマップを破棄して再描画</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_ShowNextDashScreen" xml:space="preserve">
+    <value>次のダッシュ画面を表示</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_ShowPreviousDashScreen" xml:space="preserve">
+    <value>前のダッシュ画面を表示</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_TriggerDashActionADependsOfTheDashDesign" xml:space="preserve">
+    <value>ダッシュアクションA を作動 (ダッシュデザインによる)</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_TriggerDashActionBDependsOfTheDashDesign" xml:space="preserve">
+    <value>ダッシュアクションB を作動 (ダッシュデザインによる)</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_TriggerDashActionCDependsOfTheDashDesign" xml:space="preserve">
+    <value>ダッシュアクションC を作動 (ダッシュデザインによる)</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_TriggerDashActionDDependsOfTheDashDesign" xml:space="preserve">
+    <value>ダッシュアクションD を作動 (ダッシュデザインによる)</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_Auto" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_CreateANewLayoutAndSavesMultipleOverlaysPositions_ToolTip" xml:space="preserve">
+    <value>新しいレイアウトを作成すると、複数のオーバーレイ位置を保存します</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_DashboardActionsEditDeleteDuplicate_ToolTip" xml:space="preserve">
+    <value>ダッシュボードの動作、編集、削除、複製</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_More" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_NewDashboard" xml:space="preserve">
+    <value>新しいダッシュボード</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_NewOverlay" xml:space="preserve">
+    <value>新しいオーバーレイ</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_NewOverlayLayout" xml:space="preserve">
+    <value>新しいオーバーレイレイアウト</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_OverlayActions_ToolTip" xml:space="preserve">
+    <value>オーバーレイの動作、編集、削除、複製</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_SavesAllTheOppenedDashboardAndPositions_ToolTip" xml:space="preserve">
+    <value>開いているすべてのダッシュボードと位置を保存します</value>
+  </data>
+  <data name="GraphicalDashPluginList_Category_LASTUSED" xml:space="preserve">
+    <value>最近使用したもの</value>
+  </data>
+  <data name="GraphicalDashPluginList_Category_Uncategorized" xml:space="preserve">
+    <value>未分類</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_CycleOnlyThroughFavouritesDash" xml:space="preserve">
+    <value>お気に入りのダッシュのみ切り替え</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_EnableDedicatedControls" xml:space="preserve">
+    <value>専用コントロールを有効にする</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_EnableOnDashNotifications" xml:space="preserve">
+    <value>ダッシュ通知を有効にする (レッドライン値 /Thrustmaster FFB値など)</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_EngineSpeedUseDataUpdateControlExperimental" xml:space="preserve">
+    <value>データ更新コントロールを使用 (experimental)</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_FlashDashWhenRedlineIsReached" xml:space="preserve">
+    <value>レッドラインに達したらダッシュを点灯させる</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_KeepOverlayLayoutEditorMinimizedOnLayoutLoad" xml:space="preserve">
+    <value>レイアウトの読み込み時にオーバーレイレイアウトエディタを最小化する</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_ShowLastUsedDashsOnTopOfTheList" xml:space="preserve">
+    <value>最後に使用したダッシュをリストの上に表示</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_ShowLeaderboardGapRelativeToPlayer" xml:space="preserve">
+    <value>リーダーボードにプレイヤーとのギャップを表示 (オフのときはリーダーとのギャップ)</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_StartDashInAlwaysOnTopModeByDefault" xml:space="preserve">
+    <value>デフォルトで『常に上に表示』モードでダッシュを起動</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Usbd480EnableTouchscreen" xml:space="preserve">
+    <value>タッチスクリーンを有効にする</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_EnableUsbDisplay" xml:space="preserve">
+    <value>ディスプレイを有効にする</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Usbd480FlipDisplay180" xml:space="preserve">
+    <value>ディスプレイ反転 (180°)</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_UsePlayerCarClassLeaderboards" xml:space="preserve">
+    <value>所属する車両クラスのリーダーボードを使用 (車両クラスが有効な場合)</value>
+  </data>
+  <data name="GraphicalDashPluginList_CloseAllButton" xml:space="preserve">
+    <value>すべて閉じる</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_PhoneTablet" xml:space="preserve">
+    <value>スマホやタブレット上に</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_SecondaryMonitor" xml:space="preserve">
+    <value>セカンダリモニターに</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_SpecificMonitor" xml:space="preserve">
+    <value>指定したモニターに</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_USBD480Screen" xml:space="preserve">
+    <value>USBD480の画面に</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_VocoreScreen" xml:space="preserve">
+    <value>VOCOREの画面に</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_AX206Screen" xml:space="preserve">
+    <value>AX206の画面に</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_CorsairNexusScreen" xml:space="preserve">
+    <value>CorsairNexusに</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_Windowed" xml:space="preserve">
+    <value>ウィンドウ表示</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_DesktopEngine" xml:space="preserve">
+    <value>デスクトップエンジン</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_RecentUsedDashsToKeepOnTopOfTheList" xml:space="preserve">
+    <value>最近使用したダッシュをリストの上に表示</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_RedlineFlashColor" xml:space="preserve">
+    <value>RedLine 点灯色 : </value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_RedlineFlashOpacity" xml:space="preserve">
+    <value>RedLine 点灯透過度 :</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_TheseSettingsAppliesOnlyToDonatorEdition" xml:space="preserve">
+    <value>これらの設定は登録版でゲームデータ更新速度を上げたときのみ適用されます (SimHub設定を参照)</value>
+  </data>
+  <data name="CarSettings_Label_SelectACarToEditIt" xml:space="preserve">
+    <value>編集する車を選択</value>
+  </data>
+  <data name="CarSettings_Label_WarningCarsCanOnlyBeEditedWhenGamesGivesTheCurrentModel" xml:space="preserve">
+    <value>注意 : 使用した車両のモデルをゲームから取得できた場合にのみ編集できます</value>
+  </data>
+  <data name="CarSettings_CheckBox_PerGearRedlineDefinition" xml:space="preserve">
+    <value>ギアごとのレッドラインの設定</value>
+  </data>
+  <data name="VibrationPadStatus_Label_DeviceAlreadyInUseByWindPlugin" xml:space="preserve">
+    <value>ウィンドプラグインで使用されているデバイス</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_ThisOverlayIsTooLargeAlert" xml:space="preserve">
+    <value>このオーバーレイは大きすぎるため起動できません。分割して起動してください</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_Usbd480Brightness" xml:space="preserve">
+    <value>明るさ</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_Usbd480DisplayedDashboard" xml:space="preserve">
+    <value>表示中のダッシュボード</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_WebDevice" xml:space="preserve">
+    <value>WEBデバイス : </value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_WebDeviceLastSeen" xml:space="preserve">
+    <value>(最後に参照した : {0})</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_WebEngine" xml:space="preserve">
+    <value>WEBエンジン</value>
+  </data>
+  <data name="GraphicalDashPluginList_LinkButton_WebDeviceForget" xml:space="preserve">
+    <value>消去する</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_AllowRedlineFlash" xml:space="preserve">
+    <value>レッドライン点滅を許可</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_Category" xml:space="preserve">
+    <value>カテゴリー</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_ConvertToOverlay" xml:space="preserve">
+    <value>オーバーレイに変換</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_ConvertToDashboard" xml:space="preserve">
+    <value>ダッシュボードに変換</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_DeleteDashboard" xml:space="preserve">
+    <value>ダッシュボードを削除</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_DeleteOverlay" xml:space="preserve">
+    <value>オーバーレイを削除</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_DuplicateDashboard" xml:space="preserve">
+    <value>ダッシュボードを複製</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_DuplicateOverlay" xml:space="preserve">
+    <value>オーバーレイを複製</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_EditDashboard" xml:space="preserve">
+    <value>ダッシュボードを編集</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_ExportDashboard" xml:space="preserve">
+    <value>ダッシュボードをエクスポート</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_ExportOverlay" xml:space="preserve">
+    <value>オーバーレイをエクスポート</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_GetOBSAddress" xml:space="preserve">
+    <value>OBS ブラウザアドレスをクリップボードにコピー</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_UseHtmlEngine" xml:space="preserve">
+    <value>HTMLエンジンを使用 (よりスムーズに描画)</value>
+  </data>
+  <data name="GraphicalDashPluginList_OpenInBrowser" xml:space="preserve">
+    <value>ブラウザで開く</value>
+  </data>
+  <data name="GraphicalDashPluginList_OpenPhoneTablet" xml:space="preserve">
+    <value>スマホやタブレットで開く</value>
+  </data>
+  <data name="GraphicalDashPluginList_RadioButton_EngineSpeedFast" xml:space="preserve">
+    <value>速い</value>
+  </data>
+  <data name="GraphicalDashPluginList_RadioButton_EngineSpeedSlow" xml:space="preserve">
+    <value>遅い</value>
+  </data>
+  <data name="GraphicalDashPluginList_RadioButton_EngineSpeedVeryFast" xml:space="preserve">
+    <value>非常に速い</value>
+  </data>
+  <data name="GraphicalDashPluginList_RestoreLayoutButton" xml:space="preserve">
+    <value>レイアウトを復元</value>
+  </data>
+  <data name="GraphicalDashPluginList_SaveLayoutButton" xml:space="preserve">
+    <value>レイアウトを保存</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleAVAILABLEDASHBOARDS" xml:space="preserve">
+    <value>利用可能なダッシュボード</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleAVAILABLEOVERLAYS" xml:space="preserve">
+    <value>利用可能なオーバーレイ</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSAVEDOVERLAYLAYOUTS" xml:space="preserve">
+    <value>保存されたオーバーレイレイアウト</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsDASHDISPLAY" xml:space="preserve">
+    <value>ダッシュボードディスプレイ</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsDEVICECONTROLS" xml:space="preserve">
+    <value>デバイスごとのコントロール (タブレット/スマホなど)</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsLEADERBOARDS" xml:space="preserve">
+    <value>リーダーボード</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsOVERLAYDISPLAY" xml:space="preserve">
+    <value>オーバーレイ表示</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsPERFORMANCE" xml:space="preserve">
+    <value>パフォーマンス</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_Usbd480Lcd" xml:space="preserve">
+    <value>USBD480 LCD</value>
+  </data>
+  <data name="GraphicalDashPluginList_StartButton" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabItemDashboards" xml:space="preserve">
+    <value>ダッシュボード</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabItemOverlays" xml:space="preserve">
+    <value>オーバーレイ</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabItemUSBD480" xml:space="preserve">
+    <value>USBD480</value>
+  </data>
+  <data name="GraphicalDashPluginList_TextBlock_Auto" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="GraphicalDashPluginList_TextBlock_DashStudioAlsoWorksInYourBrowserOrPhone" xml:space="preserve">
+    <value>Dash Studioはブラウザやスマホ上でも起動できます</value>
+  </data>
+  <data name="GraphicalDashPluginList_TextBlock_NewLayout" xml:space="preserve">
+    <value>新しいレイアウト</value>
+  </data>
+  <data name="GraphicalDashPluginList_ToggleButton_Favourite_ToolTip" xml:space="preserve">
+    <value>お気に入り</value>
+  </data>
+  <data name="GraphicalDashPluginList_ToggleButton_OpenOverlayOnStartup_ToolTip" xml:space="preserve">
+    <value>起動時にオーバーレイを表示</value>
+  </data>
+  <data name="HigherProcessPriority" xml:space="preserve">
+    <value>優先度を上げる</value>
+  </data>
+  <data name="HigherProcessPriorityComment" xml:space="preserve">
+    <value>CPU負荷が高いゲームに有効です。必要なければチェックしないでください</value>
+  </data>
+  <data name="Laphistory_DeleteSessionMenuItem" xml:space="preserve">
+    <value>セッションを削除</value>
+  </data>
+  <data name="Laphistory_RECENTSESSIONS" xml:space="preserve">
+    <value>最近のセッション</value>
+  </data>
+  <data name="Live" xml:space="preserve">
+    <value>ライブ</value>
+  </data>
+  <data name="LoadLicenseButton" xml:space="preserve">
+    <value>ライセンスを読み込む</value>
+  </data>
+  <data name="LogsClearLogsButton" xml:space="preserve">
+    <value>ログを全消去する</value>
+  </data>
+  <data name="LogsOpenLogFolderButton" xml:space="preserve">
+    <value>ログのフォルダを開く</value>
+  </data>
+  <data name="MainWindowPaneWidth" xml:space="preserve">
+    <value>190</value>
+  </data>
+  <data name="MainWindowStatusbarListeningPort" xml:space="preserve">
+    <value>受信UDPポート {0}</value>
+  </data>
+  <data name="MainWindowStatusbarUDPForwardedTo" xml:space="preserve">
+    <value>転送UDPポート {0}</value>
+  </data>
+  <data name="MainWindowToolbarDiscordServerLink" xml:space="preserve">
+    <value>Discord サーバー</value>
+  </data>
+  <data name="MainWindowToolbarLicenseStatus" xml:space="preserve">
+    <value>Status : </value>
+  </data>
+  <data name="MainWindowToolbarNewVersionAvailable" xml:space="preserve">
+    <value>新しいバージョンがあります : </value>
+  </data>
+  <data name="MainWindowToolbarRefreshRate" xml:space="preserve">
+    <value>更新速度 : </value>
+  </data>
+  <data name="MainWindowToolbarWikiLink" xml:space="preserve">
+    <value>Wiki</value>
+  </data>
+  <data name="MinimizeInTray" xml:space="preserve">
+    <value>トレイに最小化</value>
+  </data>
+  <data name="MoreTab" xml:space="preserve">
+    <value>その他...</value>
+  </data>
+  <data name="NextionSettingsControlWPF_SectionTitle_ManageYourNextionScreens" xml:space="preserve">
+    <value>NEXTION 画面を管理</value>
+  </data>
+  <data name="NextionSettingsItem_ActionPicker_NextPage" xml:space="preserve">
+    <value>次のページ</value>
+  </data>
+  <data name="NextionSettingsItem_ActionPicker_PreviousPage" xml:space="preserve">
+    <value>前のページ</value>
+  </data>
+  <data name="NextionSettingsItem_Button_EditMapping" xml:space="preserve">
+    <value>マッピングを編集</value>
+  </data>
+  <data name="NextionSettingsItem_Button_Refresh" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="NextionSettingsItem_CheckBox_DebugMode" xml:space="preserve">
+    <value>デバッグモード</value>
+  </data>
+  <data name="NextionSettingsItem_CheckBox_PowerOffScreenWhenNotInGame" xml:space="preserve">
+    <value>ゲーム中以外は画面をオフにする</value>
+  </data>
+  <data name="NextionSettingsItem_CustomNumericUpDown_HowManyLedsAreInstalled_ToolTip" xml:space="preserve">
+    <value>インストールされているLED数 (Arduinoのみ)</value>
+  </data>
+  <data name="NextionSettingsItem_Label_ControlsDebouncing" xml:space="preserve">
+    <value>操作のデバウンシング (ミリ秒)</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Latency" xml:space="preserve">
+    <value>レイテンシー</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Leds" xml:space="preserve">
+    <value>LED</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Mapping" xml:space="preserve">
+    <value>マッピング</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Nextion" xml:space="preserve">
+    <value>Nextion #</value>
+  </data>
+  <data name="NextionSettingsItem_Label_SerialPort" xml:space="preserve">
+    <value>シリアルポート</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Template" xml:space="preserve">
+    <value>テンプレート</value>
+  </data>
+  <data name="NoThanks" xml:space="preserve">
+    <value>結構です</value>
+  </data>
+  <data name="OpenGameInstructions" xml:space="preserve">
+    <value>説明を開く</value>
+  </data>
+  <data name="OverlayEditor_AddOverlay" xml:space="preserve">
+    <value>オーバーレイを追加</value>
+  </data>
+  <data name="OverlayEditor_EditLayoutButton" xml:space="preserve">
+    <value>レイアウトを編集</value>
+  </data>
+  <data name="OverlayEditor_HideWhenNotInRaceCheckbox" xml:space="preserve">
+    <value>レース中以外は表示しない</value>
+  </data>
+  <data name="OverlayEditor_SaveLayoutbutton" xml:space="preserve">
+    <value>レイアウトをセーブ</value>
+  </data>
+  <data name="OverlayEditor_StopEdit" xml:space="preserve">
+    <value>編集をやめる</value>
+  </data>
+  <data name="OverlayEditor_WaitingForGame" xml:space="preserve">
+    <value>待機中</value>
+  </data>
+  <data name="OverlayEditor_WindowedBorderlessModeAlert" xml:space="preserve">
+    <value>ゲーム画面をウィンドウモードかボーダーレスモードに設定してください</value>
+  </data>
+  <data name="OverlayEditor_WindowTitle" xml:space="preserve">
+    <value>オーバーレイエディター</value>
+  </data>
+  <data name="PasteLicenseButton" xml:space="preserve">
+    <value>ライセンスをペースト</value>
+  </data>
+  <data name="PasteLicenseContent" xml:space="preserve">
+    <value>ペーストするライセンス : </value>
+  </data>
+  <data name="PluginDescription_AudioControlPlugin" xml:space="preserve">
+    <value>バーグラフのためのFFT処理やMP3再生機能など、各種オーディオデータにアクセスする機能を提供します</value>
+  </data>
+  <data name="PluginDescription_BA63Plugin" xml:space="preserve">
+    <value>Diebold Nixdorf BA63 に接続</value>
+  </data>
+  <data name="PluginDescription_GmailPlugin" xml:space="preserve">
+    <value>Gmail アカウントに接続し、届いたメールにアクセスする</value>
+  </data>
+  <data name="PluginDescription_HeadsetInfo" xml:space="preserve">
+    <value>G533バッテリー残量の情報を提供 (experimental)</value>
+  </data>
+  <data name="PluginDescription_JoystickPlugin" xml:space="preserve">
+    <value>ゲームコントローラー (ホイール、ゲームパッド、ボタンボックスなど) のデータを読み取る</value>
+  </data>
+  <data name="PluginDescription_KeyboardEmulatorPlugin" xml:space="preserve">
+    <value>SimHubが受け付けた入力をキー入力に変換する</value>
+  </data>
+  <data name="PluginDescription_KeyboardReaderPlugin" xml:space="preserve">
+    <value>キーボード入力の読み取りを可能にする (注意が必要)</value>
+  </data>
+  <data name="PluginDescription_NextionPlugin" xml:space="preserve">
+    <value>Nextion 画面のサポートを提供</value>
+  </data>
+  <data name="PluginDescription_SystemInfoPlugin" xml:space="preserve">
+    <value>システムモニタリング情報 (OpenHardwareMonitor API をもとに) を提供</value>
+  </data>
+  <data name="PluginDescription_ThrustmastersPlugin" xml:space="preserve">
+    <value>ゲーム内で Thrustmaster FFBの制御を可能にする</value>
+  </data>
+  <data name="PluginDescription_UDPRelayPlugin" xml:space="preserve">
+    <value>UDPリレープラグインにより、(Codemasters社などの) ゲームから受信したUDPデータを複数の対象に転送できます。</value>
+  </data>
+  <data name="PluginName_AudioControlPlugin" xml:space="preserve">
+    <value>オーディオコントロール</value>
+  </data>
+  <data name="PluginName_BA63Plugin" xml:space="preserve">
+    <value>BA63 USBディスプレイプラグイン</value>
+  </data>
+  <data name="PluginName_DataCorePlugin" xml:space="preserve">
+    <value>コアデータ</value>
+  </data>
+  <data name="PluginName_GmailPlugin" xml:space="preserve">
+    <value>Gmail</value>
+  </data>
+  <data name="PluginName_GraphicalDashPlugin" xml:space="preserve">
+    <value>Dash Studio</value>
+  </data>
+  <data name="PluginName_HeadsetInfo" xml:space="preserve">
+    <value>ヘッドセット情報</value>
+  </data>
+  <data name="PluginName_JoystickPlugin" xml:space="preserve">
+    <value>コントローラー入力</value>
+  </data>
+  <data name="PluginName_KeyboardEmulatorPlugin" xml:space="preserve">
+    <value>キーボードエミュレーション</value>
+  </data>
+  <data name="PluginName_KeyboardReaderPlugin" xml:space="preserve">
+    <value>キーボード入力</value>
+  </data>
+  <data name="PluginName_NextionPlugin" xml:space="preserve">
+    <value>Nextion ディスプレイ</value>
+  </data>
+  <data name="PluginName_PersistantTrackerPlugin" xml:space="preserve">
+    <value>統計データ</value>
+  </data>
+  <data name="PluginName_SerialDashPlugin" xml:space="preserve">
+    <value>Arduino</value>
+  </data>
+  <data name="PluginName_ShellPlugin" xml:space="preserve">
+    <value>シェル</value>
+  </data>
+  <data name="PluginName_SystemInfoPlugin" xml:space="preserve">
+    <value>システム情報</value>
+  </data>
+  <data name="PluginName_ThrustmastersPlugin" xml:space="preserve">
+    <value>Thrustmaster FFBコントロール</value>
+  </data>
+  <data name="PluginName_UDPRelayPlugin" xml:space="preserve">
+    <value>UDPリレー</value>
+  </data>
+  <data name="PropertiesAvailablePropertiesSection" xml:space="preserve">
+    <value>利用可能なプロパティ</value>
+  </data>
+  <data name="PropertiesComputedLabel" xml:space="preserve">
+    <value>計算値</value>
+  </data>
+  <data name="PropertiesComputedLabelTooltip" xml:space="preserve">
+    <value>このプロパティは選択したゲームに対してSimHubが計算したものです</value>
+  </data>
+  <data name="PropertiesFilterTextBoxWatermark" xml:space="preserve">
+    <value>プロパティフィルター...</value>
+  </data>
+  <data name="PropertiesNcalcTesterButton" xml:space="preserve">
+    <value>Ncalc テスター</value>
+  </data>
+  <data name="PropertiesNewWindowButton" xml:space="preserve">
+    <value>新しいウィンドウ</value>
+  </data>
+  <data name="PropertiesNotSupportedLabel" xml:space="preserve">
+    <value>サポートされていません</value>
+  </data>
+  <data name="PropertiesNotSupportedLabelTooltip" xml:space="preserve">
+    <value>このプロパティは選択したゲームではサポートされていません</value>
+  </data>
+  <data name="PropertiesPicker_TextBoxWatermark_TypeToFilter" xml:space="preserve">
+    <value>フィルターを入力...</value>
+  </data>
+  <data name="PropertiesPicker_Title" xml:space="preserve">
+    <value>プロパティを選択</value>
+  </data>
+  <data name="PropertiesShowGameSpecificPropertiesCheckbox" xml:space="preserve">
+    <value>ゲーム固有のプロパティ ('rawdata') を表示</value>
+  </data>
+  <data name="RecordToolTip" xml:space="preserve">
+    <value>ゲームデータを記録しオフラインで再生</value>
+  </data>
+  <data name="Replay" xml:space="preserve">
+    <value>リプレイ</value>
+  </data>
+  <data name="ReplayLastGameRecordButton" xml:space="preserve">
+    <value>最後の記録を再生</value>
+  </data>
+  <data name="RestoreSimHub" xml:space="preserve">
+    <value>SimHubを復元</value>
+  </data>
+  <data name="RunAsAdministratorOption" xml:space="preserve">
+    <value>管理者として起動</value>
+  </data>
+  <data name="RunAsAdministratorOptionComment" xml:space="preserve">
+    <value>すべてのシステム情報 (温度など) の取得や一部ゲームの認識問題を解決するのに有効です</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="SettingsAccentOption" xml:space="preserve">
+    <value>アクセント</value>
+  </data>
+  <data name="SettingsAdjustMinimumTyreWearOption" xml:space="preserve">
+    <value>最少タイヤ摩耗量を調整 (取得したゲームデータに対する %)</value>
+  </data>
+  <data name="SettingsChangeSpeedlocalPropertyUnitOption" xml:space="preserve">
+    <value>'SpeedLocal' プロパティの単位を変更</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_Brightness" xml:space="preserve">
+    <value>明るさ +</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_BrightnessMinus" xml:space="preserve">
+    <value>明るさ -</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowFirstLedLayout" xml:space="preserve">
+    <value>最初のLEDレイアウトを表示</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowFirstScreen" xml:space="preserve">
+    <value>最初の画面を表示</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowNextLedLayout" xml:space="preserve">
+    <value>次のLEDレイアウトを表示</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowNextScreen" xml:space="preserve">
+    <value>次の画面を表示</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowPreviousLedLayout" xml:space="preserve">
+    <value>前のLEDレイアウトを表示</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowPreviousScreen" xml:space="preserve">
+    <value>前の画面を表示</value>
+  </data>
+  <data name="SettingsControlWPF_Label_MoreActionsAvailableInControlsAndEventsControlsSection" xml:space="preserve">
+    <value>その他の動作は 「操作およびイベント &gt; 操作」セクションにあります</value>
+  </data>
+  <data name="SettingsControlWPF_SectionTitle_7Segments20X4LcdControls" xml:space="preserve">
+    <value>7 セグメント/20x4 LCD 制御</value>
+  </data>
+  <data name="SettingsControlWPF_SectionTitle_RgbLedsControl" xml:space="preserve">
+    <value>RGB LED制御</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_DisplayAlerts" xml:space="preserve">
+    <value>ディスプレイ＆アラート</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_Gauges" xml:space="preserve">
+    <value>ゲージ</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_MyHardware" xml:space="preserve">
+    <value>所有ハードウェア</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_Screens" xml:space="preserve">
+    <value>画面</value>
+  </data>
+  <data name="SettingsDebugModeOption" xml:space="preserve">
+    <value>デバッグモード</value>
+  </data>
+  <data name="SettingsDebugModeOptionComment" xml:space="preserve">
+    <value>詳細なログ記録を有効にします。トラブルシューティング以外では使用しないでください。</value>
+  </data>
+  <data name="SettingsDeveloperToolsTab" xml:space="preserve">
+    <value>デベロッパーツール</value>
+  </data>
+  <data name="SettingsDumpActionsList" xml:space="preserve">
+    <value>動作リストをダンプ</value>
+  </data>
+  <data name="SettingsEnabledPluginsSection" xml:space="preserve">
+    <value>有効なプラグイン</value>
+  </data>
+  <data name="SettingsFuelUnitOption" xml:space="preserve">
+    <value>燃料の単位</value>
+  </data>
+  <data name="SettingsGamesTitle" xml:space="preserve">
+    <value>ゲーム</value>
+  </data>
+  <data name="SettingsGameUdpPort" xml:space="preserve">
+    <value>UDP ポート</value>
+  </data>
+  <data name="SettingsGapComputationModeOption" xml:space="preserve">
+    <value>ギャップ計算モード</value>
+  </data>
+  <data name="SettingsGeneralSection" xml:space="preserve">
+    <value>全般</value>
+  </data>
+  <data name="SettingsGeneralTab" xml:space="preserve">
+    <value>全般</value>
+  </data>
+  <data name="SettingShowGameOption" xml:space="preserve">
+    <value>ホーム画面に表示するゲーム</value>
+  </data>
+  <data name="SettingsLangageAuthor" xml:space="preserve">
+    <value>translation by Takeyan</value>
+  </data>
+  <data name="SettingsLangageOption" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="SettingsLapTrackingAndLeaderboardsSesction" xml:space="preserve">
+    <value>ラップ追跡およびリーダーボード</value>
+  </data>
+  <data name="SettingsLooknfeelSection" xml:space="preserve">
+    <value>ルック&amp;フィール</value>
+  </data>
+  <data name="SettingsPluginsTab" xml:space="preserve">
+    <value>プラグイン</value>
+  </data>
+  <data name="SettingsPreferredUnitsSection" xml:space="preserve">
+    <value>使用する単位</value>
+  </data>
+  <data name="SettingsPressureUnitOption" xml:space="preserve">
+    <value>圧力の単位</value>
+  </data>
+  <data name="SettingsRequiresASimhubRestart" xml:space="preserve">
+    <value>SimHubの再起動が必要です</value>
+  </data>
+  <data name="SettingsRestoreDefaultForwardPort" xml:space="preserve">
+    <value>デフォルトの転送ポートを復元</value>
+  </data>
+  <data name="SettingsSpeedUnitOption" xml:space="preserve">
+    <value>速度単位</value>
+  </data>
+  <data name="SettingsTemperatureUnitOption" xml:space="preserve">
+    <value>温度単位</value>
+  </data>
+  <data name="SettingsThemeOption" xml:space="preserve">
+    <value>テーマ</value>
+  </data>
+  <data name="SettingsUseAllTimeBestWhenNoSessionBestIsAvailableOption" xml:space="preserve">
+    <value>セッションベストがないとき全期間ベストを使用</value>
+  </data>
+  <data name="SettingsUseAllTimeBestWhenNoSessionBestIsAvailableOptionComment" xml:space="preserve">
+    <value>セッションベストとの相対データ内の参考タイムとギャップを常に取得</value>
+  </data>
+  <data name="SettingsWebServerPortOption" xml:space="preserve">
+    <value>Web サーバーポート (TCP)</value>
+  </data>
+  <data name="SettingsWebSocketPort" xml:space="preserve">
+    <value>Web ソケットポート (TCP)</value>
+  </data>
+  <data name="ShowSimhubFps" xml:space="preserve">
+    <value>SimHubのFPSを表示</value>
+  </data>
+  <data name="ShowSimHubFpsComment" xml:space="preserve">
+    <value>SimHubウィンドウ下部にデータ更新速度カウンターを表示</value>
+  </data>
+  <data name="StartGame" xml:space="preserve">
+    <value>ゲームを起動</value>
+  </data>
+  <data name="StartMinimized" xml:space="preserve">
+    <value>起動時に最小化</value>
+  </data>
+  <data name="StartWithWindows" xml:space="preserve">
+    <value>起動時にウィンドウ表示</value>
+  </data>
+  <data name="SystemLog" xml:space="preserve">
+    <value>システムログ</value>
+  </data>
+  <data name="ThanksForYourSupport" xml:space="preserve">
+    <value>SimHubプロジェクトを支援してくれてありがとう。
+楽しんでください。
+
+Wotever</value>
+  </data>
+  <data name="PluginDescription_ShakeITBSV3Plugin" xml:space="preserve">
+    <value>ShakeIt (触覚フィードバック) によるバスシェイカー機能を提供</value>
+  </data>
+  <data name="PluginDescription_ShakeITMotorsV3Plugin" xml:space="preserve">
+    <value>ShakeIt (触覚フィードバック) による振動や送風の機能を提供</value>
+  </data>
+  <data name="PluginName_ShakeITBSV3Plugin" xml:space="preserve">
+    <value>ShakeIt バスシェイカー</value>
+  </data>
+  <data name="PluginName_ShakeITMotorsV3Plugin" xml:space="preserve">
+    <value>ShakeIt 振動</value>
+  </data>
+  <data name="UDPPort" xml:space="preserve">
+    <value>UDP ポート</value>
+  </data>
+  <data name="LanguageName" xml:space="preserve">
+    <value>日本語</value>
+  </data>
+  <data name="GameConfigurationManager_UDPTelemetryInfo" xml:space="preserve">
+    <value>このゲームはUDPテレメトリーを使用するため、UDPポートの指定が必要です。注意 : ひとつのUDPポートから一度に受信できるアプリケーションはひとつだけです</value>
+  </data>
+  <data name="GameConfigurationManager_ForwardUDPInformation" xml:space="preserve">
+    <value>UDPデータ転送により、同じコンピューター (127.0.0.1) で実行中の他のアプリケーションやリモートのコンピューター/デバイスへのデータ転送が可能となります。ここで使用するポートを設定してください。</value>
+  </data>
+  <data name="GameConfigurationManager_UDPForwardingTitle" xml:space="preserve">
+    <value>UDP転送</value>
+  </data>
+  <data name="GameConfigurationManager_AutomaticGameConfigurationTitle" xml:space="preserve">
+    <value>自動ゲーム設定</value>
+  </data>
+  <data name="GameConfigurationManager_GameIsProperlyConfiguredInfo" xml:space="preserve">
+    <value>ゲームは正常に設定されました</value>
+  </data>
+  <data name="GameConfigurationManager_ConfigureGameNowButton" xml:space="preserve">
+    <value>ゲーム設定を行う</value>
+  </data>
+  <data name="GameConfigurationManager_SimHubCanTConfigureTheGameInformation" xml:space="preserve">
+    <value>SimHubはこのゲームの設定を行えません。ゲームのインストールを確認し、設定ファイルを作るために一度起動してください。</value>
+  </data>
+  <data name="GameConfigurationManager_ManualGameConfigurationTitle" xml:space="preserve">
+    <value>手動ゲーム設定</value>
+  </data>
+  <data name="GameConfigurationManager_ThisGameRequiresAManualConfigurationInformation" xml:space="preserve">
+    <value>このゲームは手動設定が必要です</value>
+  </data>
+  <data name="GameConfigurationManager_LauncherActionTabTitle" xml:space="preserve">
+    <value>ランチャー動作</value>
+  </data>
+  <data name="GameConfigurationManager_HavingGameConnectivityIssuesInformation" xml:space="preserve">
+    <value>ゲーム接続に問題がありますか? トラブルシューティングガイドを開いてください</value>
+  </data>
+  <data name="GameConfigurationManager_CloseButton" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="GameConfigurationManager_GameTelemetryUDPPort" xml:space="preserve">
+    <value>ゲームのテレメトリーUDPポート</value>
+  </data>
+  <data name="GameConfigurationManager_ForwardUDPPacketsTo" xml:space="preserve">
+    <value>UDPパケット転送先 : </value>
+  </data>
+  <data name="DefaultLauncherControl_Arguments" xml:space="preserve">
+    <value>引数</value>
+  </data>
+  <data name="DefaultLauncherControl_DefineCustomPath" xml:space="preserve">
+    <value>カスタムパスを指定</value>
+  </data>
+  <data name="DefaultLauncherControl_LaunchUsingDefaultMethod" xml:space="preserve">
+    <value>デフォルトの方法 (自動検出、Steam、Windowsストアなど) を使用して起動</value>
+  </data>
+  <data name="DefaultLauncherControl_Target" xml:space="preserve">
+    <value>対象</value>
+  </data>
+  <data name="GameConfigurationManager_GameIsNotConfiguredInformation" xml:space="preserve">
+    <value>ゲームは未設定です</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>記録</value>
+  </data>
+  <data name="ControlsAndEvents_EventsTabTitle" xml:space="preserve">
+    <value>イベント</value>
+  </data>
+  <data name="ControlsAndEvents_ControllersStatusTabTitle" xml:space="preserve">
+    <value>コントローラーの状態</value>
+  </data>
+  <data name="ControlsAndEvents_ThrustmasterManagerTabTitle" xml:space="preserve">
+    <value>Thrustmasterマネージャー</value>
+  </data>
+  <data name="ControlsAndEvents_KeyboardEmulationTabTitle" xml:space="preserve">
+    <value>キーボードエミュレーション</value>
+  </data>
+  <data name="JoystickPlugin_CONNECTEDCONTROLLERSTitle" xml:space="preserve">
+    <value>接続されたコントローラー</value>
+  </data>
+  <data name="JoystickPlugin_Diagnostic" xml:space="preserve">
+    <value>診断</value>
+  </data>
+  <data name="JoystickPlugin_YouCanUseTheseControllersInTheControlsSettings" xml:space="preserve">
+    <value>これらのコントローラーは「操作」設定で使用できます</value>
+  </data>
+  <data name="JoystickPlugin_ShowInputs" xml:space="preserve">
+    <value>入力を表示</value>
+  </data>
+  <data name="ControlsAndEvents_MANAGEYOURCONTROLLERSACTIONS" xml:space="preserve">
+    <value>コントローラーの動作を管理</value>
+  </data>
+  <data name="NewMapping" xml:space="preserve">
+    <value>新しいマッピング</value>
+  </data>
+  <data name="ControlsAndEvents_MANAGEEVENTSTRIGGERS" xml:space="preserve">
+    <value>イベントトリガーの管理</value>
+  </data>
+  <data name="ShakeItSettings_EffectsProfile" xml:space="preserve">
+    <value>エフェクトプロファイル</value>
+  </data>
+  <data name="ShakeITSettings_ConfigureOutputs" xml:space="preserve">
+    <value>出力を設定する</value>
+  </data>
+  <data name="ShakeITSettings_NoActiveOutputs" xml:space="preserve">
+    <value>アクティブな出力がありません</value>
+  </data>
+  <data name="ShakeItSettings_EditProfile" xml:space="preserve">
+    <value>プロファイルを編集</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager" xml:space="preserve">
+    <value>プロファイルマネージャー</value>
+  </data>
+  <data name="ShakeItSettings_AddEffect" xml:space="preserve">
+    <value>エフェクトを追加</value>
+  </data>
+  <data name="ShakeItSettings_AddGroup" xml:space="preserve">
+    <value>グループを追加</value>
+  </data>
+  <data name="ShakeItSettings_PasteEffect" xml:space="preserve">
+    <value>エフェクトを貼りつけ</value>
+  </data>
+  <data name="ShakeItSettings_Dashboard" xml:space="preserve">
+    <value>ダッシュボード</value>
+  </data>
+  <data name="ShakeItSettings_ResetCalibration" xml:space="preserve">
+    <value>キャリブレーションをリセット</value>
+  </data>
+  <data name="ShakeItSettings_ResetCarTrackCalibration" xml:space="preserve">
+    <value>車両 /コースのキャリブレーションをリセット</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_AVAILABLEPROFILES" xml:space="preserve">
+    <value>利用可能なプロファイル</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_NEWPROFILE" xml:space="preserve">
+    <value>新しいプロファイル</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_CloneProfile" xml:space="preserve">
+    <value>プロファイルを複製</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_DeleteProfile" xml:space="preserve">
+    <value>プロファイルを削除</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_ImportProfile" xml:space="preserve">
+    <value>プロファイルをインポート</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_ExportProfile" xml:space="preserve">
+    <value>プロファイルをエクスポート</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_LOAD" xml:space="preserve">
+    <value>ロード</value>
+  </data>
+  <data name="ShakeItSettings_SoundOutput" xml:space="preserve">
+    <value>サウンド出力</value>
+  </data>
+  <data name="ShakeItSettings_MotorsOutput" xml:space="preserve">
+    <value>振動出力</value>
+  </data>
+  <data name="ShakeItSettings_OUTPUTSELECTION" xml:space="preserve">
+    <value>出力の選択</value>
+  </data>
+  <data name="ShakeItSettings_ENABLEOUTPUT" xml:space="preserve">
+    <value>出力を有効にする</value>
+  </data>
+  <data name="ShakeItSettings_OpenWindowsSoundSettings" xml:space="preserve">
+    <value>Windowsのサウンド設定を開く</value>
+  </data>
+  <data name="ShakeItSettings_TestNow" xml:space="preserve">
+    <value>テストする</value>
+  </data>
+  <data name="ShakeItSettings_ShowPerEffectGain" xml:space="preserve">
+    <value>エフェクトごとのゲインを表示</value>
+  </data>
+  <data name="ShakeItSettings_Reset" xml:space="preserve">
+    <value>リセット</value>
+  </data>
+  <data name="ShakeItSettings_Export" xml:space="preserve">
+    <value>エクスポート</value>
+  </data>
+  <data name="ShakeItSettings_Import" xml:space="preserve">
+    <value>インポート</value>
+  </data>
+  <data name="RecordSettings_TelemetryRecordSettings" xml:space="preserve">
+    <value>テレメトリー記録設定</value>
+  </data>
+  <data name="RecordSettings_CaptureFPS" xml:space="preserve">
+    <value>キャプチャFPS : </value>
+  </data>
+  <data name="RecordSettings_StartRecording" xml:space="preserve">
+    <value>記録を開始</value>
+  </data>
+  <data name="RecordSettings_IncludeMonitorScreenshotsToReplayEXPERIMENTAL" xml:space="preserve">
+    <value>モニターのスクリーンショットをリプレイに入れる (EXPERIMENTAL)</value>
+  </data>
+  <data name="ShakeItSettings_OutputTuning" xml:space="preserve">
+    <value>出力チューニング</value>
+  </data>
+  <data name="ShakeItSettings_EffectsGroup" xml:space="preserve">
+    <value>エフェクトグループ</value>
+  </data>
+  <data name="ShakeItSettings_EffectListHeader_RemoveEffect" xml:space="preserve">
+    <value>エフェクトを削除</value>
+  </data>
+  <data name="ShakeItSettings_EffectListHeader_CloneEffect" xml:space="preserve">
+    <value>エフェクトを複製</value>
+  </data>
+  <data name="ShakeItSettings_EffectListHeader_CopyEffectToClipboard" xml:space="preserve">
+    <value>エフェクトをクリップボードにコピー</value>
+  </data>
+  <data name="ShakeItSettings_EffectListHeader_ResetEffectSettings" xml:space="preserve">
+    <value>エフェクト設定をリセット</value>
+  </data>
+  <data name="ShakeItSettings_IncreaseOverallGain" xml:space="preserve">
+    <value>全体のゲインを増やす</value>
+  </data>
+  <data name="ShakeItSettings_DecreaseOverallGain" xml:space="preserve">
+    <value>全体のゲインを減らす</value>
+  </data>
+  <data name="ShakeItSettings_ConnectedXChannelsAvailable" xml:space="preserve">
+    <value>接続中 ({0} チャンネルが利用可能)</value>
+  </data>
+  <data name="ShakeItSettings_Mono" xml:space="preserve">
+    <value>モノラル</value>
+  </data>
+  <data name="ShakeItSettings_Stereo" xml:space="preserve">
+    <value>左 / 右</value>
+  </data>
+  <data name="ShakeItSettings_FrontLR" xml:space="preserve">
+    <value>左/右フロント</value>
+  </data>
+  <data name="ShakeItSettings_RearLR" xml:space="preserve">
+    <value>左/右リア</value>
+  </data>
+  <data name="ShakeItSettings_StereoFR" xml:space="preserve">
+    <value>フロント/リア</value>
+  </data>
+  <data name="ShakeItSettings_4Channels" xml:space="preserve">
+    <value>コーナー</value>
+  </data>
+  <data name="ShakeItSettings_CustomChannelMapUpTo8Channels" xml:space="preserve">
+    <value>カスタムチャンネルマップ (8チャンネルまで)</value>
+  </data>
+  <data name="ShakeItSettings_ConnectionError" xml:space="preserve">
+    <value>接続エラー</value>
+  </data>
+  <data name="ShakeItSettings_XMotorsConnected" xml:space="preserve">
+    <value>{0} モーターが接続中</value>
+  </data>
+  <data name="ShakeItSettings_ThisEffectIsNotSupportedOnTheCurrentGame" xml:space="preserve">
+    <value>このエフェクトは選択中のゲームではサポートされていません</value>
+  </data>
+  <data name="ShakeItSettings_EffectListHeader_EditDescription" xml:space="preserve">
+    <value>説明を編集</value>
+  </data>
+  <data name="ShakeItSettings_DragEffectsHereToAddThemToTheGroup" xml:space="preserve">
+    <value>エフェクトをここにドラッグしてグループに追加</value>
+  </data>
+  <data name="ShakeItSettings_AVAILABLEEFFECTS" xml:space="preserve">
+    <value>利用可能なエフェクト</value>
+  </data>
+  <data name="ShakeItSettings_ADDALL" xml:space="preserve">
+    <value>すべて追加</value>
+  </data>
+  <data name="ShakeItSettings_ResponseCurve" xml:space="preserve">
+    <value>レスポンス曲線</value>
+  </data>
+  <data name="SAVE" xml:space="preserve">
+    <value>保存する</value>
+  </data>
+  <data name="ShakeItSettings_EditResponseCurveInstructions" xml:space="preserve">
+    <value>左クリック : 制御ポイントを追加 | ポイント上で右クリック : 制御ポイントを削除 | マウスドラッグでポイントを移動</value>
+  </data>
+  <data name="ShakeItSettings_EditResponseCurve" xml:space="preserve">
+    <value>レスポンス曲線を編集</value>
+  </data>
+  <data name="SaveLCase" xml:space="preserve">
+    <value>保存する</value>
+  </data>
+  <data name="GmailPlugin_PasswordMustBeGeneratedWithTheFollowingForm" xml:space="preserve">
+    <value>次のフォームではパスワードの作成が必要です : </value>
+  </data>
+  <data name="GmailPlugin_GeneratePassword" xml:space="preserve">
+    <value>パスワードを作成</value>
+  </data>
+  <data name="GmailPlugin_Login" xml:space="preserve">
+    <value>ログイン</value>
+  </data>
+  <data name="GmailPlugin_Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="GmailPlugin_LastMail" xml:space="preserve">
+    <value>直近のメール : </value>
+  </data>
+  <data name="GmailPlugin_YouCanUseGmailPluginPropertiesInYourDashs" xml:space="preserve">
+    <value>ダッシュ内でGmailプラグインプロパティを使用できます</value>
+  </data>
+  <data name="CONTROLSUpperCase" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="ThrustmasterSettings_NoThrustmasterWheelFound" xml:space="preserve">
+    <value>検出したThrustmaster ホイールはありません</value>
+  </data>
+  <data name="ThrustmasterSettings_SaveAndRestoreProfilesPerGame" xml:space="preserve">
+    <value>ゲームごとのプロファイルを保存、復元する</value>
+  </data>
+  <data name="ThrustmasterSettings_OverallGain" xml:space="preserve">
+    <value>全体ゲイン</value>
+  </data>
+  <data name="ThrustmasterSettings_ConstantForce" xml:space="preserve">
+    <value>定常フォース</value>
+  </data>
+  <data name="ThrustmasterSettings_PeriodicForce" xml:space="preserve">
+    <value>断続的フォース</value>
+  </data>
+  <data name="ThrustmasterSettings_SpringForce" xml:space="preserve">
+    <value>スプリングフォース</value>
+  </data>
+  <data name="ThrustmasterSettings_DamperForce" xml:space="preserve">
+    <value>ダンパーフォース</value>
+  </data>
+  <data name="ThrustmasterSettings_FromWheel" xml:space="preserve">
+    <value>ホイールから</value>
+  </data>
+  <data name="ThrustmasterSettings_FromGame" xml:space="preserve">
+    <value>ゲームから</value>
+  </data>
+  <data name="ThrustmasterSettings_PROFILES" xml:space="preserve">
+    <value>プロファイル</value>
+  </data>
+  <data name="ThrustmasterSettings_WHEELROTATION" xml:space="preserve">
+    <value>ホイール回転角</value>
+  </data>
+  <data name="ThrustmasterSettings_FEEDBACK" xml:space="preserve">
+    <value>フィードバック</value>
+  </data>
+  <data name="ThrustmasterSettings_CENTERING" xml:space="preserve">
+    <value>センタリング</value>
+  </data>
+  <data name="MappingPicker_Source" xml:space="preserve">
+    <value>ソース</value>
+  </data>
+  <data name="MappingPicker_InputMode" xml:space="preserve">
+    <value>入力モード</value>
+  </data>
+  <data name="MappingPicker_TriggerActionNow" xml:space="preserve">
+    <value>アクションを作動</value>
+  </data>
+  <data name="MappingPicker_PressInputForAutomaticSelection" xml:space="preserve">
+    <value>(入力すると自動選択されます)</value>
+  </data>
+  <data name="MappingPicker_MappingPicker" xml:space="preserve">
+    <value>マッピング選択</value>
+  </data>
+  <data name="MobileAccessAssistant_TroubleshotingTip" xml:space="preserve">
+    <value>動かない? ファイアウォールがSimHubの受信を許可していることを確認してください。</value>
+  </data>
+  <data name="MobileAccessAssistant_DashStudioMobileAccess" xml:space="preserve">
+    <value>Dash Studioモバイルアクセス</value>
+  </data>
+  <data name="MobileAccessAssistant_TypeInYourMobileBrowserTheFollowingURL" xml:space="preserve">
+    <value>モバイルブラウザで次のURLを入力してください</value>
+  </data>
+  <data name="MobileAccessAssistant_ScanTheFollowingQRCODE" xml:space="preserve">
+    <value>次のQRコードを
+スキャンしてください</value>
+  </data>
+  <data name="ShakeItSettings_HighPassFilterHZ" xml:space="preserve">
+    <value>ハイパスフィルター (Hz)</value>
+  </data>
+  <data name="ShakeItSettings_LowPassFilterHZ" xml:space="preserve">
+    <value>ローパスフィルター</value>
+  </data>
+  <data name="OverlayEditor_LayoutName" xml:space="preserve">
+    <value>レイアウト名</value>
+  </data>
+  <data name="ImportDash_DashboardImport" xml:space="preserve">
+    <value>ダッシュボードのインポート</value>
+  </data>
+  <data name="ImportDash_ImportIntoSimHubLibraryButton" xml:space="preserve">
+    <value>SimHubライブラリにインポート</value>
+  </data>
+  <data name="ImportDash_SIMHUBDASHSTUDIOTitle" xml:space="preserve">
+    <value>SIMHUB DASHSTUDIO</value>
+  </data>
+  <data name="ShakeItSettings_Threshold" xml:space="preserve">
+    <value>しきい値 (%)</value>
+  </data>
+  <data name="ShakeItSettings_MinimumForce" xml:space="preserve">
+    <value>最小フォース (%)</value>
+  </data>
+  <data name="ShakeItSettings_ProfileName" xml:space="preserve">
+    <value>プロファイル名</value>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>ゲーム</value>
+  </data>
+  <data name="ShakeItSettings_PROFILEPROPERTIES" xml:space="preserve">
+    <value>プロファイルプロパティ</value>
+  </data>
+  <data name="ShakeItSettings_ENABLEEFFECT" xml:space="preserve">
+    <value>エフェクトを有効</value>
+  </data>
+  <data name="ShakeItSettings_DeleteEffectTitle" xml:space="preserve">
+    <value>エフェクトを削除</value>
+  </data>
+  <data name="ShakeItSettings_DeleteEffectMessage" xml:space="preserve">
+    <value>本当にこのエフェクトを削除しますか?</value>
+  </data>
+  <data name="ImportDash_TheInstallWasSuccessful" xml:space="preserve">
+    <value>インストールは成功しました</value>
+  </data>
+  <data name="ImportDash_DashAlreadyExists" xml:space="preserve">
+    <value>ダッシュはすでにあります</value>
+  </data>
+  <data name="ImportDash_ThisDashboardAlreadyExistsDoYouWantToOverwriteIt" xml:space="preserve">
+    <value>このダッシュボードはすでに存在します。上書きしますか?</value>
+  </data>
+  <data name="ReplayManager_NoReplayAvailableYet" xml:space="preserve">
+    <value>リプレイはありません</value>
+  </data>
+  <data name="ReplayManager_ReplayManager" xml:space="preserve">
+    <value>リプレイマネージャ</value>
+  </data>
+  <data name="PropertiesCopyName" xml:space="preserve">
+    <value>名前をコピー</value>
+  </data>
+  <data name="PropertiesCopyValue" xml:space="preserve">
+    <value>値をコピー</value>
+  </data>
+  <data name="PropertiesPlotValue" xml:space="preserve">
+    <value>プロット値</value>
+  </data>
+  <data name="GaugeSettings_ValuesUnder31HzMayNotBehaveAsExpected" xml:space="preserve">
+    <value>31Hz未満では思ったとおりに動作しない可能性があります!</value>
+  </data>
+  <data name="GaugeSettings_TACHOMETER" xml:space="preserve">
+    <value>タコメーター</value>
+  </data>
+  <data name="GaugeSettings_BasicSettings" xml:space="preserve">
+    <value>基本設定</value>
+  </data>
+  <data name="GaugeSettings_HowToDoTachometerBasicCalibration" xml:space="preserve">
+    <value>基本的なタコメーターのキャリブレーション方法</value>
+  </data>
+  <data name="GaugeSettings_SetTheMaxRPMOfTheTachometerIe11For11000" xml:space="preserve">
+    <value>- タコメーターの最大RPMを設定します (例 : 11なら11000回転)</value>
+  </data>
+  <data name="GaugeSettings_DefineCylindersAccordingToYourTachometerCanBeAdjustedInSomeTachometersToo4CylindersAreRecommended" xml:space="preserve">
+    <value>- タコメーターに応じてシリンダー数を指定します (一部タコメーターでも調整できますが、4シリンダーを推奨)</value>
+  </data>
+  <data name="GaugeSettings_ClickOnTestMaxRPMAndCheckThatTheNeedleIsCloseToTheMaxRpmTick" xml:space="preserve">
+    <value>- 「最大RPMをテスト」をクリックし、針が最大RPM付近を指すことを確認します</value>
+  </data>
+  <data name="GaugeSettings_MaxTachometerRPM" xml:space="preserve">
+    <value>最大タコメーターRPM</value>
+  </data>
+  <data name="GaugeSettings_TachometerCylinders" xml:space="preserve">
+    <value>タコメーターのシリンダー数</value>
+  </data>
+  <data name="GaugeSettings_AlwaysUseTachometerFullRange" xml:space="preserve">
+    <value>常にタコメーター全域を使用</value>
+  </data>
+  <data name="GaugeSettings_TachometerZeroOffsetPercentOfCarMaxRPM" xml:space="preserve">
+    <value>タコメーターのゼロオフセット (車両の最大RPMのパーセント)</value>
+  </data>
+  <data name="GaugeSettings_TestMaxRPM" xml:space="preserve">
+    <value>最大RPMをテスト</value>
+  </data>
+  <data name="GaugeSettings_AdvancedCalibration" xml:space="preserve">
+    <value>詳細なキャリブレーション</value>
+  </data>
+  <data name="GaugeSettings_NeedleOffset" xml:space="preserve">
+    <value>針のオフセット</value>
+  </data>
+  <data name="GaugeSettings_TestValue" xml:space="preserve">
+    <value>値をテスト</value>
+  </data>
+  <data name="GaugeSettings_Test0RPM" xml:space="preserve">
+    <value>{0} RPMでテスト</value>
+  </data>
+  <data name="GaugeSettings_BOOSTGAUGE" xml:space="preserve">
+    <value>ブーストゲージ</value>
+  </data>
+  <data name="GaugeSettings_HowToDoBoostGaugeCalibration" xml:space="preserve">
+    <value>ブーストゲージのキャリブレーション方法</value>
+  </data>
+  <data name="GaugeSettings_SetTheMinBoostValueOfTheGaugeIe09" xml:space="preserve">
+    <value>- 最小ブースト値を設定します (例 : -0.9)</value>
+  </data>
+  <data name="GaugeSettings_ClickOnTestBoostMin" xml:space="preserve">
+    <value>- 「最小ブーストをテスト」をクリックします</value>
+  </data>
+  <data name="GaugeSettings_AdjustTheMinimumOutputToMatchTheValue" xml:space="preserve">
+    <value>- 最小出力が値に一致するよう調整します</value>
+  </data>
+  <data name="GaugeSettings_ClickOnTestBoostZero" xml:space="preserve">
+    <value>- 「ゼロブーストをテスト」をクリックします</value>
+  </data>
+  <data name="GaugeSettings_AdjustTheZeroValueOutputToMatchTheValue" xml:space="preserve">
+    <value>- 出力がゼロを指すよう調整します</value>
+  </data>
+  <data name="GaugeSettings_SetTheMaxBoostValueOfTheGaugeIe18" xml:space="preserve">
+    <value>- ゲージの最大ブースト値を設定します (例 : 1.8)</value>
+  </data>
+  <data name="GaugeSettings_ClickOnTestBoostMax" xml:space="preserve">
+    <value>- 「最大ブーストをテスト」をクリックします</value>
+  </data>
+  <data name="GaugeSettings_AdjustTheMaximumOutputToMatchTheValue" xml:space="preserve">
+    <value>- 最大出力が値に一致するよう調整します</value>
+  </data>
+  <data name="GaugeSettings_ClickAgainOnTestBoostMaxToDisableTestMode" xml:space="preserve">
+    <value>- 「最大ブーストをテスト」を再クリックするとテストモード終了です</value>
+  </data>
+  <data name="GaugeSettings_BoostGaugeMinimum" xml:space="preserve">
+    <value>ブーストゲージ最小値</value>
+  </data>
+  <data name="GaugeSettings_BoostGaugeMinimumOutput" xml:space="preserve">
+    <value>ブーストゲージ最小出力</value>
+  </data>
+  <data name="GaugeSettings_BoostZeroOutput" xml:space="preserve">
+    <value>ゼロブースト出力</value>
+  </data>
+  <data name="GaugeSettings_BoostGaugeMaximumPressure" xml:space="preserve">
+    <value>ブーストゲージ最大圧</value>
+  </data>
+  <data name="GaugeSettings_BoostGaugeMaximumOutput" xml:space="preserve">
+    <value>ブーストゲージ最大出力</value>
+  </data>
+  <data name="GaugeSettings_AlwaysUseBoostGaugeFullRange" xml:space="preserve">
+    <value>常にブーストゲージ全域を使用</value>
+  </data>
+  <data name="GaugeSettings_TestBoostMin" xml:space="preserve">
+    <value>最小ブーストをテスト</value>
+  </data>
+  <data name="GaugeSettings_TestBoostZero" xml:space="preserve">
+    <value>ゼロブーストをテスト</value>
+  </data>
+  <data name="GaugeSettings_TestBoostMax" xml:space="preserve">
+    <value>最大ブーストをテスト</value>
+  </data>
+  <data name="GaugeSettings_SPEEDOMETERGAUGE" xml:space="preserve">
+    <value>速度メーターゲージ</value>
+  </data>
+  <data name="GaugeSettings_HowToDoSpeedoGaugeCalibration" xml:space="preserve">
+    <value>速度ゲージのキャリブレーション方法</value>
+  </data>
+  <data name="GaugeSettings_MakeSureToConfigureYourPreferredSpeedUnitInSimhubSettings" xml:space="preserve">
+    <value>- SimHub設定で使用する速度単位を設定します</value>
+  </data>
+  <data name="GaugeSettings_SetTheMinSpeedoValueOfTheGaugeIe0" xml:space="preserve">
+    <value>- ゲージの最低速度を設定します (例 : 0)</value>
+  </data>
+  <data name="GaugeSettings_ClickOnTestSpeedoMin" xml:space="preserve">
+    <value>- 「最低速度をテスト」をクリックします</value>
+  </data>
+  <data name="GaugeSettings_ClickAgainOnTestSpeedoMaxToDisableTestMode" xml:space="preserve">
+    <value>- 「最高速度をテスト」を再クリックするとテストモード終了です</value>
+  </data>
+  <data name="GaugeSettings_ClickOnTestSpeedoMax" xml:space="preserve">
+    <value>- 「最高速度をテスト」をクリックします</value>
+  </data>
+  <data name="GaugeSettings_SetTheMaxSpeedoValueOfTheGaugeIe220" xml:space="preserve">
+    <value>- ゲージの最高速度を設定します (例 : 220)</value>
+  </data>
+  <data name="GaugeSettings_SpeedoGaugeMinimumsSpeed" xml:space="preserve">
+    <value>速度ゲージ最低速度</value>
+  </data>
+  <data name="GaugeSettings_SpeedoGaugeMinimumOutput" xml:space="preserve">
+    <value>速度ゲージ出力最低値</value>
+  </data>
+  <data name="GaugeSettings_SpeedoGaugeMaximumSpeed" xml:space="preserve">
+    <value>速度ゲージ最高速度</value>
+  </data>
+  <data name="GaugeSettings_SpeedoGaugeMaximumOutput" xml:space="preserve">
+    <value>速度ゲージ出力最高値</value>
+  </data>
+  <data name="GaugeSettings_DisableOutputWhenUnderMinimumSpeed" xml:space="preserve">
+    <value>最低速度を下回る出力値を無効にする</value>
+  </data>
+  <data name="GaugeSettings_TestSpeedoMin" xml:space="preserve">
+    <value>最低速度をテスト</value>
+  </data>
+  <data name="GaugeSettings_TestSpeedoMax" xml:space="preserve">
+    <value>最高速度をテスト</value>
+  </data>
+  <data name="GaugeSettings_FUELGAUGE" xml:space="preserve">
+    <value>燃料ゲージ</value>
+  </data>
+  <data name="GaugeSettings_TEMPERATUREGAUGE" xml:space="preserve">
+    <value>温度ゲージ</value>
+  </data>
+  <data name="GameConfigurationManager_YouCanAlsoConfigureTheGameManually" xml:space="preserve">
+    <value>手動でゲーム設定を行うことができます : </value>
+  </data>
+  <data name="ADD" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="ShakeItSettings_ChooseEffectToAdd" xml:space="preserve">
+    <value>追加するエフェクトを選択</value>
+  </data>
+  <data name="ShakeItSettings_StoreGlobalGainInProfile" xml:space="preserve">
+    <value>全体のゲインをプロファイルに保存</value>
+  </data>
+  <data name="ShakeItSettings_ProfileContent" xml:space="preserve">
+    <value>プロファイル内容</value>
+  </data>
+  <data name="GameList_Button_SortAlpha" xml:space="preserve">
+    <value>A-Z に並べる</value>
+  </data>
+  <data name="StartMode.GameList" xml:space="preserve">
+    <value>ゲームリスト</value>
+  </data>
+  <data name="StartMode.LastTab" xml:space="preserve">
+    <value>最後のタブ</value>
+  </data>
+  <data name="StartMode.SpecificPlugin" xml:space="preserve">
+    <value>プラグイン</value>
+  </data>
+  <data name="PluginDescription_GraphicalDashPlugin" xml:space="preserve">
+    <value>モニター、スマホ、タブレット、USBD480上でダッシュ/オーバーレイのビルドおよび実行を可能にする</value>
+  </data>
+  <data name="ShakeItSettings_GeneratedSoundGain" xml:space="preserve">
+    <value>生成したサウンドゲイン</value>
+  </data>
+  <data name="ShakeItSettings_SoundCardVolume" xml:space="preserve">
+    <value>サウンドカード音量</value>
+  </data>
+  <data name="ShakeItSettings_OutputFiltering" xml:space="preserve">
+    <value>出力フィルタリング</value>
+  </data>
+  <data name="ShakeItSettings_GlobalGainControl" xml:space="preserve">
+    <value>全体のゲイン調整</value>
+  </data>
+  <data name="SettingsUIScaling" xml:space="preserve">
+    <value>UIスケーリング (%)</value>
+  </data>
+  <data name="SettingsAuthor" xml:space="preserve">
+    <value>作者 : </value>
+  </data>
+  <data name="SettingsDefaultStartupPlugin" xml:space="preserve">
+    <value>デフォルトの起動時プラグイン</value>
+  </data>
+  <data name="SettingsDefaultStartupTab" xml:space="preserve">
+    <value>デフォルトの起動時タブ</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_SaveAndRestoreOpenDashboards" xml:space="preserve">
+    <value>開いているダッシュボードを保存、復元する</value>
+  </data>
+  <data name="GraphicalDashPluginList_ConnectToSpecificScreen" xml:space="preserve">
+    <value>指定の画面に接続</value>
+  </data>
+  <data name="GraphicalDashPluginList_ScreenId" xml:space="preserve">
+    <value>画面ID : </value>
+  </data>
+  <data name="GameConfigurationManager_IpAddress" xml:space="preserve">
+    <value>IPアドレス</value>
+  </data>
+  <data name="GameConfigurationManager_TelemetryMode" xml:space="preserve">
+    <value>テレメトリーモード</value>
+  </data>
+  <data name="GameConfigurationManager_AddForwardTarget" xml:space="preserve">
+    <value>転送先を追加</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>削除する</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>グループ</value>
+  </data>
+  <data name="PluginDescription_SerialDashPlugin" xml:space="preserve">
+    <value>RGB LED、I2C LCD、TM1638、モーター/ファン制御ボードなどへのArduinoサポート</value>
+  </data>
+  <data name="PluginName_LapHitoryPlugin" xml:space="preserve">
+    <value>統計データ</value>
+  </data>
+  <data name="PluginDescription_LapHitoryPlugin" xml:space="preserve">
+    <value>ラップ履歴と統計データを表示</value>
+  </data>
+  <data name="SettingsSystemInfos" xml:space="preserve">
+    <value>システム情報</value>
+  </data>
+  <data name="UseCustomTelemetryRecordDirectory" xml:space="preserve">
+    <value>カスタムのテレメトリー記録ディレクトリを使用</value>
+  </data>
+  <data name="TELEMETRYRECORDS" xml:space="preserve">
+    <value>テレメトリー記録</value>
+  </data>
+  <data name="PreventSimhubFocusWhenGameIsFocused" xml:space="preserve">
+    <value>ゲームにフォーカスがあるときはSimHubにフォーカスを移動しない</value>
+  </data>
+  <data name="RGBLeds" xml:space="preserve">
+    <value>RGB LED</value>
+  </data>
+  <data name="MANAGEYOURRGBLEDS" xml:space="preserve">
+    <value>RGB LEDを管理</value>
+  </data>
+  <data name="TM1638Leds" xml:space="preserve">
+    <value>TM1638 LED</value>
+  </data>
+  <data name="MANAGEYOURTM1638LEDS" xml:space="preserve">
+    <value>TM1638 LEDを管理</value>
+  </data>
+  <data name="LowFuelAlertTriggerLaps" xml:space="preserve">
+    <value>燃料警告の開始 (ラップ数)</value>
+  </data>
+  <data name="RepeatLowFuelAlertEverySeconds" xml:space="preserve">
+    <value>燃料警告のくり返し (秒)</value>
+  </data>
+  <data name="DecrementLowFuelAlertTriggerValue" xml:space="preserve">
+    <value>燃料警告開始値を下げる</value>
+  </data>
+  <data name="IncrementLowFuelAlertTriggerValue" xml:space="preserve">
+    <value>燃料警告開始値を上げる</value>
+  </data>
+  <data name="WaitingForData" xml:space="preserve">
+    <value>データ待機中</value>
+  </data>
+  <data name="Running" xml:space="preserve">
+    <value>実行中</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>ポーズ</value>
+  </data>
+  <data name="GameConfig" xml:space="preserve">
+    <value>ゲーム設定</value>
+  </data>
+  <data name="DisableOutputDuringSimHubTelemetryReplays" xml:space="preserve">
+    <value>SimHubテレメトリーリプレイ中は出力を停止</value>
+  </data>
+  <data name="FindAGame" xml:space="preserve">
+    <value>ゲームを検出</value>
+  </data>
+  <data name="CloseInTray" xml:space="preserve">
+    <value>閉じるボタンでトレイ</value>
+  </data>
+  <data name="ShakeItSettings_ToggleMute" xml:space="preserve">
+    <value>ミュートをトグル</value>
+  </data>
+  <data name="ShakeItSettings_GainChangeSteps" xml:space="preserve">
+    <value>ゲイン増減ステップ (％)</value>
+  </data>
+  <data name="ShakeItSettings_UnmuteEffectsAfterSimhubRestart" xml:space="preserve">
+    <value>SimHubの再起動後、エフェクトのミュートをすべて解除</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_ToggleOverlaysVisibility" xml:space="preserve">
+    <value>オーバーレイの表示をトグル</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_OverlayLayoutRestart" xml:space="preserve">
+    <value>実行中のオーバーレイレイアウトを再起動</value>
+  </data>
+  <data name="PluginName_MotionPlugin" xml:space="preserve">
+    <value>モーション</value>
+  </data>
+  <data name="PluginDescription_MotionPlugin" xml:space="preserve">
+    <value>各種モーションシステムを制御します。</value>
+  </data>
+  <data name="PluginName_CustomSerialPlugin" xml:space="preserve">
+    <value>カスタムシリアルデバイス</value>
+  </data>
+  <data name="PluginDescription_CustomSerialPlugin" xml:space="preserve">
+    <value>カスタムシリアルデバイスのサポートを提供</value>
+  </data>
+  <data name="PluginName_AudioPlayPlugin" xml:space="preserve">
+    <value>オーディオコントロール</value>
+  </data>
+  <data name="PluginDescription_AudioPlayPlugin" xml:space="preserve">
+    <value>バーグラフのためのFFT処理やMP3再生機能など、各種オーディオデータにアクセスする機能を提供します</value>
+  </data>
+  <data name="PluginName_MidiPlugin" xml:space="preserve">
+    <value>MIDIコントローラー入力</value>
+  </data>
+  <data name="PluginDescription_MidiPlugin" xml:space="preserve">
+    <value>MIDIコントローラーを入力として使用します。</value>
+  </data>
+  <data name="CarSettings_Label_LowfuelChangeStepLaps" xml:space="preserve">
+    <value>燃料警告開始の増減ステップ (ラップ数)</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_Vocore" xml:space="preserve">
+    <value>VOCORE</value>
+  </data>
+  <data name="PluginName_BeltTensionnerPlugin" xml:space="preserve">
+    <value>ベルトテンションナー</value>
+  </data>
+  <data name="PluginDescription_BeltTensionnerPlugin" xml:space="preserve">
+    <value>ベルトテンショナーのサポートを提供</value>
+  </data>
+  <data name="Automatic interface restart" xml:space="preserve">
+    <value>自動インターフェース再起動</value>
+  </data>
+  <data name="PluginName_ShakeItWindPlugin" xml:space="preserve">
+    <value>ShakeIt ウィンド</value>
+  </data>
+  <data name="PluginDescription_ShakeItWindPlugin" xml:space="preserve">
+    <value>ファン作動用のShakeIt 簡易機能を提供</value>
+  </data>
+  <data name="Wind_Idle_GroupTitle" xml:space="preserve">
+    <value>アイドル時のウィンド</value>
+  </data>
+  <data name="Wind_Idle_GroupDescription" xml:space="preserve">
+    <value>走行中でないとき</value>
+  </data>
+  <data name="PluginName_WebPlugin" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="ShakeIt_AdvancedOptions_AdvancedOutputOptions" xml:space="preserve">
+    <value>詳細な出力オプション</value>
+  </data>
+  <data name="ShakeIt_AdvancedOptions_IncludeOutputSettingsInProfile" xml:space="preserve">
+    <value>このプロファイルに出力設定を保存 (オフのときは共通設定を使用)</value>
+  </data>
+  <data name="ShakeIt_AdvancedOptions_RestartInterfacesAtGameStateChange" xml:space="preserve">
+    <value>ゲームの状態が変更したときにインターフェースを自動的に再起動する (VRヘッドセットを使用する場合に推奨)</value>
+  </data>
+  <data name="ShakeIt_AdvancedOptions_RestartInterfacesAtHardwareChange" xml:space="preserve">
+    <value>サウンドハードウェアが変更されたときにインターフェイスを自動的に再起動する (常に推奨)</value>
+  </data>
+  <data name="ShakeIt_AdvancedOptions_RestartInterfaceDescription" xml:space="preserve">
+    <value>一部のVRデバイスではオーディオ設定を自動的に変更し、ゲーム起動時にShakeItオーディオを停止させます。このオプションはゲームの接続/切断時や、Windowsのオーディオ設定が変更されたとき自動的に全てのオーディオインターフェイスをリセットします。これにより ShakeIt オーディオ出力が常に動作するようになります。</value>
+  </data>
+  <data name="TestDataEditor_UseTestData" xml:space="preserve">
+    <value>テストデータを使用する</value>
+  </data>
+  <data name="TestDataEditor_Info" xml:space="preserve">
+    <value>注意 : テストデータエディターは、カスタム数式によるエフェクトに影響しません。</value>
+  </data>
+  <data name="SessionDetails_OpenTelemetry" xml:space="preserve">
+    <value>テレメトリーを開く</value>
+  </data>
+  <data name="RemapGroup_EditLedOrder" xml:space="preserve">
+    <value>LED の順序を編集</value>
+  </data>
+  <data name="TestDataEditor_TriggerEngineStart" xml:space="preserve">
+    <value>エンジン始動</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_Done" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="MapViewerWindow_Next" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="MapViewerWindow_Previous" xml:space="preserve">
+    <value>前</value>
+  </data>
+  <data name="MapViewerWindow_DeleteFile" xml:space="preserve">
+    <value>ファイルを削除</value>
+  </data>
+  <data name="IntegratedLedItemEditorInfo_OpenIntegratedLedsSettings" xml:space="preserve">
+    <value>統合的なLED 設定を開く</value>
+  </data>
+  <data name="MonitorChoiceControl_Pick" xml:space="preserve">
+    <value>選ぶ</value>
+  </data>
+  <data name="EditorWindow_DeleteTouchArea" xml:space="preserve">
+    <value>タッチエリアを削除</value>
+  </data>
+  <data name="EditorWindow_NewTouchArea" xml:space="preserve">
+    <value>新しいタッチエリア</value>
+  </data>
+  <data name="EditorWindow_Done" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="EditorWindow_NewEventTrigger" xml:space="preserve">
+    <value>新しいイベントトリガー</value>
+  </data>
+  <data name="EditorWindow_DeleteEventTrigger" xml:space="preserve">
+    <value>イベントトリガーを削除</value>
+  </data>
+  <data name="ComponentLibrary_Refresh" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="ComponentLibrary_EditModel" xml:space="preserve">
+    <value>モデルを編集</value>
+  </data>
+  <data name="ComponentLibrary_NewModel" xml:space="preserve">
+    <value>新しいモデル</value>
+  </data>
+  <data name="DashboardEditor_ScreenProperties" xml:space="preserve">
+    <value>画面のプロパティ</value>
+  </data>
+  <data name="DashboardEditor_Unlock" xml:space="preserve">
+    <value>ロックを解除</value>
+  </data>
+  <data name="DashboardEditor_EditWidget" xml:space="preserve">
+    <value>ウィジェットを編集</value>
+  </data>
+  <data name="DashboardEditor_OpenHelp" xml:space="preserve">
+    <value>ヘルプを開く</value>
+  </data>
+  <data name="KeyboardEmulator_MappingItem_AddKey" xml:space="preserve">
+    <value>キーを追加</value>
+  </data>
+  <data name="KeyboardEmulator_MappingItem_RemoveKey" xml:space="preserve">
+    <value>キーを削除</value>
+  </data>
+  <data name="DataCore_SettingsControl_CSharpExpressions" xml:space="preserve">
+    <value>C# Expressions</value>
+  </data>
+  <data name="DataCore_SettingsControl_AddNewExpression" xml:space="preserve">
+    <value>新しいExpression を追加</value>
+  </data>
+  <data name="DashBoardEditor_Shortcuts1" xml:space="preserve">
+    <value>方向キー : 選択を移動 | Alt+方向キー : 選択をリサイズ | Ctrl+A : すべて選択 | Ctrl+G : 選択から新規グループを作成</value>
+  </data>
+  <data name="DashBoardEditor_Shortcuts2" xml:space="preserve">
+    <value>Shift : 矩形選択 | グループ上でダブルクリックして一時的に編集 (Esc で終了) | Ctrl+マウスホイールでテキストのフォントサイズを変更</value>
+  </data>
+  <data name="NextionEditorWindow_Action" xml:space="preserve">
+    <value>アクション</value>
+  </data>
+  <data name="NextionEditorWindow_EventTriggersAllowsYouToShowTemporaryThisPageWhenTheEventOccurs" xml:space="preserve">
+    <value>イベントトリガーを設定すると、イベントが発生したときにこのページを一時的に表示します</value>
+  </data>
+  <data name="NextionEditorWindow_Event" xml:space="preserve">
+    <value>イベント</value>
+  </data>
+  <data name="NextionEditorWindow_ConditionTriggerAllowsYouToShowTemporaryThisPageWhenTheConditionIsTrue" xml:space="preserve">
+    <value>条件トリガーを設定すると、条件がtrueのときにこのページを一時的に表示します</value>
+  </data>
+  <data name="NextionEditorWindow_OnlyAppliesToThisPage" xml:space="preserve">
+    <value>このページにのみ適用</value>
+  </data>
+  <data name="NextionEditorWindow_AppliesToAllComponentsWithTheSameNameOnAllPages" xml:space="preserve">
+    <value>すべてのページの同名コンポーネントに適用します</value>
+  </data>
+  <data name="NextionEditorWindow_LeftPercentOfThePageWidth" xml:space="preserve">
+    <value>左 (ページ幅の %)</value>
+  </data>
+  <data name="NextionEditorWindow_TopPercentOfThePageHeight" xml:space="preserve">
+    <value>上 (ページ高さの %)</value>
+  </data>
+  <data name="NextionEditorWindow_WidthPercentOfThePageWidth" xml:space="preserve">
+    <value>幅 (ページ幅の %)</value>
+  </data>
+  <data name="NextionEditorWindow_HeightPercentOfThePageHeight" xml:space="preserve">
+    <value>高さ (ページ高さの %)</value>
+  </data>
+  <data name="NextionEditorWindow_DurationMs" xml:space="preserve">
+    <value>期間 (ミリ秒)</value>
+  </data>
+  <data name="KeyboardEmulator_MappingItem_Input" xml:space="preserve">
+    <value>入力</value>
+  </data>
+  <data name="KeyboardEmulator_MappingItem_SimulatedKeys" xml:space="preserve">
+    <value>シミュレートしたキー</value>
+  </data>
+  <data name="ReplayControls_NoDescriptionClickToEdit" xml:space="preserve">
+    <value>説明がありません。クリックして編集</value>
+  </data>
+  <data name="ReplayControls_Position" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="ReplayControls_ReplayRange" xml:space="preserve">
+    <value>再生範囲</value>
+  </data>
+  <data name="ReplayControls_SpeedMultiplier" xml:space="preserve">
+    <value>速度倍率</value>
+  </data>
+  <data name="ReplayControls_NoPictureAvailable" xml:space="preserve">
+    <value>画像はありません</value>
+  </data>
+  <data name="SessionHistory_SessionDetails_Avg" xml:space="preserve">
+    <value>平均</value>
+  </data>
+  <data name="SessionHistory_SessionDetails_Speed" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="SessionHistory_SessionDetails_EndPos" xml:space="preserve">
+    <value>終了位置</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_ProviderIsNotConnected" xml:space="preserve">
+    <value>プロバイダー接続なし</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_ProviderIsDisabled" xml:space="preserve">
+    <value>プロバイダー無効</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_MediaInfoProvider" xml:space="preserve">
+    <value>メディア情報プロバイダ</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_CurrentTelemetryMode" xml:space="preserve">
+    <value>現在のテレメトリーモード</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_Forces" xml:space="preserve">
+    <value>フォース</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_ProcessedOutput" xml:space="preserve">
+    <value>処理された出力</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_DeviceLog" xml:space="preserve">
+    <value>デバイスログ</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_DeviceSettings" xml:space="preserve">
+    <value>デバイス設定</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_SerialPort" xml:space="preserve">
+    <value>シリアルポート</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_FeedbackSettings" xml:space="preserve">
+    <value>フィードバック設定</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_RawGameValue" xml:space="preserve">
+    <value>生のゲームデータ</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_FilteredValue" xml:space="preserve">
+    <value>フィルタリングされた値</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_LeftActuatorPosition" xml:space="preserve">
+    <value>左アクチュエーター位置</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_RightActuatorPosition" xml:space="preserve">
+    <value>右アクチュエーター位置</value>
+  </data>
+  <data name="NextionEditorWindow_RefreshDelayMilliseconds" xml:space="preserve">
+    <value>更新遅延 (ミリ秒)</value>
+  </data>
+  <data name="NextionEditorWindow_PredefinedRole" xml:space="preserve">
+    <value>事前定義したロール</value>
+  </data>
+  <data name="NextionEditorWindow_OnClick" xml:space="preserve">
+    <value>クリック時</value>
+  </data>
+  <data name="NextionEditorWindow_TouchAreasDescription" xml:space="preserve">
+    <value>タッチエリアによりページ上の領域を指定しアクションをひとつ起動できます。タッチエリア領域が存在すると、ページ内の他のタッチ動作は無効になります。</value>
+  </data>
+  <data name="TestDataEditor_GameStatus" xml:space="preserve">
+    <value>ゲームの状態</value>
+  </data>
+  <data name="TestDataEditor_CarModel" xml:space="preserve">
+    <value>車両モデル</value>
+  </data>
+  <data name="TestDataEditor_Engine" xml:space="preserve">
+    <value>エンジン</value>
+  </data>
+  <data name="TestDataEditor_RPMS" xml:space="preserve">
+    <value>RPM</value>
+  </data>
+  <data name="TestDataEditor_GEAR" xml:space="preserve">
+    <value>ギア</value>
+  </data>
+  <data name="TestDataEditor_Pits" xml:space="preserve">
+    <value>ピット</value>
+  </data>
+  <data name="TestDataEditor_Delta" xml:space="preserve">
+    <value>デルタ</value>
+  </data>
+  <data name="TestDataEditor_SessionDelta" xml:space="preserve">
+    <value>セッションデルタ</value>
+  </data>
+  <data name="TestDataEditor_Loss" xml:space="preserve">
+    <value>ロス</value>
+  </data>
+  <data name="TestDataEditor_Gain" xml:space="preserve">
+    <value>ゲイン</value>
+  </data>
+  <data name="TestDataEditor_AllTimeBestDelta" xml:space="preserve">
+    <value>全期間ベストとのデルタ</value>
+  </data>
+  <data name="TestDataEditor_Assists" xml:space="preserve">
+    <value>アシスト</value>
+  </data>
+  <data name="TestDataEditor_TurnIndicators" xml:space="preserve">
+    <value>ターン表示</value>
+  </data>
+  <data name="TestDataEditor_Flags" xml:space="preserve">
+    <value>旗</value>
+  </data>
+  <data name="TestDataEditor_Spotter" xml:space="preserve">
+    <value>スポッター</value>
+  </data>
+  <data name="SessionHistory_SessionDetails_S1" xml:space="preserve">
+    <value>S1</value>
+  </data>
+  <data name="SessionHistory_SessionDetails_S2" xml:space="preserve">
+    <value>S2</value>
+  </data>
+  <data name="SessionHistory_SessionDetails_S3" xml:space="preserve">
+    <value>S3</value>
+  </data>
+  <data name="SessionHistory_SessionDetails_LapTime" xml:space="preserve">
+    <value>ラップタイム</value>
+  </data>
+  <data name="NextionEditorWindow_NoTouchAreasConfigured" xml:space="preserve">
+    <value>タッチエリア設定はありません</value>
+  </data>
+  <data name="NextionEditorWindow_NoTriggersConfigured" xml:space="preserve">
+    <value>トリガー設定はありません</value>
+  </data>
+  <data name="NextionEditorWindow_Unavailable" xml:space="preserve">
+    <value>利用不可</value>
+  </data>
+  <data name="DataPlotter_YMin" xml:space="preserve">
+    <value>Y 最低値</value>
+  </data>
+  <data name="DataPlotter_YMax" xml:space="preserve">
+    <value>Y 最大値</value>
+  </data>
+  <data name="DataPlotter_TotalPoints" xml:space="preserve">
+    <value>総ポイント</value>
+  </data>
+  <data name="BindingEditor_Binding" xml:space="preserve">
+    <value>バインディング</value>
+  </data>
+  <data name="BindingEditor_None" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="BindingEditor_ComputedValue" xml:space="preserve">
+    <value>計算値</value>
+  </data>
+  <data name="BindingEditor_ComputedColor" xml:space="preserve">
+    <value>計算による色</value>
+  </data>
+  <data name="BindingEditor_ScreenParameter" xml:space="preserve">
+    <value>画面パラメーター</value>
+  </data>
+  <data name="BindingEditor_RawResult" xml:space="preserve">
+    <value>生のリザルト</value>
+  </data>
+  <data name="BindingEditor_FormattedResult" xml:space="preserve">
+    <value>書式化したリザルト</value>
+  </data>
+  <data name="BindingEditor_StartColor" xml:space="preserve">
+    <value>開始色</value>
+  </data>
+  <data name="BindingEditor_MiddleColor" xml:space="preserve">
+    <value>中間色</value>
+  </data>
+  <data name="BindingEditor_EndColor" xml:space="preserve">
+    <value>終端色</value>
+  </data>
+  <data name="BindingEditor_Value" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="BindingEditor_NcalcFormula" xml:space="preserve">
+    <value>NCalc 式 : </value>
+  </data>
+  <data name="BindingEditor_Javascript" xml:space="preserve">
+    <value>Javascript : </value>
+  </data>
+  <data name="BindingEditor_ResultFormat" xml:space="preserve">
+    <value>リザルトの書式 : </value>
+  </data>
+  <data name="SessionHistory_SessionDetails_ExportToExcel" xml:space="preserve">
+    <value>Excel にエクスポート</value>
+  </data>
+  <data name="BindingEditor_InsertFunction" xml:space="preserve">
+    <value>関数を挿入</value>
+  </data>
+  <data name="BindingEditor_InsertProperty" xml:space="preserve">
+    <value>プロパティを挿入</value>
+  </data>
+  <data name="BindingEditor_InsertSetting" xml:space="preserve">
+    <value>設定を挿入</value>
+  </data>
+  <data name="TestDataEditor_GameRunning" xml:space="preserve">
+    <value>実行中のゲーム</value>
+  </data>
+  <data name="TestDataEditor_RPMSRedlineReached" xml:space="preserve">
+    <value>RPM レッドラインに到達</value>
+  </data>
+  <data name="TestDataEditor_LowFuelAlertRemainingLaps" xml:space="preserve">
+    <value>燃料警告 (残りラップ数)</value>
+  </data>
+  <data name="TestDataEditor_PitLimiterON" xml:space="preserve">
+    <value>ピットリミッターON</value>
+  </data>
+  <data name="TestDataEditor_IsInPitLane" xml:space="preserve">
+    <value>ピットレーン上</value>
+  </data>
+  <data name="TestDataEditor_ABSEnabled" xml:space="preserve">
+    <value>ABS 有効</value>
+  </data>
+  <data name="TestDataEditor_ABSActive" xml:space="preserve">
+    <value>ABS 作動</value>
+  </data>
+  <data name="TestDataEditor_TCEnabled" xml:space="preserve">
+    <value>TC有効</value>
+  </data>
+  <data name="TestDataEditor_TCActive" xml:space="preserve">
+    <value>TC作動</value>
+  </data>
+  <data name="TestDataEditor_DRSActive" xml:space="preserve">
+    <value>DRS 作動</value>
+  </data>
+  <data name="TestDataEditor_DRSEnabled" xml:space="preserve">
+    <value>DRS 有効</value>
+  </data>
+  <data name="TestDataEditor_LeftON" xml:space="preserve">
+    <value>左ON</value>
+  </data>
+  <data name="TestDataEditor_RightON" xml:space="preserve">
+    <value>右ON</value>
+  </data>
+  <data name="TestDataEditor_BlackFlag" xml:space="preserve">
+    <value>黒旗</value>
+  </data>
+  <data name="TestDataEditor_YellowFlag" xml:space="preserve">
+    <value>黄旗</value>
+  </data>
+  <data name="TestDataEditor_WhiteFlag" xml:space="preserve">
+    <value>白旗</value>
+  </data>
+  <data name="TestDataEditor_BlueFlag" xml:space="preserve">
+    <value>青旗</value>
+  </data>
+  <data name="TestDataEditor_GreenFlag" xml:space="preserve">
+    <value>緑旗</value>
+  </data>
+  <data name="TestDataEditor_CarLeft" xml:space="preserve">
+    <value>左に車</value>
+  </data>
+  <data name="TestDataEditor_CarRight" xml:space="preserve">
+    <value>右に車</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_ConvertCelciusToFahrenheit" xml:space="preserve">
+    <value>摂氏を華氏に変換します。</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_DeviceEnabled" xml:space="preserve">
+    <value>デバイス有効</value>
+  </data>
+  <data name="NextionEditorWindow_Idle" xml:space="preserve">
+    <value>アイドル</value>
+  </data>
+  <data name="NextionEditorWindow_InGame" xml:space="preserve">
+    <value>ゲーム内</value>
+  </data>
+  <data name="NextionEditorWindow_Skip" xml:space="preserve">
+    <value>スキップ</value>
+  </data>
+  <data name="NextionEditorWindow_EnableOnThisPage" xml:space="preserve">
+    <value>このページで有効</value>
+  </data>
+  <data name="BindingEditor_UseJavascript" xml:space="preserve">
+    <value>Javascriptを使用</value>
+  </data>
+  <data name="DataPlotter_AutomaticAnticlipping" xml:space="preserve">
+    <value>自動アンチクリッピング</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_SetBeltModeLive" xml:space="preserve">
+    <value>ベルトモード設定 : ライブ</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_SetBeltModeZero" xml:space="preserve">
+    <value>ベルトモード設定 : ゼロ</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_SetBeltModeReleaseAll" xml:space="preserve">
+    <value>ベルトモード設定 : すべてリリース</value>
+  </data>
+  <data name="ReplayControls_CreateBookmark" xml:space="preserve">
+    <value>ブックマークを作成</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_ENABLEDPROVIDERS" xml:space="preserve">
+    <value>有効なプロバイダ</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_SYSTEMMONITORINGCONFIGURATION" xml:space="preserve">
+    <value>システムモニタリング設定</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_MEDIAPLAYERINFORMATION" xml:space="preserve">
+    <value>メディアプレーヤー情報</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_BELTTENSIONNERSETTINGS" xml:space="preserve">
+    <value>ベルトテンショナー設定</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_Surge" xml:space="preserve">
+    <value>サージ</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_Sway" xml:space="preserve">
+    <value>スウェイ</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_General" xml:space="preserve">
+    <value>全般</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_MaximumTravelPercent" xml:space="preserve">
+    <value>最大移動量 (パーセント)</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_ActiveActuatorTravelSpeedHz" xml:space="preserve">
+    <value>アクティブのアクチュエーター移動速度 (Hz)</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_IdleActuatorTravelSpeedHz" xml:space="preserve">
+    <value>アイドル時のアクチュエータ移動速度 (Hz)</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_DeadZonePercent" xml:space="preserve">
+    <value>デッドゾーン (パーセント)</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_ReleasingForceCappingPercent" xml:space="preserve">
+    <value>リリースする力の上限 (パーセント)</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_SurgeLongitudinalForce" xml:space="preserve">
+    <value>サージ (縦方向の力)</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_SwayLateralForce" xml:space="preserve">
+    <value>スウェイ (横方向の力)</value>
+  </data>
+  <data name="NextionEditorWindow_VIRTUALPAGENAME" xml:space="preserve">
+    <value>仮想ページ名</value>
+  </data>
+  <data name="NextionEditorWindow_PAGEROLES" xml:space="preserve">
+    <value>ページのロール</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_MaximumTravelPercent_Tooltip" xml:space="preserve">
+    <value>アクチュエータが中心から移動する量。移動しなくなったときやエフェクトが強すぎる場合、この値を減らします</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_ActiveActuatorTravelSpeedHz_Tooltip" xml:space="preserve">
+    <value>テレメトリーデータをもとにステッパーが作動しているときの速度</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_IdleActuatorTravelSpeedHz_Tooltip" xml:space="preserve">
+    <value>ゲームが実行していないとき、もしくはゼロに戻るときやフルリリースモードに移行するときの速度</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_DeadZonePercent_Tooltip" xml:space="preserve">
+    <value>デッドゾーンより低い値のエフェクトはすべて除去されます</value>
+  </data>
+  <data name="LoggingControl_NewWindow" xml:space="preserve">
+    <value>新しいウィンドウ</value>
+  </data>
+  <data name="LoggingControl_Level" xml:space="preserve">
+    <value>レベル</value>
+  </data>
+  <data name="LoggingControl_Message" xml:space="preserve">
+    <value>メッセージ</value>
+  </data>
+  <data name="ReplayControls_Start" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="ReplayControls_End" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="ShakeITProfileProperties_AutocalibrationBehaviourSlipSuspensionsForCompatibleGames" xml:space="preserve">
+    <value>自動キャリブレーションの挙動 (対応するゲームのスリップ、サスペンション)</value>
+  </data>
+  <data name="ShakeITProfileProperties_AutomaticCalibrationDescription" xml:space="preserve">
+    <value>自動キャリブレーションではあなたのドライビングスタイル、コース、車両を学習し、体感する出力を平滑化します。ここでは対応するエフェクトに対する自動キャリブレーションの効果を調整できます。</value>
+  </data>
+  <data name="ShakeITProfileProperties_PredefinedCalibration" xml:space="preserve">
+    <value>事前定義したキャリブレーション</value>
+  </data>
+  <data name="ShakeITProfileProperties_AutomaticCalibration" xml:space="preserve">
+    <value>自動キャリブレーション</value>
+  </data>
+  <data name="UDPRelaySettings_UDPRelay" xml:space="preserve">
+    <value>UDPリレー</value>
+  </data>
+  <data name="UDPRelaySettings_ApplyNow" xml:space="preserve">
+    <value>今すぐ適用</value>
+  </data>
+  <data name="UDPRelaySettings_AddRelay" xml:space="preserve">
+    <value>リレーを追加</value>
+  </data>
+  <data name="UDPRelaySettings_TargetIPAdress" xml:space="preserve">
+    <value>対象IPアドレス</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_ReleasingForceCappingPercent_Tooltip" xml:space="preserve">
+    <value>リリース方向の最大移動量を減らします。この値をできるだけ低く設定することで加速から減速に転ずる際に必要な移動量を減らします。</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_Screeneditor" xml:space="preserve">
+    <value>画面エディタ</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_ScreenName" xml:space="preserve">
+    <value>画面名</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_IngameScreen" xml:space="preserve">
+    <value>ゲーム内画面</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_IdleScreen" xml:space="preserve">
+    <value>アイドル画面</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_BlinkInterval" xml:space="preserve">
+    <value>点滅間隔</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_Preview" xml:space="preserve">
+    <value>プレビュー</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_PreviewAs" xml:space="preserve">
+    <value>別名でプレビュー</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_RemoveSelected" xml:space="preserve">
+    <value>選択を削除</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_PleaseSelectAPartToEdit" xml:space="preserve">
+    <value>編集するパーツを選んでください</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_Text" xml:space="preserve">
+    <value>テキスト</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_SimhubProperty" xml:space="preserve">
+    <value>SimHubプロパティ</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_ComputedText" xml:space="preserve">
+    <value>計算によるテキスト</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_LineReturnLCD" xml:space="preserve">
+    <value>改行コード (LCD)</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_DisplayText" xml:space="preserve">
+    <value>テキストを表示 : </value>
+  </data>
+  <data name="ArduinoTextScreenEditor_PropertyFormat" xml:space="preserve">
+    <value>プロパティ形式 : </value>
+  </data>
+  <data name="ArduinoTextScreenEditor_Pick" xml:space="preserve">
+    <value>選ぶ</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_DisplayLength" xml:space="preserve">
+    <value>ディスプレイ長 : </value>
+  </data>
+  <data name="ArduinoTextScreenEditor_RightAlign" xml:space="preserve">
+    <value>右揃え</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_RawPropertyValue" xml:space="preserve">
+    <value>生のプロパティ値</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_FormattedPropertyValue" xml:space="preserve">
+    <value>書式化したプロパティ値</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_NcalcFormula" xml:space="preserve">
+    <value>NCalc 式 : </value>
+  </data>
+  <data name="ArduinoTextScreenEditor_ResultFormat" xml:space="preserve">
+    <value>リザルトの書式 : </value>
+  </data>
+  <data name="ArduinoTextScreenEditor_RawResult" xml:space="preserve">
+    <value>生のリザルト</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_FormattedResult" xml:space="preserve">
+    <value>書式化したリザルト</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_AnnounceText" xml:space="preserve">
+    <value>通知テキスト</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_Save" xml:space="preserve">
+    <value>保存する</value>
+  </data>
+  <data name="ControlPicker_AvalableInputPluginsYouCanManageThemFromSimhubSettings" xml:space="preserve">
+    <value>利用可能な入力プラグイン (SimHub設定から管理できます)</value>
+  </data>
+  <data name="DashboardEditor_HideLabels" xml:space="preserve">
+    <value>ラベル非表示</value>
+  </data>
+  <data name="DashboardEditor_ShowBoxes" xml:space="preserve">
+    <value>ボックスを表示</value>
+  </data>
+  <data name="DashboardEditor_PressFToFocusEditor" xml:space="preserve">
+    <value>F7キーを押してエディターにフォーカス</value>
+  </data>
+  <data name="DashboardEditor_Zoom" xml:space="preserve">
+    <value>ズーム</value>
+  </data>
+  <data name="DashboardEditor_ComponentIsLocked" xml:space="preserve">
+    <value>コンポーネントはロックされています</value>
+  </data>
+  <data name="DashboardEditor_ThisItemIsAWidget" xml:space="preserve">
+    <value>このアイテムはウィジェットです</value>
+  </data>
+  <data name="DashboardEditor_ThisItemHaveDocumentation" xml:space="preserve">
+    <value>このアイテムにはドキュメントがあります</value>
+  </data>
+  <data name="DashboardEditor_Width" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="DashboardEditor_Height" xml:space="preserve">
+    <value>高さ</value>
+  </data>
+  <data name="DashboardEditor_Crop" xml:space="preserve">
+    <value>切り抜く</value>
+  </data>
+  <data name="DashboardEditor_Title" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="DashboardEditor_Author" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="DashboardEditor_Category" xml:space="preserve">
+    <value>カテゴリー</value>
+  </data>
+  <data name="DashboardEditor_ShowOnScreenControlsOnDashHover" xml:space="preserve">
+    <value>画面コントロールをダッシュホバーに表示</value>
+  </data>
+  <data name="DashboardEditor_OverlayDashWillStartInOverlayModeByDefault" xml:space="preserve">
+    <value>オーバーレイダッシュ (デフォルトはオーバーレイモードで起動)</value>
+  </data>
+  <data name="DashboardEditor_EnableClickThroughWhenInOverlayMode" xml:space="preserve">
+    <value>オーバーレイモードでクリックスルーを有効にする</value>
+  </data>
+  <data name="DashboardEditor_AllowDashboardMessagingOverlay" xml:space="preserve">
+    <value>ダッシュボードメッセージングオーバーレイを有効にする</value>
+  </data>
+  <data name="DashboardEditor_Game" xml:space="preserve">
+    <value>ゲーム</value>
+  </data>
+  <data name="DashboardEditor_Idle" xml:space="preserve">
+    <value>アイドル</value>
+  </data>
+  <data name="DashboardEditor_Pit" xml:space="preserve">
+    <value>ピット</value>
+  </data>
+  <data name="DashboardEditor_AddScreen" xml:space="preserve">
+    <value>画面を追加</value>
+  </data>
+  <data name="DashboardEditor_AddImage" xml:space="preserve">
+    <value>画像を追加</value>
+  </data>
+  <data name="DashboardEditor_PasteImage" xml:space="preserve">
+    <value>画像を貼り付け</value>
+  </data>
+  <data name="DashboardEditor_Saving" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="USBDisplaySettings_OffWhileNotInGame" xml:space="preserve">
+    <value>ゲーム中以外はオフ</value>
+  </data>
+  <data name="USBDisplaySettings_ShowingIdleDash" xml:space="preserve">
+    <value>アイドルダッシュを表示</value>
+  </data>
+  <data name="USBDisplaySettings_SearchingDevice" xml:space="preserve">
+    <value>デバイスを検出...</value>
+  </data>
+  <data name="USBDisplaySettings_DeviceNotFoundTryingAgain" xml:space="preserve">
+    <value>デバイスが見つかりません。再試行中...</value>
+  </data>
+  <data name="USBDisplaySettings_DisplayRefreshRateLimitFPS" xml:space="preserve">
+    <value>リフレッシュレート上限 (FPS) を表示</value>
+  </data>
+  <data name="USBDisplaySettings_SimplifiedTouchModeLeftRightPageChange" xml:space="preserve">
+    <value>簡易タッチモード (左右へのページ変更)</value>
+  </data>
+  <data name="USBDisplaySettings_AdvancedTouchModeUseDefinedDashInputs" xml:space="preserve">
+    <value>詳細なタッチモード (定義されたダッシュ入力を使用)</value>
+  </data>
+  <data name="USBDisplaySettings_IdleBehaviourWhenGameIsNotRunning" xml:space="preserve">
+    <value>アイドル時の動作 (ゲームが実行されていない場合)</value>
+  </data>
+  <data name="USBDisplaySettings_PowerOff" xml:space="preserve">
+    <value>電源を切る</value>
+  </data>
+  <data name="USBDisplaySettings_IdleDashboard" xml:space="preserve">
+    <value>ダッシュボードを停止</value>
+  </data>
+  <data name="USBDisplaySettings_DeviceNotFoundYetHaveYouInstalledTheDriver" xml:space="preserve">
+    <value>デバイスが見つかりません。ドライバはインストールしていますか?</value>
+  </data>
+  <data name="USBDisplaySettings_DriverInstallationGuide" xml:space="preserve">
+    <value>ドライバインストールガイド</value>
+  </data>
+  <data name="ReplayControls_Preview" xml:space="preserve">
+    <value>プレビュー</value>
+  </data>
+  <data name="ReplayControls_Bookmarks" xml:space="preserve">
+    <value>ブックマーク</value>
+  </data>
+  <data name="NextionEditorWindow_File" xml:space="preserve">
+    <value>_ファイル</value>
+  </data>
+  <data name="NextionEditorWindow_ImportLegacyIniMapping" xml:space="preserve">
+    <value>レガシー .iniマッピングをインポート</value>
+  </data>
+  <data name="NextionEditorWindow_Save" xml:space="preserve">
+    <value>_保存</value>
+  </data>
+  <data name="NextionEditorWindow_Exit" xml:space="preserve">
+    <value>_終了</value>
+  </data>
+  <data name="NextionEditorWindow_CreateNewVirtualPage" xml:space="preserve">
+    <value>新しい仮想ページを作成する</value>
+  </data>
+  <data name="NextionEditorWindow_DeleteVirtualPage" xml:space="preserve">
+    <value>仮想ページを削除する</value>
+  </data>
+  <data name="NextionEditorWindow_MoveUp" xml:space="preserve">
+    <value>上に移動</value>
+  </data>
+  <data name="NextionEditorWindow_MoveDown" xml:space="preserve">
+    <value>下に移動</value>
+  </data>
+  <data name="DashboardEditor_File" xml:space="preserve">
+    <value>_ファイル</value>
+  </data>
+  <data name="DashboardEditor_Save" xml:space="preserve">
+    <value>_保存</value>
+  </data>
+  <data name="DashboardEditor_Edit" xml:space="preserve">
+    <value>_編集</value>
+  </data>
+  <data name="DashboardEditor_Copy" xml:space="preserve">
+    <value>_コピー</value>
+  </data>
+  <data name="DashboardEditor_Cut" xml:space="preserve">
+    <value>カット</value>
+  </data>
+  <data name="DashboardEditor_Paste" xml:space="preserve">
+    <value>_ペースト</value>
+  </data>
+  <data name="DashboardEditor_Widgets" xml:space="preserve">
+    <value>ウィジェット</value>
+  </data>
+  <data name="DashboardEditor_RunDashboard" xml:space="preserve">
+    <value>ダッシュボードを実行</value>
+  </data>
+  <data name="DashboardEditor_Windowed" xml:space="preserve">
+    <value>_ウィンドウ表示</value>
+  </data>
+  <data name="DashboardEditor_SecondaryMonitor" xml:space="preserve">
+    <value>_セカンダリモニター</value>
+  </data>
+  <data name="DashboardEditor_Duplicate" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="DashboardEditor_DeleteImage" xml:space="preserve">
+    <value>画像を削除</value>
+  </data>
+  <data name="DashboardEditor_ReplaceImage" xml:space="preserve">
+    <value>画像を置換</value>
+  </data>
+  <data name="DashboardEditor_ExportImage" xml:space="preserve">
+    <value>画像をエクスポート</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_SaveBindingPreset" xml:space="preserve">
+    <value>バインディングプリセットを保存</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_LoadBindingPreset" xml:space="preserve">
+    <value>バインディングプリセットをロード</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_LockComponents" xml:space="preserve">
+    <value>コンポーネントをロック</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_Copy" xml:space="preserve">
+    <value>_コピー</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_Cut" xml:space="preserve">
+    <value>カット</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_CopyStyle" xml:space="preserve">
+    <value>スタイルをコピー</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_PasteTextStyle" xml:space="preserve">
+    <value>テキストスタイルをペースト</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_PasteBackgroundColor" xml:space="preserve">
+    <value>背景色をペースト</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_PasteBorderStyle" xml:space="preserve">
+    <value>境界のスタイルをペースト</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_Text" xml:space="preserve">
+    <value>テキスト : </value>
+  </data>
+  <data name="WindProfileControl_CheckBox_Left" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="WindProfileControl_CheckBox_Right" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="WindProfileControl_CheckBox_Center" xml:space="preserve">
+    <value>中央</value>
+  </data>
+  <data name="WindProfileControl_SliderTitle_LeftRightCurvingEffectWhenAvailable" xml:space="preserve">
+    <value>左/右カーブエフェクト (利用可能な場合)</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Label_SerialPort" xml:space="preserve">
+    <value>シリアルポート</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Label_Baudrate" xml:space="preserve">
+    <value>ボーレート</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Label_SettingsAreCurrentlyFreezed" xml:space="preserve">
+    <value>設定は保護されています</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Label_MessageAfterDeviceConnect" xml:space="preserve">
+    <value>デバイス接続後のメッセージ</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Label_UpdateMessages" xml:space="preserve">
+    <value>メッセージを更新する</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Label_MessageBeforeDeviceDisconnect" xml:space="preserve">
+    <value>デバイス切断前のメッセージ</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_CheckBox_EnableRTS" xml:space="preserve">
+    <value>RTSを有効</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_CheckBox_EnableDTR" xml:space="preserve">
+    <value>DTRを有効</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_CheckBox_LogIncomingData" xml:space="preserve">
+    <value>受信データをログに記録</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_CheckBox_AutomaticReconnect" xml:space="preserve">
+    <value>自動再接続</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Label_AfterConnectWaitDelayMs" xml:space="preserve">
+    <value>接続後待機時間 (ミリ秒)</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Title_ExportAndImport" xml:space="preserve">
+    <value>エクスポートとインポート</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Title_IncomingSerialData" xml:space="preserve">
+    <value>受信したシリアルデータ</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Link_AddNewMessage" xml:space="preserve">
+    <value>新しいメッセージを追加</value>
+  </data>
+  <data name="Constants_OKUppercase" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Constants_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Constants_CancelUpperCase" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Constants_Disconnected" xml:space="preserve">
+    <value>切断中</value>
+  </data>
+  <data name="Constants_Connected" xml:space="preserve">
+    <value>接続中</value>
+  </data>
+  <data name="WindMainSetting_TabHeader_WindProfile" xml:space="preserve">
+    <value>ウィンドプロファイル</value>
+  </data>
+  <data name="WindMainSetting_TabHeader_OutputConfiguration" xml:space="preserve">
+    <value>出力設定</value>
+  </data>
+  <data name="Constants_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Constants_Edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="Constants_Enabled" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="Constants_Disabled" xml:space="preserve">
+    <value>無効</value>
+  </data>
+  <data name="Constants_Yes" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="Constants_No" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="Constants_Connecting" xml:space="preserve">
+    <value>接続中</value>
+  </data>
+  <data name="Constants_Minimum" xml:space="preserve">
+    <value>最小</value>
+  </data>
+  <data name="Constants_Maximum" xml:space="preserve">
+    <value>最大</value>
+  </data>
+  <data name="Constants_Help" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="Constants_Min" xml:space="preserve">
+    <value>最小</value>
+  </data>
+  <data name="Constants_Max" xml:space="preserve">
+    <value>最大</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_RunAtStartupOnSecondaryMonitor" xml:space="preserve">
+    <value>起動時にセカンダリモニターで実行</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_RunAtStartupOnThirdMonitor" xml:space="preserve">
+    <value>起動時にサードモニターで実行</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_OnThirdMonitor" xml:space="preserve">
+    <value>サードモニターに</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_NEWYouCanNowAutomaticallyDownloadPrebuiltTrackLayoutsDoYouWantToEnableItNow" xml:space="preserve">
+    <value>NEW! 作成済みのコースレイアウトを自動的にダウンロードできるようになりました。今すぐ有効にしますか？</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_ByEnablingThisServiceYourOwnLayoutRecordsWillBeAnonymouslySharedToImproveTheLayoutDatabaseYouCanDisableThisOptionWheneverYouWantInTheDashStudioSettings" xml:space="preserve">
+    <value>このサービスを有効にすると、作成したレイアウト記録が匿名で共有され、レイアウトデータベースが改善します。このオプションはいつでもDash Studio設定で無効にできます。</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_ShowOnlyFavorites" xml:space="preserve">
+    <value>お気に入りのみ</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_TRACKLAYOUTRECORDING" xml:space="preserve">
+    <value>コースレイアウトを記録</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_LocalTrackLayout" xml:space="preserve">
+    <value>ローカルのコースレイアウト</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_TrackLayoutAreRecordedBasedOnYourOwnValidLaps" xml:space="preserve">
+    <value>コースレイアウトは有効なラップをもとに記録されます。</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_UseQualityScoringToAutomaticallyRegenerateTheLayoutIfRequired" xml:space="preserve">
+    <value>必要に応じて、品質スコアリングを使用して自動的にレイアウトを再生成します。</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_EXPERIMENTALOnlineTrackLayout" xml:space="preserve">
+    <value>EXPERIMENTAL : オンラインコースレイアウト</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_UseOnlineMaps" xml:space="preserve">
+    <value>オンラインマップを使用</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_ByEnablingThisOptionYourOwnTrackLayoutRecordsWillBeSharedToEnrichTheLayoutDatabase" xml:space="preserve">
+    <value>有効にすると自分で作成したコースレイアウトレコードが共有され、レイアウトデータベースが充実します。</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_ThisFeatureIsExperimentalAndCanBeDisabledOrRemovedAtAnyTimeWithoutNotice" xml:space="preserve">
+    <value>この機能は試験的なものであり、事前通知なしに無効化または削除されることがあります。</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_SourcePriority" xml:space="preserve">
+    <value>ソース優先度</value>
+  </data>
+  <data name="GraphicalDashPluginList_Link_ClearAllMapsLocalAndOnlineForTheCurrentGame" xml:space="preserve">
+    <value>現在のゲームの全マップをクリア (ローカル、オンラインともに)</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_ETSATSMap" xml:space="preserve">
+    <value>ETS2 / ATSマップ</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_MONITORSOPTIONS" xml:space="preserve">
+    <value>モニターオプション</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_SecondaryMonitorSelection" xml:space="preserve">
+    <value>セカンダリモニターを選択</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_ThirdMonitorSelection" xml:space="preserve">
+    <value>サードモニターを選択</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabHeader_VOCORE" xml:space="preserve">
+    <value>VOCORE</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_LEDMODULES" xml:space="preserve">
+    <value>LEDモジュール</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabHeader_AX206" xml:space="preserve">
+    <value>AX206</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_AX206LCD" xml:space="preserve">
+    <value>AX206 LCD</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabHeader_CorsairNexus" xml:space="preserve">
+    <value>Corsair Nexus</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_CorsairNexusLCD" xml:space="preserve">
+    <value>Corsair Nexus LCD</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabHeader_ESP" xml:space="preserve">
+    <value>ESP32</value>
+  </data>
+  <data name="Constants_Copy" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="Constants_Paste" xml:space="preserve">
+    <value>ペースト</value>
+  </data>
+  <data name="Constants_Gear" xml:space="preserve">
+    <value>ギア</value>
+  </data>
+  <data name="SettingsPanel_SectionTitle_SOUNDS" xml:space="preserve">
+    <value>サウンド</value>
+  </data>
+  <data name="SettingsPanel_SectionTitle_GAMEVOLUMECONTROL" xml:space="preserve">
+    <value>ゲーム音量コントロール</value>
+  </data>
+  <data name="SettingsPanel_Control_IncrementGameVolume" xml:space="preserve">
+    <value>ゲーム音量を上げる</value>
+  </data>
+  <data name="SettingsPanel_Control_DecrementGameVolume" xml:space="preserve">
+    <value>ゲームの音量を下げる</value>
+  </data>
+  <data name="SettingsPanel_SectionTitle_SYSTEMVOLUMECONTROL" xml:space="preserve">
+    <value>システム音量コントロール</value>
+  </data>
+  <data name="SettingsPanel_Control_IncrementSystemVolume" xml:space="preserve">
+    <value>システム音量を上げる</value>
+  </data>
+  <data name="SettingsPanel_Control_DecrementSystemVolume" xml:space="preserve">
+    <value>システム音量を下げる</value>
+  </data>
+  <data name="SettingsPanel_Button_RestoreGameConfigurationAlerts" xml:space="preserve">
+    <value>ゲーム設定アラートを復元する</value>
+  </data>
+  <data name="SettingsPanel_Button_DumpThreadStacks" xml:space="preserve">
+    <value>スレッドスタックをダンプする</value>
+  </data>
+  <data name="GameList_Label_ThisGameRequiresToEnableTelemetryManually" xml:space="preserve">
+    <value>このゲームは手動でテレメトリーを有効にする必要があります</value>
+  </data>
+  <data name="GameList_Button_OpenConfigurationInstructions" xml:space="preserve">
+    <value>設定手順の説明を開く</value>
+  </data>
+  <data name="GameList_Button_ThanksIDidIt" xml:space="preserve">
+    <value>ありがとう、できました</value>
+  </data>
+  <data name="Constants_SimHub" xml:space="preserve">
+    <value>SimHub</value>
+  </data>
+  <data name="SettingsPanel_SelectionTitle_FuelComputationMode" xml:space="preserve">
+    <value>燃料計算モード</value>
+  </data>
+  <data name="SettingsPanel_SettingsDescription_SimhubSoundsActionVolume" xml:space="preserve">
+    <value>Simhubサウンド再生音量</value>
+  </data>
+  <data name="SettingsPanel_SettingsDescription_GameVolumeChangeControls" xml:space="preserve">
+    <value>ゲーム音量の調整コントロール</value>
+  </data>
+  <data name="SettingsPanel_SettingsDescription_GameVolumeChangeSteps" xml:space="preserve">
+    <value>ゲーム音量の増減ステップ</value>
+  </data>
+  <data name="SettingsPanel_SettingsDescription_SystemVolumeChangeControls" xml:space="preserve">
+    <value>システム音量調節コントロール</value>
+  </data>
+  <data name="SettingsPanel_SettingsDescription_SystemVolumeChangeSteps" xml:space="preserve">
+    <value>システム音量の増減ステップ</value>
+  </data>
+  <data name="RGBProfilePropertiesCommon_CheckBox_StoreLedsBrightnessInProfile" xml:space="preserve">
+    <value>LEDの明るさをプロファイルに保存</value>
+  </data>
+  <data name="RGBAnimationEditor_MenuItem_ImportAnimation" xml:space="preserve">
+    <value>アニメーションをインポート</value>
+  </data>
+  <data name="RGBAnimationEditor_MenuItem_ExportAnimation" xml:space="preserve">
+    <value>アニメーションをエクスポート</value>
+  </data>
+  <data name="RGBAnimationEditor_Label_FrameDuration" xml:space="preserve">
+    <value>フレーム表示時間</value>
+  </data>
+  <data name="RGBAnimationEditor_MenuItem_Duplicate" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="RGBAnimationEditor_MenuItem_ApplyDurationForAllFrames" xml:space="preserve">
+    <value>すべてのフレームに表示時間を適用</value>
+  </data>
+  <data name="RGBAnimationEditor_Link_AddFrame" xml:space="preserve">
+    <value>フレームを追加</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_File" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_NewFont" xml:space="preserve">
+    <value>新しいフォント</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_LoadFont" xml:space="preserve">
+    <value>フォントを読み込む</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_SaveFont" xml:space="preserve">
+    <value>フォントを保存</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_SaveAs" xml:space="preserve">
+    <value>別名で保存</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_ImportLegacyFont" xml:space="preserve">
+    <value>レガシーフォントをインポートする</value>
+  </data>
+  <data name="MatrixfontEditor_CheckBox_IncludeGearCharset" xml:space="preserve">
+    <value>8x8 装置用文字セットを含む</value>
+  </data>
+  <data name="MatrixfontEditor_CheckBox_IncludeASCIICharset" xml:space="preserve">
+    <value>ASCII 文字セットを含める</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_ApplyWidthToAllCharacters" xml:space="preserve">
+    <value>すべての文字に幅を適用</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_ApplyHeightToAllCharacters" xml:space="preserve">
+    <value>すべての文字に高さを適用</value>
+  </data>
+  <data name="MatrixfontEditor_Label_Width" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="MatrixfontEditor_Label_Height" xml:space="preserve">
+    <value>高さ</value>
+  </data>
+  <data name="PWMGaugeSettings_Label_Value" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="PWMGaugeSettings_Label_Output" xml:space="preserve">
+    <value>出力</value>
+  </data>
+  <data name="PWMGaugeSettings_Label_GaugeMinimum" xml:space="preserve">
+    <value>ゲージ最小値</value>
+  </data>
+  <data name="PWMGaugeSettings_Label_GaugeMaximum" xml:space="preserve">
+    <value>ゲージ最大値</value>
+  </data>
+  <data name="PWMGaugeSettings_CheckBox_ManualPositionTest" xml:space="preserve">
+    <value>手動位置テスト</value>
+  </data>
+  <data name="PWMGaugeSettings_Label_CurrentPWMOutput" xml:space="preserve">
+    <value>現在のPWM出力 : </value>
+  </data>
+  <data name="PWMGaugeSettings_Label_CurrentValueDisplayed" xml:space="preserve">
+    <value>現在表示中の値 : </value>
+  </data>
+  <data name="SupportedGamePicker_Label_All" xml:space="preserve">
+    <value>すべて</value>
+  </data>
+  <data name="SupportedGamePicker_Label_None" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="Constants_SimHubUpperCase" xml:space="preserve">
+    <value>SIMHUB</value>
+  </data>
+  <data name="RecordSettings_WindowTitle_RecordSettings" xml:space="preserve">
+    <value>記録設定</value>
+  </data>
+  <data name="RGBGlobalBrightnessSlider_Label_LowBrightnessCouloursMayNotRenderAsExpected" xml:space="preserve">
+    <value>低輝度 : 想定通りに色がレンダリングされないことがあります。</value>
+  </data>
+  <data name="KeyboardEmulatorSettings_SectionTitle_SIMHUBINPUTSTOKEYSCONFIGURATION" xml:space="preserve">
+    <value>キー設定に対するSIMHUB入力</value>
+  </data>
+  <data name="KeyboardEmulatorSettings_Label_YouCanConfigureHereKeypressSimulations" xml:space="preserve">
+    <value>キー入力シミュレーションを設定できます</value>
+  </data>
+  <data name="KeyboardEmulatorSettings_Button_AddMapping" xml:space="preserve">
+    <value>マッピングを追加</value>
+  </data>
+  <data name="ShakeItToneOutput_Title_Frequencies" xml:space="preserve">
+    <value>周波数</value>
+  </data>
+  <data name="ShakeItToneOutput_Label_BasedOn" xml:space="preserve">
+    <value>元データ : </value>
+  </data>
+  <data name="ShakeItToneOutput_Label_BaseEffectFrequencyHz" xml:space="preserve">
+    <value>基本エフェクト周波数 (Hz)</value>
+  </data>
+  <data name="ShakeItToneOutput_CheckBox_HighEffectFrequencyHz" xml:space="preserve">
+    <value>高域側エフェクト周波数 (Hz)</value>
+  </data>
+  <data name="ShakeItToneOutput_Title_EffectPriority" xml:space="preserve">
+    <value>エフェクト優先度</value>
+  </data>
+  <data name="ShakeItToneOutput_Label_HighPriority" xml:space="preserve">
+    <value>高優先度</value>
+  </data>
+  <data name="ShakeItToneOutput_Title_Effects" xml:space="preserve">
+    <value>エフェクト</value>
+  </data>
+  <data name="ShakeItToneOutput_CheckBox_WhiteNoiseHz" xml:space="preserve">
+    <value>ホワイトノイズ (+/- Hz)</value>
+  </data>
+  <data name="ShakeItToneOutput_CheckBox_DelayMs" xml:space="preserve">
+    <value>遅延 (ミリ秒)</value>
+  </data>
+  <data name="ShakeItExportOutputToPropery_Title_Export" xml:space="preserve">
+    <value>エクスポート</value>
+  </data>
+  <data name="ShakeItExportOutputToPropery_Label_ExportOutputValueAsAProperty" xml:space="preserve">
+    <value>出力値をプロパティとしてエクスポート</value>
+  </data>
+  <data name="ShakeItExportOutputToPropery_Label_PropertyName" xml:space="preserve">
+    <value>プロパティ名</value>
+  </data>
+  <data name="ShakeItExportOutputToPropery_Label_DisableOutput" xml:space="preserve">
+    <value>出力を無効にする</value>
+  </data>
+  <data name="ShakeItSoundProfileSettings_Label_UseSeparateOutputChannelsSettings" xml:space="preserve">
+    <value>個別の出力チャネル設定を使用する</value>
+  </data>
+  <data name="ShakeItSoundProfileSettings_Label_SettingsName" xml:space="preserve">
+    <value>設定名</value>
+  </data>
+  <data name="ShakeItRPMBankOutput_Title_Generator" xml:space="preserve">
+    <value>ジェネレーター</value>
+  </data>
+  <data name="ShakeItRPMBankOutput_Label_EngineGeneratorMode" xml:space="preserve">
+    <value>エンジン振動発生モード</value>
+  </data>
+  <data name="ShakeItEffectCustom_Label_FrontLeft" xml:space="preserve">
+    <value>左フロント</value>
+  </data>
+  <data name="ShakeItEffectCustom_Label_RearLeft" xml:space="preserve">
+    <value>左リア</value>
+  </data>
+  <data name="ShakeItEffectCustom_Label_FrontRight" xml:space="preserve">
+    <value>右フロント</value>
+  </data>
+  <data name="ShakeItEffectCustom_Label_RearRight" xml:space="preserve">
+    <value>右リア</value>
+  </data>
+  <data name="ShakeItEffectCustom_Label_FormulasMustReturnAValueFromTo" xml:space="preserve">
+    <value>数式の返り値はつねに0〜100です</value>
+  </data>
+  <data name="ShakeItSingleToneOutput_Title_Frequency" xml:space="preserve">
+    <value>周波数</value>
+  </data>
+  <data name="ShakeItSingleToneOutput_Label_EffectFrequency" xml:space="preserve">
+    <value>エフェクト周波数</value>
+  </data>
+  <data name="ShakeItSingleToneOutput_Title_EffectPriority" xml:space="preserve">
+    <value>エフェクト優先度</value>
+  </data>
+  <data name="ShakeItSingleToneOutput_Label_HighPriority" xml:space="preserve">
+    <value>高優先度</value>
+  </data>
+  <data name="ShakeItSingleToneOutput_Title_Effects" xml:space="preserve">
+    <value>エフェクト</value>
+  </data>
+  <data name="ShakeItSingleToneOutput_CheckBox_DelayMs" xml:space="preserve">
+    <value>遅延 (ミリ秒)</value>
+  </data>
+  <data name="ShakeItEffectMissedGear_Label_ControllerStatus" xml:space="preserve">
+    <value>コントローラーの状態 : </value>
+  </data>
+  <data name="ShakeItEffectMissedGear_Label_GearControllerInput" xml:space="preserve">
+    <value>ギア {0} コントローラー入力</value>
+  </data>
+  <data name="ShakeItEffectMissedGear_Label_GearEngaged" xml:space="preserve">
+    <value>ギア嚙合</value>
+  </data>
+  <data name="ShakeItEffectMissedGear_Label_GearNotEngaged" xml:space="preserve">
+    <value>ギア抜け</value>
+  </data>
+  <data name="ShakeItEffectGearShift_Label_DetectionMode" xml:space="preserve">
+    <value>検出モード</value>
+  </data>
+  <data name="ShakeItEffectGearShift_Label_GearEngagingDebouncingDelayMs" xml:space="preserve">
+    <value>ギア嚙合デバウンシング時間 (ms)</value>
+  </data>
+  <data name="ShakeItEffectGearShift_CheckBox_ModulateEffectGainBasedOnRPM" xml:space="preserve">
+    <value>RPMをもとにエフェクトゲインを変調</value>
+  </data>
+  <data name="ShakeItEffectGearShift_Label_MinimumEffectRPMSPercent" xml:space="preserve">
+    <value>最小エフェクトRPM (%)</value>
+  </data>
+  <data name="ShakeItEffectGearShift_Label_MaximumEffectRPMSPercent" xml:space="preserve">
+    <value>最大エフェクトRPM (%)</value>
+  </data>
+  <data name="ShakeItEffectGForce_Label_EffectLowForceMS" xml:space="preserve">
+    <value>最小エフェクト加速度 (m/s²)</value>
+  </data>
+  <data name="ShakeItEffectGForce_Label_EffectHighForceMS" xml:space="preserve">
+    <value>最大エフェクト加速度 (m/s²)</value>
+  </data>
+  <data name="ShakeItEffectGForce_Label_EffectHighForceMaxGPercent" xml:space="preserve">
+    <value>最大エフェクトG (最大Gの%)</value>
+  </data>
+  <data name="ShakeItEffectGForce_Label_Mode" xml:space="preserve">
+    <value>モード</value>
+  </data>
+  <data name="ShakeItEffectRoadTexture_Label_EffectLowForceKmH" xml:space="preserve">
+    <value>最小エフェクト速度 (km/h)</value>
+  </data>
+  <data name="ShakeItEffectRoadTexture_Label_EffectHighForceKmH" xml:space="preserve">
+    <value>最大エフェクト速度 (km/h)</value>
+  </data>
+  <data name="ShakeItEffectRoadTexture_Label_SimulatedRoadGrainPercent" xml:space="preserve">
+    <value>路面状況のシミュレート率 (%)</value>
+  </data>
+  <data name="ShakeItEffectSpeed_Label_EffectLowForceKmH" xml:space="preserve">
+    <value>最小エフェクト速度 (km/h)</value>
+  </data>
+  <data name="ShakeItEffectSpeed_Label_EffectHighForceKmH" xml:space="preserve">
+    <value>最大エフェクト速度 (km/h)</value>
+  </data>
+  <data name="ShakeItEffectSpeed_Label_EffectHighForceMaxSpeedPercent" xml:space="preserve">
+    <value>最大エフェクト速度 (最高速度の%)</value>
+  </data>
+  <data name="ShakeItEffectSpeed_Label_Mode" xml:space="preserve">
+    <value>モード</value>
+  </data>
+  <data name="ShakeItEffectRPMSound_Label_SoundPitchOffset" xml:space="preserve">
+    <value>サウンドピッチオフセット</value>
+  </data>
+  <data name="ShakeItEffectRPMSound_Label_LowerFreq" xml:space="preserve">
+    <value>周波数を低く</value>
+  </data>
+  <data name="ShakeItEffectRPMSound_Label_HigherFreq" xml:space="preserve">
+    <value>周波数を高く</value>
+  </data>
+  <data name="ShakeItEffectRPMSound_Label_EngineLoadSensitivity" xml:space="preserve">
+    <value>エンジン負荷の感度</value>
+  </data>
+  <data name="ShakeItEffectRPMSound_Label_CutOffFrequencyHz" xml:space="preserve">
+    <value>カットオフ周波数 (Hz)</value>
+  </data>
+  <data name="ShakeItEffectWheelsImpact_Label_AutoCalibrationSensitivity" xml:space="preserve">
+    <value>自動キャリブレーション感度</value>
+  </data>
+  <data name="ShakeItEffectWheelsRumble_Label_MaxRumbleSpeedKmH" xml:space="preserve">
+    <value>最大ランブル速度 (km/h)</value>
+  </data>
+  <data name="ShakeItEffectWheelsLock_Label_TriggerWhenBrakePedalReachesPercent" xml:space="preserve">
+    <value>ブレーキペダルを (%) 踏んだときに発生</value>
+  </data>
+  <data name="ShakeItEffectWheelsLock_Label_LockOnlyIsNotSupportedForTheCurrentGame" xml:space="preserve">
+    <value>選択中のゲームではロックのみをサポートしません</value>
+  </data>
+  <data name="ShakeItEffectWheelsLock_Label_LockSensibility" xml:space="preserve">
+    <value>ロック感度</value>
+  </data>
+  <data name="ShakeItEffectStaticWind_Label_Off" xml:space="preserve">
+    <value>オフ</value>
+  </data>
+  <data name="ShakeItEffectStaticWind_Label_WindPower" xml:space="preserve">
+    <value>風量</value>
+  </data>
+  <data name="ShakeItEffectStaticWind_CheckBox_Mute" xml:space="preserve">
+    <value>ミュート</value>
+  </data>
+  <data name="ShakeItEffectStaticWind_CheckBox_RunOnlyWhenInRace" xml:space="preserve">
+    <value>レース中のみ実行</value>
+  </data>
+  <data name="ShakeItEffectStaticWind_Label_MuteToggleControl" xml:space="preserve">
+    <value>ミュートトグルコントロール</value>
+  </data>
+  <data name="ShakeItEffectStaticWind_Label_IncrementWind" xml:space="preserve">
+    <value>風量を上げる</value>
+  </data>
+  <data name="ShakeItEffectStaticWind_Label_DecrementWind" xml:space="preserve">
+    <value>風量を下げる</value>
+  </data>
+  <data name="ShakeItEffectWheelsVibration_Label_AutoCalibrationSensitivity" xml:space="preserve">
+    <value>自動キャリブレーション感度</value>
+  </data>
+  <data name="ShakeItEffectWheelsVibration_Label_AutoThresholdSensitivity" xml:space="preserve">
+    <value>自動しきい値感度</value>
+  </data>
+  <data name="ShakeItEffectSpeedCurving_Label_EffectLowForceKmH" xml:space="preserve">
+    <value>最小エフェクト速度 (km/h)</value>
+  </data>
+  <data name="ShakeItEffectSpeedCurving_Label_EffectHighForceKmH" xml:space="preserve">
+    <value>最大エフェクト速度 (km/h)</value>
+  </data>
+  <data name="ShakeItEffectSpeedCurving_Label_EffectHighForceMaxSpeedPercent" xml:space="preserve">
+    <value>最大エフェクト速度 (最高速度の%)</value>
+  </data>
+  <data name="ShakeItEffectSpeedCurving_CheckBox_OnlyGenerateInTurns" xml:space="preserve">
+    <value>コーナリング中のみ生成</value>
+  </data>
+  <data name="UDPRelaySettings_Explanation" xml:space="preserve">
+    <value>一部のゲームでは複数のアプリケーションにデータを送信できませんが、このリレープラグインを使用することでゲームとSimHubを含めた 1つ以上のアプリケーションとの間でリレーを構築し、ひとつのソースポートを複数の対象にマッピングできます。</value>
+  </data>
+  <data name="ShakeItToneOutput_Label_HighPriorityModeSuspendsOtherNonHighPriorityEffectsWhileThisEffectIsOccuring" xml:space="preserve">
+    <value>高優先度モードでは、エフェクトが発生している間は優先度が低い他のエフェクトを停止します</value>
+  </data>
+  <data name="ShakeItSingleToneOutput_Label_HighPriorityModeSuspendsOtherNonHighPriorityEffectsWhileThisEffectIsOccuring" xml:space="preserve">
+    <value>高優先度モードでは、エフェクトが発生している間は優先度が低い他のエフェクトを停止します</value>
+  </data>
+  <data name="ShakeItEffectGearShift_Label_GearEngagingDebouncingRemovesTheDoubleKickWhenTheGearGetsEngagedAShortTimeAfterBeingDisengagedWithManualCarsForInstance" xml:space="preserve">
+    <value>ギア嚙合デバウンシングを設定すると、(マニュアル車などで) ギアが抜けた後すぐに入れたときに「キック」が二重に発生する状態を取り除きます。</value>
+  </data>
+  <data name="ShakeItEffectSpeedCurving_Label_CurvingSensibilityWhenAvailable" xml:space="preserve">
+    <value>コーナリング感度 (利用可能なとき)</value>
+  </data>
+  <data name="ShakeItEffectSpeedCurving_Label_Mode" xml:space="preserve">
+    <value>モード</value>
+  </data>
+  <data name="ShakeItEffectWheelsSlip_CheckBox_TriggerWhenBrakePedalReachesPercent" xml:space="preserve">
+    <value>ブレーキペダルを (%) 踏んだときに発生</value>
+  </data>
+  <data name="ShakeItEffectWheelsSlip_CheckBox_TriggerWhenThrottleReachesPercent" xml:space="preserve">
+    <value>スロットルを (%) 踏んだときに発生</value>
+  </data>
+  <data name="ShakeItEffectWheelsSlip_Label_MuteWhenAWheelLockEffectIsCurrentlyActive" xml:space="preserve">
+    <value>ホイールロックエフェクトの発生時にミュートする</value>
+  </data>
+  <data name="Constants_Normal" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="Constants_High" xml:space="preserve">
+    <value>高い</value>
+  </data>
+  <data name="Constants_Low" xml:space="preserve">
+    <value>低い</value>
+  </data>
+  <data name="RBGAnimationStandaloneEditor_Label_Columns" xml:space="preserve">
+    <value>列</value>
+  </data>
+  <data name="RBGAnimationStandaloneEditor_Label_Rows" xml:space="preserve">
+    <value>行</value>
+  </data>
+  <data name="ShakeItV3Settings_TabHeader_SoundOutput" xml:space="preserve">
+    <value>サウンド出力</value>
+  </data>
+  <data name="ShakeItV3Settings_Control_ResetCalibration" xml:space="preserve">
+    <value>キャリブレーションをリセット</value>
+  </data>
+  <data name="SettingsCollectionEditControl_Link_AddCheckbox" xml:space="preserve">
+    <value>チェックボックスを追加</value>
+  </data>
+  <data name="SettingsCollectionEditControl_Link_AddSlider" xml:space="preserve">
+    <value>スライダーを追加</value>
+  </data>
+  <data name="SettingsCollectionEditControl_Link_AddGroup" xml:space="preserve">
+    <value>グループを追加</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_BT" xml:space="preserve">
+    <value>BT</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_GearMatrix" xml:space="preserve">
+    <value>ギアマトリックス</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_RGBMatrix" xml:space="preserve">
+    <value>RGBマトリックス</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_Health" xml:space="preserve">
+    <value>状態 : </value>
+  </data>
+  <data name="ArduinoAlertsSettings_Label_ScreenDisplayAnnounce" xml:space="preserve">
+    <value>画面表示通知</value>
+  </data>
+  <data name="ArduinoAlertsSettings_Label_LowFuelAlert" xml:space="preserve">
+    <value>燃料警告</value>
+  </data>
+  <data name="ArduinoAlertsSettings_Label_RepeatLowFuelAlert" xml:space="preserve">
+    <value>燃料警告のくり返し</value>
+  </data>
+  <data name="NextionEditorWindow_GroupHeader_Pages" xml:space="preserve">
+    <value>ページ</value>
+  </data>
+  <data name="NextionEditorWindow_GroupHeader_Components" xml:space="preserve">
+    <value>コンポーネント</value>
+  </data>
+  <data name="NextionEditorWindow_GroupHeader_Properties" xml:space="preserve">
+    <value>プロパティ</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_GroupHeader_Modules" xml:space="preserve">
+    <value>モジュール</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_GroupHeader_Elements" xml:space="preserve">
+    <value>エレメント</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_GroupHeader_ElementProperties" xml:space="preserve">
+    <value>エレメントプロパティ</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_GroupHeader_Definition" xml:space="preserve">
+    <value>定義</value>
+  </data>
+  <data name="DashboardEditor_GroupHeader_Components" xml:space="preserve">
+    <value>コンポーネント</value>
+  </data>
+  <data name="DashboardEditor_GroupHeader_DashboardProperties" xml:space="preserve">
+    <value>ダッシュボードのプロパティ</value>
+  </data>
+  <data name="DashboardEditor_GroupHeader_DashboardScreens" xml:space="preserve">
+    <value>ダッシュボード画面</value>
+  </data>
+  <data name="DashboardEditor_GroupHeader_Images" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="DataPlotter_GroupHeader_YAxis" xml:space="preserve">
+    <value>Y 軸</value>
+  </data>
+  <data name="DataPlotter_GroupHeader_XAxis" xml:space="preserve">
+    <value>X 軸</value>
+  </data>
+  <data name="ArduinoAlertsSettings_GroupHeader_Alerts" xml:space="preserve">
+    <value>アラート</value>
+  </data>
+  <data name="RGBEffectCustomStatusContainerEditor_Label_EnabledDefaultTrue" xml:space="preserve">
+    <value>有効 (デフォルト : true)</value>
+  </data>
+  <data name="RGBEffectCustomStatusContainerEditor_Label_Blinking" xml:space="preserve">
+    <value>点滅</value>
+  </data>
+  <data name="RGBEffectFuelContainerEditor_Label_Fuelmode" xml:space="preserve">
+    <value>燃料モード : </value>
+  </data>
+  <data name="RGBEffectCustomGradientContainerEditor_Label_EnabledDefaultTrue" xml:space="preserve">
+    <value>有効 (デフォルト : true)</value>
+  </data>
+  <data name="RGBEffectCustomGradientContainerEditor_Label_ValueFormula" xml:space="preserve">
+    <value>値の数式</value>
+  </data>
+  <data name="RGBEffectCustomGradientContainerEditor_Label_Blinking" xml:space="preserve">
+    <value>点滅</value>
+  </data>
+  <data name="RGBEffectDeltaContainerEditor_Label_DeltaMode" xml:space="preserve">
+    <value>デルタモード : </value>
+  </data>
+  <data name="RGBEffectSpeedLimiterAnimationEditor_Label_AnimationMode" xml:space="preserve">
+    <value>アニメーションモード : </value>
+  </data>
+  <data name="RGBEffectTurboContainerEditor_Label_Data" xml:space="preserve">
+    <value>データ</value>
+  </data>
+  <data name="RGBEffectTurboContainerEditor_Label_TurboMode" xml:space="preserve">
+    <value>ターボモード : </value>
+  </data>
+  <data name="RGBEffectSpeedContainerEditor_Label_SpeedMode" xml:space="preserve">
+    <value>速度モード : </value>
+  </data>
+  <data name="RGBEffectRPMContainerEditor_Label_RPMMode" xml:space="preserve">
+    <value>RPMモード : </value>
+  </data>
+  <data name="RGBEffectGroupCarStartedGroup_Label_ActiveFor" xml:space="preserve">
+    <value>アクティブ : </value>
+  </data>
+  <data name="RGBEffectGroupCarStartedGroup_Label_MsAfterCarStart" xml:space="preserve">
+    <value>発車後ミリ秒</value>
+  </data>
+  <data name="RGBEffectGroupCustomConditionalGroup_Label_Condition" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="RGBEffectGroupCarModelGroup_Label_CarModel" xml:space="preserve">
+    <value>車両モデル</value>
+  </data>
+  <data name="RGBEffectGroupRemapGroupEditor_WindowTitle_RecordSettings" xml:space="preserve">
+    <value>記録設定</value>
+  </data>
+  <data name="RGBEffectGroupRemapGroupEditor_Label_DragAndDropLedsToReorderThem" xml:space="preserve">
+    <value>ドラッグ&amp;ドロップで並び替え</value>
+  </data>
+  <data name="RGBEffectGroupScrollGroup_Label_AnimationMode" xml:space="preserve">
+    <value>アニメーションモード</value>
+  </data>
+  <data name="RGBEffectGroupScrollGroup_Label_StepDuration" xml:space="preserve">
+    <value>ステップ時間</value>
+  </data>
+  <data name="RGBEffectGroupPatternGroup_Label_Keep" xml:space="preserve">
+    <value>保持する</value>
+  </data>
+  <data name="RGBEffectGroupPatternGroup_Label_LedsThenClear" xml:space="preserve">
+    <value>LED、その後クリア</value>
+  </data>
+  <data name="RGBEffectBehaviorLedStartPosition_Label_StartPosition" xml:space="preserve">
+    <value>開始位置</value>
+  </data>
+  <data name="RGBEffectBehaviorLedCount_Label_LedCount" xml:space="preserve">
+    <value>LED数</value>
+  </data>
+  <data name="RGBEffectBehaviorLedIncludeProfileEditor_Link_AddEffect" xml:space="preserve">
+    <value>エフェクトを追加</value>
+  </data>
+  <data name="RGBEffectBehaviorLedGroupEditor_Link_AddEffect" xml:space="preserve">
+    <value>エフェクトを追加</value>
+  </data>
+  <data name="RGBLedsAnimationEditor_Label_Position" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="RGBLedListHeader_MenuItem_OpenAllChilds" xml:space="preserve">
+    <value>すべて開く</value>
+  </data>
+  <data name="RGBLedListHeader_MenuItem_CloseAllChilds" xml:space="preserve">
+    <value>子メニューを閉じる</value>
+  </data>
+  <data name="RGBEffectLedsRpmsSegmentsEditor_Label_Segments" xml:space="preserve">
+    <value>セグメント</value>
+  </data>
+  <data name="RGBEffectLedsRpmsSegmentsEditor_Label_LedCount" xml:space="preserve">
+    <value>LED数</value>
+  </data>
+  <data name="RGBEffectLedsRpmsSegmentsEditor_Label_StartRPMPercent" xml:space="preserve">
+    <value>開始RPM (%)</value>
+  </data>
+  <data name="RGBEffectLedsRpmsSegmentsEditor_CheckBox_RedlineColor" xml:space="preserve">
+    <value>レッドライン色</value>
+  </data>
+  <data name="Constants_Color" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="Constants_COLORUppercase" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="RGBMatrixEffectSpotterEditor_Label_Position" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="RGBMatrixEffectSpotterEditor_CheckBox_ClearBackgroundWhenCarIsSpottedLeftOrRight" xml:space="preserve">
+    <value>横に車両が来たとき背景をクリア</value>
+  </data>
+  <data name="RGBMatrixEffectLedsGearEditor_Label_Position" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="RGBMatrixEffectLedsGearEditor_Label_Font" xml:space="preserve">
+    <value>フォント</value>
+  </data>
+  <data name="RGBMatrixEffectLedsGearEditor_Label_RedlineColor" xml:space="preserve">
+    <value>レッドライン色</value>
+  </data>
+  <data name="RGBMatrixEffectLedsGearEditor_CheckBox_RedlineBlink" xml:space="preserve">
+    <value>レッドライン点滅</value>
+  </data>
+  <data name="RGBMatrixEffectLedsGearEditor_Label_BlinkDelay" xml:space="preserve">
+    <value>点滅遅延</value>
+  </data>
+  <data name="RGBMatrixEffectLedsFlagsEditor_Label_Position" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="RGBMatrixEffectLedsFlagsEditor_Label_EnabledFlagsWhenSupportedByTheCurrentGame" xml:space="preserve">
+    <value>旗を有効にする (選択中のゲームでサポートされている場合)</value>
+  </data>
+  <data name="BeltTensionner_SliderTitle_MaximumAccelerationMS" xml:space="preserve">
+    <value>最大加速度 (m/s²)</value>
+  </data>
+  <data name="BeltTensionner_SliderTitle_Linearity" xml:space="preserve">
+    <value>リニアリティ</value>
+  </data>
+  <data name="BeltTensionner_SliderTitle_SmoothingSamples" xml:space="preserve">
+    <value>サンプルを平滑化</value>
+  </data>
+  <data name="SettingsControlWPF_TabHeader_RGBMatrix" xml:space="preserve">
+    <value>RGBマトリックス</value>
+  </data>
+  <data name="SettingsControlWPF_SectionTitle_MANAGEYOURRGBMatrix" xml:space="preserve">
+    <value>RGBマトリックスを管理</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Connection" xml:space="preserve">
+    <value>接続</value>
+  </data>
+  <data name="NextionSettingsItem_Label_MissingMappingFileHmijmap" xml:space="preserve">
+    <value>マッピングファイル (.hmijmap) がありません !</value>
+  </data>
+  <data name="NextionSettingsItem_Link_ReadHelp" xml:space="preserve">
+    <value>ヘルプを読む</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Misc" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="NextionSettingsItem_Label_RGBLedsArduinoProMicro" xml:space="preserve">
+    <value>RGB LED (Arduino Pro Micro)</value>
+  </data>
+  <data name="NextionSettingsItem_Button_EditLedLayout" xml:space="preserve">
+    <value>LEDレイアウトを編集</value>
+  </data>
+  <data name="RGBMatrixMatrixStartPosition_Label_StartPositionX" xml:space="preserve">
+    <value>X 開始位置</value>
+  </data>
+  <data name="RGBMatrixMatrixStartPosition_Label_StartPositionY" xml:space="preserve">
+    <value>Y 開始位置</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Label_Hz" xml:space="preserve">
+    <value>Hz.</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_SectionTitle_MANAGEYOURCUSTOMSERIALDEVICES" xml:space="preserve">
+    <value>カスタムシリアルデバイスを管理</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Button_AddNewSerialDevice" xml:space="preserve">
+    <value>新しいシリアルデバイスを追加</value>
+  </data>
+  <data name="ShakeItAudioOutputSettings_Label_ThisOutputIsYourCurrentWindowsDefaultOutputItSStronglyRecommandedToUseADedicatedOutputSoundCard" xml:space="preserve">
+    <value>この出力はWindows のデフォルト出力です。専用の出力/サウンドカードの使用を強く推奨します。</value>
+  </data>
+  <data name="RGBLedsAnimationEditor_Label_Animation" xml:space="preserve">
+    <value>アニメーション</value>
+  </data>
+  <data name="RGBLedsEditorPosition_Label_Position" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="ShakeItEffectEditor_Label_EffectSpatialization" xml:space="preserve">
+    <value>エフェクトの立体化</value>
+  </data>
+  <data name="ShakeItEffectEditor_Label_Mode" xml:space="preserve">
+    <value>モード</value>
+  </data>
+  <data name="ShakeItEffectEditor_Label_EffectSettings" xml:space="preserve">
+    <value>エフェクト設定</value>
+  </data>
+  <data name="ShakeItEffectEditor_Title_ResponseFilter" xml:space="preserve">
+    <value>レスポンスフィルター</value>
+  </data>
+  <data name="ShakeItEffectEditor_Label_LiveEffects" xml:space="preserve">
+    <value>ライブエフェクト</value>
+  </data>
+  <data name="ShakeItEffectEditor_Label_Algorythm" xml:space="preserve">
+    <value>アルゴリズム</value>
+  </data>
+  <data name="ShakeItEffectEditor_Label_Output" xml:space="preserve">
+    <value>出力</value>
+  </data>
+  <data name="ShakeItGammaFilter_Label_InputGain" xml:space="preserve">
+    <value>入力ゲイン</value>
+  </data>
+  <data name="ShakeItGammaFilter_Label_GammaFactor" xml:space="preserve">
+    <value>ガンマ値</value>
+  </data>
+  <data name="ShakeItGammaFilter_Label_Threshold" xml:space="preserve">
+    <value>しきい値</value>
+  </data>
+  <data name="ShakeItGammaFilter_Label_MinimumForce" xml:space="preserve">
+    <value>最小フォース</value>
+  </data>
+  <data name="shakeItEffectControls_Label_MuteToggleControl" xml:space="preserve">
+    <value>ミュートトグルコントロール</value>
+  </data>
+  <data name="shakeItEffectControls_Label_IncrementGain" xml:space="preserve">
+    <value>ゲインを増やす</value>
+  </data>
+  <data name="shakeItEffectControls_Label_DecrementGain" xml:space="preserve">
+    <value>ゲインを減らす</value>
+  </data>
+  <data name="shakeItEffectControls_Label_GainChangeStepsPercent" xml:space="preserve">
+    <value>ゲイン増減ステップ (％)</value>
+  </data>
+  <data name="NextionTyresWearRoleEditor_CheckBox_AppendPercentPercentSymbol" xml:space="preserve">
+    <value>パーセント (%) 記号を追加する</value>
+  </data>
+  <data name="NextionTyresTempRoleEditor_Label_TemperatureType" xml:space="preserve">
+    <value>温度タイプ</value>
+  </data>
+  <data name="NextionTyresTempRoleEditor_CheckBox_AppendDegreesSymbol" xml:space="preserve">
+    <value>温度記号を追加する</value>
+  </data>
+  <data name="NextionGearRoleEditor_CheckBox_ChangeTextColorAtRedline" xml:space="preserve">
+    <value>レッドラインでテキストの色を変更</value>
+  </data>
+  <data name="NextionGearRoleEditor_Label_RedlineTextColor" xml:space="preserve">
+    <value>レッドラインのテキストカラー</value>
+  </data>
+  <data name="SettingsBuilderControl_Link_ToggleEditMode" xml:space="preserve">
+    <value>編集モードをトグル</value>
+  </data>
+  <data name="SettingsBuilderControl_Label_NoSettingsDefined" xml:space="preserve">
+    <value>設定がありません</value>
+  </data>
+  <data name="Constants_SelectAll" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="Constants_ReverseSelection" xml:space="preserve">
+    <value>選択を反転する</value>
+  </data>
+  <data name="Constants_DeleteSelection" xml:space="preserve">
+    <value>選択を削除する</value>
+  </data>
+  <data name="Constants_Tyre" xml:space="preserve">
+    <value>タイヤ</value>
+  </data>
+  <data name="SystemInfo_MediaExternalSettingsControl_Label_CoverImagePath" xml:space="preserve">
+    <value>カバーイメージのパス</value>
+  </data>
+  <data name="SystemInfo_MediaExternalSettingsControl_Label_MetadataFilePathTitleAndArtist" xml:space="preserve">
+    <value>メタデータのファイルパス (タイトルとアーティスト)</value>
+  </data>
+  <data name="SystemInfo_MediaExternalSettingsControl_Label_MetadataPattern" xml:space="preserve">
+    <value>メタデータのパターン</value>
+  </data>
+  <data name="DashstudioImagePicker_Label_ClickToPickImage" xml:space="preserve">
+    <value>クリックしてイメージを選択</value>
+  </data>
+  <data name="Constants_Visible" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="SettingsBuilderPropertyEditor_Link_Remove" xml:space="preserve">
+    <value>削除する</value>
+  </data>
+  <data name="SettingsBuilderPropertyEditor_Label_Label" xml:space="preserve">
+    <value>ラベル</value>
+  </data>
+  <data name="ImportDash_CheckBox_InstallDashboardFontsRequiresASimhubRestart" xml:space="preserve">
+    <value>ダッシュボードのフォントをインストール (SimHubの再起動が必要)</value>
+  </data>
+  <data name="SettingsBuilderPropertyEditor_Label_PropertyName" xml:space="preserve">
+    <value>プロパティ名</value>
+  </data>
+  <data name="ThrustmasterSettings_Control_IncreaseOverallGain" xml:space="preserve">
+    <value>全体のゲインを増やす</value>
+  </data>
+  <data name="ThrustmasterSettings_Control_DecreaseOverallGain" xml:space="preserve">
+    <value>全体のゲインを減らす</value>
+  </data>
+  <data name="ThrustmasterSettings_Label_GainChangesSteps" xml:space="preserve">
+    <value>ゲイン増減ステップ</value>
+  </data>
+  <data name="NextionSettingsControlWPF_Label_NextionRequiresEnExternalEditor" xml:space="preserve">
+    <value>Nextion は外部エディタが必要です</value>
+  </data>
+  <data name="Constants_Delete" xml:space="preserve">
+    <value>削除する</value>
+  </data>
+  <data name="Constants_Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="Constants_Clear" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="NextionEditor_Label_PrecisionDecimals" xml:space="preserve">
+    <value>桁数 (10進数)</value>
+  </data>
+  <data name="Constants_Description" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="ShakeItArduinoStatus_Label_ArduinoPluginDisabled" xml:space="preserve">
+    <value>Arduino プラグイン無効</value>
+  </data>
+  <data name="ArduinoScreenList_Label_ActiveScreen" xml:space="preserve">
+    <value>アクティブの画面</value>
+  </data>
+  <data name="Section_Help" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="ImagePicker_SectionTitle_PickAnImage" xml:space="preserve">
+    <value>イメージを選択</value>
+  </data>
+  <data name="DashStudioComponentLibrary_GroupHeader_Library" xml:space="preserve">
+    <value>ライブラリ</value>
+  </data>
+  <data name="RGBEffectBehaviorContentStacking_ToggleButton_LeftToRight" xml:space="preserve">
+    <value>左から右</value>
+  </data>
+  <data name="RGBEffectBehaviorContentStacking_ToggleButton_Layered" xml:space="preserve">
+    <value>重ねる</value>
+  </data>
+  <data name="ShakeItToneOutput_ToggleButton_Input" xml:space="preserve">
+    <value>入力</value>
+  </data>
+  <data name="ShakeItToneOutput_ToggleButton_Output" xml:space="preserve">
+    <value>出力</value>
+  </data>
+  <data name="ImagePicker_ToggleButton_DashboardLibrary" xml:space="preserve">
+    <value>ダッシュボードライブラリ</value>
+  </data>
+  <data name="ImagePicker_ToggleButton_CommonLibrary" xml:space="preserve">
+    <value>共通ライブラリ</value>
+  </data>
+  <data name="DashStudioUsbLedModuleSettings_Label_SearchingDevice" xml:space="preserve">
+    <value>デバイスを検出...</value>
+  </data>
+  <data name="Constants_Test" xml:space="preserve">
+    <value>テスト</value>
+  </data>
+  <data name="ShakeItEffectsListMain_Label_Calibration" xml:space="preserve">
+    <value>キャリブレーション</value>
+  </data>
+  <data name="ShakeItEffectsListMain_Label_AutocalibrationBehaviourSlipSuspensionsForCompatibleGames" xml:space="preserve">
+    <value>自動キャリブレーションの挙動 (対応するゲームのスリップ、サスペンション)</value>
+  </data>
+  <data name="Constants_Behaviour" xml:space="preserve">
+    <value>挙動</value>
+  </data>
+  <data name="ShakeItEffectsListMain_Label_PredefinedCalibration" xml:space="preserve">
+    <value>事前定義したキャリブレーション</value>
+  </data>
+  <data name="ShakeItEffectsListMain_Label_AutomaticCalibration" xml:space="preserve">
+    <value>自動キャリブレーション</value>
+  </data>
+  <data name="FunctionPicker_WindowTitle_NcalcFunctionsList" xml:space="preserve">
+    <value>NCalc 関数リスト</value>
+  </data>
+  <data name="DashStudioMonitorOptionsControl_CheckBox_AutostartDashboardAtSimhubStartup" xml:space="preserve">
+    <value>SimHub起動時にダッシュボードを自動起動</value>
+  </data>
+  <data name="NextionBindingList_Label_Unset" xml:space="preserve">
+    <value>解除</value>
+  </data>
+  <data name="ScreenPickerDialog_WindowTitle_ChooseTargetScreen" xml:space="preserve">
+    <value>対象画面を選択</value>
+  </data>
+  <data name="ArduinoScreenEditor_Label_LINERETURN" xml:space="preserve">
+    <value>改行コード</value>
+  </data>
+  <data name="RGBEffectFuelContainerEditor_RadioButton_Liters" xml:space="preserve">
+    <value>リットル</value>
+  </data>
+  <data name="RGBEffectDeltaContainerEditor_RadioButton_SessionBest" xml:space="preserve">
+    <value>セッションベスト</value>
+  </data>
+  <data name="RGBEffectDeltaContainerEditor_RadioButton_AllTimeBest" xml:space="preserve">
+    <value>全期間ベスト</value>
+  </data>
+  <data name="RGBEffectSpeedLimiterAnimationEditor_RadioButton_TwoColorsAnimation" xml:space="preserve">
+    <value>二色アニメーション</value>
+  </data>
+  <data name="RGBEffectSpeedLimiterAnimationEditor_RadioButton_AlternatingPlainColors" xml:space="preserve">
+    <value>単色を変化させる</value>
+  </data>
+  <data name="RGBEffectTurboContainerEditor_RadioButton_Bars" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="RGBEffectSpeedContainerEditor_RadioButton_Kmh" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="RGBEffectSpeedContainerEditor_RadioButton_Mph" xml:space="preserve">
+    <value>mph</value>
+  </data>
+  <data name="RGBEffectRPMContainerEditor_RadioButton_RPM" xml:space="preserve">
+    <value>RPM</value>
+  </data>
+  <data name="RGB_RadioButton_EnabledWhenGameIsRunning" xml:space="preserve">
+    <value>ゲーム実行時に有効</value>
+  </data>
+  <data name="RGB_RadioButton_EnabledWhenGameIsNotRunning" xml:space="preserve">
+    <value>ゲーム実行時以外で有効</value>
+  </data>
+  <data name="RGBEffectBehaviorLedDualStateBlinking_RadioButton_SimpleDelay" xml:space="preserve">
+    <value>通常遅延</value>
+  </data>
+  <data name="RGBEffectBehaviorLedDualStateBlinking_RadioButton_OnOffDelay" xml:space="preserve">
+    <value>オン/オフ遅延</value>
+  </data>
+  <data name="ShakeItEffectWheelsLock_RadioButton_UseLockOnly" xml:space="preserve">
+    <value>ロックのみ有効</value>
+  </data>
+  <data name="ShakeItEffectWheelsLock_RadioButton_UseLockAndSlip" xml:space="preserve">
+    <value>ロックとスリップを有効</value>
+  </data>
+  <data name="ShakeItRPMBankOutput_RadioButton_Basic" xml:space="preserve">
+    <value>基本</value>
+  </data>
+  <data name="ShakeItRPMBankOutput_RadioButton_Grainy" xml:space="preserve">
+    <value>路面</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_RadioButton_LiveTelemetry" xml:space="preserve">
+    <value>ライブテレメトリー</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_RadioButton_Zero" xml:space="preserve">
+    <value>ゼロ</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_RadioButton_ReleaseAll" xml:space="preserve">
+    <value>すべてリリース</value>
+  </data>
+  <data name="Constants_AutomaticShort" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="Constants_ManualShort" xml:space="preserve">
+    <value>手動</value>
+  </data>
+  <data name="ShakeItSimpleGammaNoiseFilter_Label_RandomizationPercent" xml:space="preserve">
+    <value>ランダム化率 (%)</value>
+  </data>
+  <data name="ShakeItSimpleGammaFilter_Label_GammaFactor" xml:space="preserve">
+    <value>ガンマ値</value>
+  </data>
+  <data name="ShakeItPulseFilter_Label_PulseDurationMs" xml:space="preserve">
+    <value>パルス発生時間 (ミリ秒)</value>
+  </data>
+  <data name="ShakeItPulseFilter_Label_FreeVersionIsLimitedToMsPulsesMinimum" xml:space="preserve">
+    <value>無料版では 100ミリ秒以上に制限されます</value>
+  </data>
+  <data name="ShakeItAudioOutputStatus_MenuItem_OpenInANewWindow" xml:space="preserve">
+    <value>新しいウィンドウで開く</value>
+  </data>
+  <data name="ShakeItBuiltInMapMono_Label_Mono" xml:space="preserve">
+    <value>モノラル</value>
+  </data>
+  <data name="SplineResponseCurveEditor_Label_CurveSmoothing" xml:space="preserve">
+    <value>曲線の平滑化</value>
+  </data>
+  <data name="Constants_Controls" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="Constants_Percent" xml:space="preserve">
+    <value>パーセント</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_EditDeviceControls" xml:space="preserve">
+    <value>デバイス操作を編集</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsGENERALCONTROLS" xml:space="preserve">
+    <value>全般の操作</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsDEFAULTDASHBOARDCONTROLS" xml:space="preserve">
+    <value>デフォルトのダッシュボード操作</value>
+  </data>
+  <data name="BitmapDisplayControls_Title" xml:space="preserve">
+    <value>デバイス操作</value>
+  </data>
+  <data name="USBDisplaySettings_Label_NativeLEDModuleSettings" xml:space="preserve">
+    <value>ネイティブのLEDモジュール設定</value>
+  </data>
+  <data name="USBDisplaySettings_LedsBrightness" xml:space="preserve">
+    <value>LEDの明るさ</value>
+  </data>
+  <data name="SettingsPanel_Link_EditTranslation" xml:space="preserve">
+    <value>テキストを翻訳</value>
+  </data>
+  <data name="ShakeItEffectEditor_Link_TestOutput" xml:space="preserve">
+    <value>出力をテスト</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_Link_Configure" xml:space="preserve">
+    <value>設定する</value>
+  </data>
+  <data name="NextionSettingsControlWPF_Link_Editor" xml:space="preserve">
+    <value>エディタ</value>
+  </data>
+  <data name="NextionSettingsControlWPF_Link_MoreInfos" xml:space="preserve">
+    <value>詳細情報…</value>
+  </data>
+  <data name="AboutSDK" xml:space="preserve">
+    <value>SDKについて</value>
+  </data>
+  <data name="JoystickPlugin_LeftMenuTitle" xml:space="preserve">
+    <value>コントローラー</value>
+  </data>
+  <data name="Overlay_StopLayoutEdition" xml:space="preserve">
+    <value>レイアウト編集をやめる</value>
+  </data>
+  <data name="MobileAccessAssistant_OR" xml:space="preserve">
+    <value>OR</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_ShowFirstDashScreen" xml:space="preserve">
+    <value>最初のダッシュスクリーンを表示 (選択中のゲームやアイドルモード)</value>
+  </data>
+  <data name="ReplayControls_To" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="RGBEffectBehaviorContentStacking_Label_ContentStacking" xml:space="preserve">
+    <value>コンテンツスタッキング : </value>
+  </data>
+  <data name="RGBEffectBehaviorLedIncludeProfileEditor_Label_IncludedProfile" xml:space="preserve">
+    <value>保存されたプロファイル</value>
+  </data>
+  <data name="RGBEffectBehaviorLedIncludeProfileEditor_Link_OrAddEffect" xml:space="preserve">
+    <value>もしくはエフェクトを追加</value>
+  </data>
+  <data name="RGBEffectBehaviorLedGroupEditor_Link_OrAddEffect" xml:space="preserve">
+    <value>もしくはエフェクトを追加</value>
+  </data>
+  <data name="GraphicalDashPluginList_Link_ClearMapsAndRedownloadItTheNextTimeRequiresASimhubRestart" xml:space="preserve">
+    <value>マップをクリアして次回に再ダウンロード (SimHubの再起動が必要)</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Link_ExportSettings" xml:space="preserve">
+    <value>設定をエクスポート</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Link_ImportSettings" xml:space="preserve">
+    <value>設定をインポート</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Link_FreezeUnfreezeSettings" xml:space="preserve">
+    <value>設定を凍結/凍結解除</value>
+  </data>
+  <data name="Constants_Load" xml:space="preserve">
+    <value>ロード</value>
+  </data>
+  <data name="TestDataButton_Link_OpenTestDataEditor" xml:space="preserve">
+    <value>テストデータエディタを開く</value>
+  </data>
+  <data name="KeyboardEmulatorKey_PressKey" xml:space="preserve">
+    <value>割り当てるキーもしくはキーの組み合わせを押してください...</value>
+  </data>
+  <data name="KeyboardEmulatorKey_ClickToAssign" xml:space="preserve">
+    <value>クリックして割り当て...</value>
+  </data>
+  <data name="DashboardEditor_CreateNewWidgetMenuItem" xml:space="preserve">
+    <value>新しいウィジェットを作成...</value>
+  </data>
+  <data name="DashboardEditor_CreateNewWidgetFromSelectionMenuItem" xml:space="preserve">
+    <value>選択から新規作成...</value>
+  </data>
+  <data name="FormulaPicker_Watermark_ClickEditToSetFormula" xml:space="preserve">
+    <value>編集をクリックして数式を設定</value>
+  </data>
+  <data name="ShakeItExportOutputToPropery_Watermark_PropertyName" xml:space="preserve">
+    <value>プロパティ名</value>
+  </data>
+  <data name="ShakeItSoundProfileSettings_Watermark_SettingsName" xml:space="preserve">
+    <value>設定名</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_Watermark_DisplayText" xml:space="preserve">
+    <value>テキストを表示</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_Watermark_PressPickToChooseProperty" xml:space="preserve">
+    <value>選ぶを押してプロパティを選択...</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_Watermark_TypeAnAnnounceTextOrLeaveEmptyForNoAnnounce" xml:space="preserve">
+    <value>通知テキストを入力、空白のときは通知なし...</value>
+  </data>
+  <data name="Constants_SearchNameOrText" xml:space="preserve">
+    <value>検索する名前、テキスト</value>
+  </data>
+  <data name="SettingsPanel_Link_TranslationMoreInfos" xml:space="preserve">
+    <value>翻訳に関する詳細情報</value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_THIRDPARTYCUSTOMARDUINOFEATURES" xml:space="preserve">
+    <value>サードパーティのデバイス</value>
+  </data>
+  <data name="DisplaySettings_Label_Nerzhul_GearIndicatorSupport" xml:space="preserve">
+    <value>Nerzhul ギアインジケーターのサポート</value>
+  </data>
+  <data name="DisplaySettings_CheckBox_Nerzhul_EnableGearIndicatorSupport" xml:space="preserve">
+    <value>Nerzhul ギアインジケーターのサポートを有効</value>
+  </data>
+  <data name="DisplaySettings_CheckBox_Nerzhul__EnableRedlineBlinking" xml:space="preserve">
+    <value>レッドラインの点滅を有効</value>
+  </data>
+  <data name="USBDisplaySettings_LabelStringFormat_ConnectedModel" xml:space="preserve">
+    <value>接続モデル : {0}</value>
+  </data>
+  <data name="NewPlugins_WindowTitle_Newplugins" xml:space="preserve">
+    <value>新しいプラグイン</value>
+  </data>
+  <data name="NewPlugins_SectionTitle_NewPluginsHaveBeenDetected" xml:space="preserve">
+    <value>新しいプラグインが検出されました! </value>
+  </data>
+  <data name="NewPlugins_Label_PleaseSelectThePluginsYouWantToEnableNow" xml:space="preserve">
+    <value>有効にするプラグインを選択してください。</value>
+  </data>
+  <data name="NewPlugins_Label_ChangedYourMindYouCanAlsoManageEnabledPluginsAnytimeFromTheSimhubSettings" xml:space="preserve">
+    <value>気が変わった? 有効にするプラグインはSimHub設定でいつでも管理できます。</value>
+  </data>
+  <data name="ChangeGameSplash_Label_ActivatingGame" xml:space="preserve">
+    <value>ゲームを起動中...</value>
+  </data>
+  <data name="RGBAnimationEditor_MenuItem_HorizontalMirror" xml:space="preserve">
+    <value>水平にミラーリング</value>
+  </data>
+  <data name="RGBAnimationEditor_MenuItem_VerticalMirror" xml:space="preserve">
+    <value>垂直にミラーリング</value>
+  </data>
+  <data name="RGBMatrixEffectSpotterEditor_Label_Style" xml:space="preserve">
+    <value>スタイル</value>
+  </data>
+  <data name="RGBMatrixMatrixStartPosition_Label_StartPositionM" xml:space="preserve">
+    <value>マトリックス開始位置</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_RGBMatrixRotation" xml:space="preserve">
+    <value>RGBマトリックス回転</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_RGBMatrixContent" xml:space="preserve">
+    <value>RGBマトリックス内容</value>
+  </data>
+  <data name="DisplaySettings_TextBlock_MatrixBrightness" xml:space="preserve">
+    <value>マトリックスの明るさ</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MatrixOrientation" xml:space="preserve">
+    <value>マトリックスの向き</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MatrixClearOutOfGame" xml:space="preserve">
+    <value>ゲームから離れたときにクリア (オフのときは通常通り表示)</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_7SegmentsModules" xml:space="preserve">
+    <value>7 セグメントモジュール</value>
+  </data>
+  <data name="ImagePicker_SectionTitle_ChooseAFont" xml:space="preserve">
+    <value>フォントを選択</value>
+  </data>
+  <data name="FontSearchTextBoxWatermark" xml:space="preserve">
+    <value>フォントを検索...</value>
+  </data>
+  <data name="ImagePicker_Label_Abcabc" xml:space="preserve">
+    <value>ABCabc123!@#$</value>
+  </data>
+  <data name="ImagePicker_Label_UsedDashboardFonts" xml:space="preserve">
+    <value>使用したダッシュボードのフォント</value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_SingleColorMatrixGearIndicator" xml:space="preserve">
+    <value>単色のマトリックスギアインジケーター</value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_7SegmentsGearIndicator" xml:space="preserve">
+    <value>7 セグメントギアインジケーター</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_TIPOrderMattersYouCanReorderArduinosByDraggingThemUsing" xml:space="preserve">
+    <value>TIP : 順序が重要です! 使用するArduinoをドラッグして並べ替えます</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_SingleArduinoSettings" xml:space="preserve">
+    <value>一台のArduino設定</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_ForgetThisDevice" xml:space="preserve">
+    <value>このデバイスを消去</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_MutipleArduinoModeWillAggregateAllArduinosAsItWasASingleBiggerDeviceInThisModeIndexesAreReservedForTheAboveFeaturesSegmentModulesMotorsAndRgbLeds" xml:space="preserve">
+    <value>複数ArduinoモードではすべてのArduinoを統合し、ひとつの大きなデバイスとして扱います。このモードでは上記 3機能 (7 セグメントモジュール、振動、RGB LED) の項目を反転します。</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_BasedOnTheCurrentDefinitionThisArduinoModulesAreAccessibleFromTheFollowingIndexes" xml:space="preserve">
+    <value>現在の定義をもとに、このArduinoモジュールは次の項目にアクセスできます : </value>
+  </data>
+  <data name="WindProfileControl_GroupTitle_SpeedBasedWind" xml:space="preserve">
+    <value>速度をもとにした風量</value>
+  </data>
+  <data name="ArduinoHardwareSettings_GroupTitle_DeviceSettings" xml:space="preserve">
+    <value>デバイス設定</value>
+  </data>
+  <data name="ArduinoHardwareSettings_GroupTitle_DeviceModulesAutomaticallyUpdatedWhenDeviceIsConnectedBasedOnRealDeviceValues" xml:space="preserve">
+    <value>デバイスモジュール (デバイス接続時、実際のデバイス値をもとに自動アップデート)</value>
+  </data>
+  <data name="WindMainSetting_Title_IdleWindControls" xml:space="preserve">
+    <value>アイドル時の風量コントロール</value>
+  </data>
+  <data name="WindMainSetting_Title_SpeedBasedWindControls" xml:space="preserve">
+    <value>速度をもとにした風量コントロール</value>
+  </data>
+  <data name="WindProfileControl_Title_WindPower" xml:space="preserve">
+    <value>風量</value>
+  </data>
+  <data name="WindProfileControl_SliderTitle_WindPower" xml:space="preserve">
+    <value>アイドル時の風量</value>
+  </data>
+  <data name="WindProfileControl_Title_TargetIdleWindChannels" xml:space="preserve">
+    <value>アイドル時の送風チャンネル</value>
+  </data>
+  <data name="WindProfileControl_SliderTitle_DefaultMaxSpeedAutomaticallyAdjustedBasedOnActualMaxSpeed" xml:space="preserve">
+    <value>デフォルトの最高速度 (実際の最高速度をもとに自動修正)</value>
+  </data>
+  <data name="WindProfileControl_Title_LeftRightWindCurving" xml:space="preserve">
+    <value>左/右方向の風の変化</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Portrait" xml:space="preserve">
+    <value>縦向きモード</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabHeader_TSS" xml:space="preserve">
+    <value>TSS</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_TSSLCD" xml:space="preserve">
+    <value>Turingスマートスクリーン LCD</value>
+  </data>
+  <data name="ReplayControls_MenuItem_PreviewEnabled" xml:space="preserve">
+    <value>プレビュー有効</value>
+  </data>
+  <data name="WindMainSetting_Label_NoSettingsCenterChannelWillBeUsedAsHSRFanOutput" xml:space="preserve">
+    <value>セッティングなし : 中央チャンネルをHSR ファン出力として使用します</value>
+  </data>
+  <data name="WindMainSetting_Title_GlobalControls" xml:space="preserve">
+    <value>全般の操作</value>
+  </data>
+  <data name="WindMainSetting_Control_SwitchWindActivation" xml:space="preserve">
+    <value>ウィンド発生オン/オフ</value>
+  </data>
+  <data name="WindMainSetting_SliderTitle_IncrementDecrementSteps" xml:space="preserve">
+    <value>増加/減少ステップ</value>
+  </data>
+  <data name="WindMainSetting_Control_IncreaseCurrentWindModeEffectGain" xml:space="preserve">
+    <value>現在のウィンドモードのエフェクトゲインを増やす</value>
+  </data>
+  <data name="WindMainSetting_Control_DecreaseCurrentWindModeEffectGain" xml:space="preserve">
+    <value>現在のウィンドモードのゲインを減らす</value>
+  </data>
+  <data name="WindMainSetting_Control_SwitchCurrentWindModeActivation" xml:space="preserve">
+    <value>現在のウィンドモード発生オン/オフ</value>
+  </data>
+  <data name="WindMainSetting_Control_IncreaseEffectGain" xml:space="preserve">
+    <value>エフェクトゲインを増やす</value>
+  </data>
+  <data name="WindMainSetting_Control_DecreaseEffectGain" xml:space="preserve">
+    <value>エフェクトゲインを減らす</value>
+  </data>
+  <data name="WindMainSetting_Control_SwitchStaticWindActivation" xml:space="preserve">
+    <value>静的ウィンド発生オン/オフ</value>
+  </data>
+  <data name="WindMainSetting_Control_SwitchSpeedBasedWindActivation" xml:space="preserve">
+    <value>速度ベースのウィンド発生オン/オフ</value>
+  </data>
+  <data name="WindProfileControl_Label_CockpitVentilationModeApplyWindPowerRangeMinimumAsSoonAsEngineOrIgnitionAreONOtherwiseKeepTheFanOFFAsLongAsYouAreNotMoving" xml:space="preserve">
+    <value>コクピット換気モード : エンジンが始動したときに風量レンジの『最弱』設定を適用します。オフのときは車両が動いていないときファンは停止しています。</value>
+  </data>
+  <data name="WindProfileControl_Label_CockpitModeIsNotAvailableWhenThePowerRangeMinimumIsSetToZero" xml:space="preserve">
+    <value>コクピットモードは、風量レンジの『最弱』をゼロに設定したときは無効です。</value>
+  </data>
+  <data name="ControlPicker_Label_ThereAreSomeExistingActionsBoundToThisControl" xml:space="preserve">
+    <value>この操作に紐づいたアクションはすでに存在します</value>
+  </data>
+  <data name="PluginName_SerialPortMonitorPlugin" xml:space="preserve">
+    <value>シリアルポート通知</value>
+  </data>
+  <data name="PluginDescription_SerialPortMonitorPlugin" xml:space="preserve">
+    <value>シリアルポートが追加もしくは削除されたときに通知を表示します。これにより接続もしくは解除されたデバイスを簡単に追跡することができます。</value>
+  </data>
+  <data name="WindMainSetting_Title_CurrentActiveModeControls" xml:space="preserve">
+    <value>現在のアクティブモード操作</value>
+  </data>
+  <data name="WindProfileControl_RangeSliderTitle_SpeedBasedWindPowerRange" xml:space="preserve">
+    <value>速度をもとにした風量レンジ</value>
+  </data>
+  <data name="CarSettings_SectionTitle_PerCarOverrides" xml:space="preserve">
+    <value>車両ごとのオーバーライド</value>
+  </data>
+  <data name="CarSettings_ForgetCar" xml:space="preserve">
+    <value>この車両を消去する</value>
+  </data>
+  <data name="CarSettings_TabHeader_GeneralSettings" xml:space="preserve">
+    <value>全般設定</value>
+  </data>
+  <data name="CarSettings_CheckBox_SynchronizeCarRedlineWhenGameGivesIt" xml:space="preserve">
+    <value>ゲームから取得した車両のレッドラインに同期する</value>
+  </data>
+  <data name="CarSettings_Label_AvailableOnACRRREAndRBR" xml:space="preserve">
+    <value>AC、RRRE、RBRで有効</value>
+  </data>
+  <data name="CarSettings_SliderTitle_PercentOfGameReportedRedline" xml:space="preserve">
+    <value>ゲームから取得したレッドラインのパーセント</value>
+  </data>
+  <data name="CarSettings_Control_SwitchPerGearRedlineDefinitionWhenCarModelIsKnown" xml:space="preserve">
+    <value>ギアごとのレッドライン設定を変更 (車両モデルを取得できたとき)</value>
+  </data>
+  <data name="CarSettings_TabHeader_PerCarOverrides" xml:space="preserve">
+    <value>車両ごとのオーバーライド</value>
+  </data>
+  <data name="CarSettings_SliderTitle_OverrideMaximumRPM" xml:space="preserve">
+    <value>最大RPMをオーバーライド</value>
+  </data>
+  <data name="CarSettings_SliderTitle_OverrideMaximumFuel" xml:space="preserve">
+    <value>最大燃料をオーバーライド</value>
+  </data>
+  <data name="CarSettings_SliderTitle_OverrideGlobalCarRedlineRPM" xml:space="preserve">
+    <value>全体の車両レッドライン (RPM) をオーバーライド</value>
+  </data>
+  <data name="RGBMatrixSettings_HardwareSettingsRotation" xml:space="preserve">
+    <value>ハードウェア設定 (画面回転など)</value>
+  </data>
+  <data name="ShakeIt_AdvancedOptions_OpenInANewWindow" xml:space="preserve">
+    <value>新しいウィンドウで開く</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_EthernetTuringSmartScreenInch" xml:space="preserve">
+    <value>イーサネットTuringスマートスクリーン (7インチ)</value>
+  </data>
+  <data name="Constants_Apply" xml:space="preserve">
+    <value>適用</value>
+  </data>
+  <data name="Constants_ApplyUpper" xml:space="preserve">
+    <value>適用</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_OpenFolder" xml:space="preserve">
+    <value>フォルダーを開く</value>
+  </data>
+  <data name="PluginName_RGBPSPDriverPlugin" xml:space="preserve">
+    <value>PSE Proスイッチパネル</value>
+  </data>
+  <data name="PluginDescription_RGBPSPDriverPlugin" xml:space="preserve">
+    <value>Precision Sim Engeneering Proスイッチパネルをサポートします。</value>
+  </data>
+  <data name="RGBMatrixEffectLedsFlagsEditor_Label_FlagPriorityExplanation" xml:space="preserve">
+    <value>降順でリストを並べかえ、旗が複数出たときの表示順序を決めることができます (リストの上が優先度の高い旗です)。</value>
+  </data>
+  <data name="TestDataEditor_Fuel" xml:space="preserve">
+    <value>燃料</value>
+  </data>
+  <data name="ThrustmasterPlugin_LeftMenuTitle" xml:space="preserve">
+    <value>Thrustmaster</value>
+  </data>
+  <data name="PluginName_SimuLightPlugin" xml:space="preserve">
+    <value>アンビエントライト</value>
+  </data>
+  <data name="PluginDescription_SimuLightPlugin" xml:space="preserve">
+    <value>Adalight互換のLEDストリップとGovee Bluetoothフローライトの実験的サポート。</value>
+  </data>
+  <data name="SettingsPanel_Link_RestoreDefaultMenuState" xml:space="preserve">
+    <value>デフォルトのメニュー状態を復元</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_SliderTitle_AutoCenterSpeedForReleasingForcesPercentPerSecond" xml:space="preserve">
+    <value>リリース時の自動センタリング速度 (パーセント/秒)</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_SliderTooltip_AutomaticallyCentersTheActionnerInOrderToKeepShoulderPressure" xml:space="preserve">
+    <value>肩への圧力を維持するため、自動的にアクショナーを中心に戻します</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_CheckBox_EnableSwayForce" xml:space="preserve">
+    <value>スウェイ方向を有効</value>
+  </data>
+  <data name="RGBEffectRPMContainerEditor_RadioButton_PercentOfRedline" xml:space="preserve">
+    <value>レッドラインRPMのパーセント</value>
+  </data>
+  <data name="RGBEffectLedsRpmsSegmentsEditor_Label_StartRPMPercentOfRedline" xml:space="preserve">
+    <value>開始RPM (レッドラインの %)</value>
+  </data>
+  <data name="ShakeItSettings_Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="DashStudioUsbLedModuleSettings_Title_RGBLeds" xml:space="preserve">
+    <value>RGB LED</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_RGBLEDSBrightness" xml:space="preserve">
+    <value>RGB LEDの明るさ</value>
+  </data>
+  <data name="DashStudioUsbLedModuleSettings_Title_ButtonsLighting" xml:space="preserve">
+    <value>ボタン点灯</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_ButtonsBrightness" xml:space="preserve">
+    <value>ボタンの明るさ</value>
+  </data>
+  <data name="DashStudioUsbLedModuleSettings_RadioButton_AlwaysOn" xml:space="preserve">
+    <value>常に点灯</value>
+  </data>
+  <data name="DashStudioUsbLedModuleSettings_RadioButton_OnWhenInRace" xml:space="preserve">
+    <value>レース中のみ</value>
+  </data>
+  <data name="DashStudioUsbLedModuleSettings_RadioButton_Advanced" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="DashStudioUsbLedModuleSettings_RadioButton_Off" xml:space="preserve">
+    <value>オフ</value>
+  </data>
+  <data name="DashStudioUsbLedModuleSettings_Title_PotentiometerControl" xml:space="preserve">
+    <value>ポテンショメータ制御</value>
+  </data>
+  <data name="DashStudioUsbLedModuleSettings_RadioButton_RGBBrightness" xml:space="preserve">
+    <value>RGB明度</value>
+  </data>
+  <data name="DashStudioUsbLedModuleSettings_RadioButton_ButtonsBrightness" xml:space="preserve">
+    <value>ボタンの明るさ</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_MinimizeSimhubMainWindowOnLayoutLoad" xml:space="preserve">
+    <value>レイアウト読み込み時にSimHubのメインウィンドウを最小化</value>
+  </data>
+</root>
