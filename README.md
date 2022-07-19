@@ -26,10 +26,11 @@ https://github.com/SHWotever/SimHub/wiki/SimHub---Translation
 
 | Code | Name | Updated version | % complete | Author  |
 |:------:|:----------:|:----------------------------:|:------------:|:---:|
+|  de-DE  | German (Germany) |   v8.0.4   |   23%    | [m1ghtym4vs](https://www.simhubdash.com/community-2/profile/m1ghtym4vs)  |
 |  es-ES  | Spanish (Spain) |   v8.0.3   |   100%    | [fidelcin](https://www.simhubdash.com/community-2/profile/fidelcin)  |
 |  ja-JP  | Japanese (Japan) |   v7.4.20  |   100%  | [takeyan](https://www.simhubdash.com/community-2/profile/takeyan)  |
 |  pl-PL  | Polish (Poland)  |   v7.4.22  |   Unknow  | [scoobydowsky](https://www.simhubdash.com/community-2/profile/scoobydowsky)  |
-|  pt-BR  | Portuguese (Brazil) |   v8.0.3   |   100%    | [adlerluiz](https://github.com/adlerluiz)  |
+|  pt-BR  | Portuguese (Brazil) |   v8.0.4   |   100%    | [adlerluiz](https://github.com/adlerluiz)  |
 
 ## Note
 This repository has no link with [SimHub](https://www.simhubdash.com/) project, it's just to help with translations made by the community!
