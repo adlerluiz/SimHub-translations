@@ -1,0 +1,1122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GameConfigurationManager_TelemetryTabTitle" xml:space="preserve">
+    <value>Telemetrie</value>
+  </data>
+  <data name="GameConfigurationManager_TelemetrySettingsSection" xml:space="preserve">
+    <value>Telemetrie-Einstellungen</value>
+  </data>
+  <data name="GameConfigurationManager_Title" xml:space="preserve">
+    <value>Spiel-Konfiguration</value>
+  </data>
+  <data name="AboutPluginSDKLine1" xml:space="preserve">
+    <value>- Erstelle neue Daten</value>
+  </data>
+  <data name="AboutPluginSDKLine2" xml:space="preserve">
+    <value>- Erstelle neue Aktionen</value>
+  </data>
+  <data name="AboutPluginSDKLine3" xml:space="preserve">
+    <value>- Verarbeite Spieldaten</value>
+  </data>
+  <data name="AboutPluginSDKLine4" xml:space="preserve">
+    <value>Und vieles mehr !</value>
+  </data>
+  <data name="AboutPluginSDKLine5" xml:space="preserve">
+    <value>Erstellt euer eigenes Plugin mit dem beigefügtem C# SDK</value>
+  </data>
+  <data name="AboutPluginSdkOpenSDK" xml:space="preserve">
+    <value>ÖFFNE SIMHUB SDK</value>
+  </data>
+  <data name="AboutSDK" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="GameConfigurationManager_TelemetrySettings_NoSettingsAvailable" xml:space="preserve">
+    <value>Keine Telemetrie-Einstellungen benötigt, nur das Spiel starten und Spaß haben !</value>
+  </data>
+  <data name="AdditionalPlugins" xml:space="preserve">
+    <value>Weitere Plugins</value>
+  </data>
+  <data name="AdministratorPrivilegesTitle" xml:space="preserve">
+    <value>Administrator-Rechte</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_ApplyChangesNow" xml:space="preserve">
+    <value>Änderungen übernehmen</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_OpenArduinoSetupTool" xml:space="preserve">
+    <value>Öffne Arduino Setup Tool</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_ResetAndScanForNewDevicesNow" xml:space="preserve">
+    <value>Entferne alle Geräte und nach neuen Suchen</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_ScanForNewDevicesOnly" xml:space="preserve">
+    <value>Nur nach neuen Geräten suchen</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_Motors" xml:space="preserve">
+    <value>Motoren</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_NoDevicesDetected" xml:space="preserve">
+    <value>keine Geräte gefunden</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_NotConnected" xml:space="preserve">
+    <value>Nicht verbunden</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_RgbLeds" xml:space="preserve">
+    <value>RGB LEDs</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_SerialSpeed" xml:space="preserve">
+    <value>Serialgeschwindigkeit</value>
+  </data>
+  <data name="ArduinoHardwareSettings_LinkButton_MoreInfos" xml:space="preserve">
+    <value>weitere Informationen</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_LcdRefreshSpeed" xml:space="preserve">
+    <value>LCD Aktualisierungsrate</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MatrixFont" xml:space="preserve">
+    <value>Matrix-Schrift</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_NoDevicesConfigured" xml:space="preserve">
+    <value>Keine Geräte konfiguriert</value>
+  </data>
+  <data name="ArduinoScreenList_Button_NewScreen" xml:space="preserve">
+    <value>Neuer Bildschirm</value>
+  </data>
+  <data name="ArduinoScreenList_Indicator_Idle" xml:space="preserve">
+    <value>untätig</value>
+  </data>
+  <data name="ArduinoScreenList_Indicator_Ingame" xml:space="preserve">
+    <value>Im Spiel</value>
+  </data>
+  <data name="AvailableProperties" xml:space="preserve">
+    <value>Verfügbare Eigenschaften</value>
+  </data>
+  <data name="ClearLicenseButton" xml:space="preserve">
+    <value>Entferne Lizenz</value>
+  </data>
+  <data name="ControlsEditor_LinkButton_Change" xml:space="preserve">
+    <value>Ändern</value>
+  </data>
+  <data name="ControlsEditor_LinkButton_ClickToConfigure" xml:space="preserve">
+    <value>Klicke zum Konfigurieren</value>
+  </data>
+  <data name="DisplaySettings_SevenSegmentModules_BrightnessColumnTitle" xml:space="preserve">
+    <value>Helligkeit</value>
+  </data>
+  <data name="DonatorLicense" xml:space="preserve">
+    <value>LIZENZ</value>
+  </data>
+  <data name="ExitSimHub" xml:space="preserve">
+    <value>SimHub beenden</value>
+  </data>
+  <data name="GameConnected" xml:space="preserve">
+    <value>Spiel verbunden</value>
+  </data>
+  <data name="GameDisconnected" xml:space="preserve">
+    <value>Spiel getrennt</value>
+  </data>
+  <data name="GameList_Button_StopReorganize" xml:space="preserve">
+    <value>Erledigt</value>
+  </data>
+  <data name="GameList_MenuItem_ManageShownGames" xml:space="preserve">
+    <value>Zeige ausgewählte Spiele</value>
+  </data>
+  <data name="GameList_TelemetryNotConfiguredFixItAutomatically" xml:space="preserve">
+    <value>automatisch beheben</value>
+  </data>
+  <data name="GameList_TelemetryNotConfiguredFixItManually" xml:space="preserve">
+    <value>manuell beheben</value>
+  </data>
+  <data name="GameList_Ignore" xml:space="preserve">
+    <value>Ignorieren</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>Spiele</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_Auto" xml:space="preserve">
+    <value>AUTO</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_More" xml:space="preserve">
+    <value>MEHR</value>
+  </data>
+  <data name="GraphicalDashPluginList_Category_LASTUSED" xml:space="preserve">
+    <value>ZULETZT VERWENDET</value>
+  </data>
+  <data name="GraphicalDashPluginList_Category_Uncategorized" xml:space="preserve">
+    <value>Unkategorisiert</value>
+  </data>
+  <data name="GraphicalDashPluginList_CloseAllButton" xml:space="preserve">
+    <value>alle Schließen</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_Usbd480Brightness" xml:space="preserve">
+    <value>Helligkeit</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_Category" xml:space="preserve">
+    <value>Kategorie</value>
+  </data>
+  <data name="GraphicalDashPluginList_OpenInBrowser" xml:space="preserve">
+    <value>Im Browser öffnen</value>
+  </data>
+  <data name="GraphicalDashPluginList_OpenPhoneTablet" xml:space="preserve">
+    <value>Im Phone oder Tablet öffnen</value>
+  </data>
+  <data name="GraphicalDashPluginList_RadioButton_EngineSpeedFast" xml:space="preserve">
+    <value>Schnell</value>
+  </data>
+  <data name="GraphicalDashPluginList_RadioButton_EngineSpeedSlow" xml:space="preserve">
+    <value>Langsam</value>
+  </data>
+  <data name="GraphicalDashPluginList_RadioButton_EngineSpeedVeryFast" xml:space="preserve">
+    <value>Sehr Schnell</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_GetOBSAddress" xml:space="preserve">
+    <value>Kopiere OBS Browseraddresse in den Zwischenspeicher</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_UseHtmlEngine" xml:space="preserve">
+    <value>Benutze HTML Engine (kann flüssiger sein)</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsPERFORMANCE" xml:space="preserve">
+    <value>LEISTUNG</value>
+  </data>
+  <data name="GraphicalDashPluginList_StartButton" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="GraphicalDashPluginList_TextBlock_Auto" xml:space="preserve">
+    <value>AUTO</value>
+  </data>
+  <data name="GraphicalDashPluginList_ToggleButton_Favourite_ToolTip" xml:space="preserve">
+    <value>Favorit</value>
+  </data>
+  <data name="LoadLicenseButton" xml:space="preserve">
+    <value>Lade Lizenz</value>
+  </data>
+  <data name="MainWindowToolbarNewVersionAvailable" xml:space="preserve">
+    <value>Neue Version verfügbar :</value>
+  </data>
+  <data name="MoreTab" xml:space="preserve">
+    <value>Mehr ...</value>
+  </data>
+  <data name="NextionSettingsItem_ActionPicker_NextPage" xml:space="preserve">
+    <value>Nächste Seite</value>
+  </data>
+  <data name="NextionSettingsItem_ActionPicker_PreviousPage" xml:space="preserve">
+    <value>Vorherige Seite</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Latency" xml:space="preserve">
+    <value>Latenz</value>
+  </data>
+  <data name="NoThanks" xml:space="preserve">
+    <value>Nein Danke</value>
+  </data>
+  <data name="OpenGameInstructions" xml:space="preserve">
+    <value>Öffne Instruktionen</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Template" xml:space="preserve">
+    <value>Vorlage</value>
+  </data>
+  <data name="OverlayEditor_WaitingForGame" xml:space="preserve">
+    <value>auf Spiel waren</value>
+  </data>
+  <data name="PasteLicenseButton" xml:space="preserve">
+    <value>Lizenz einfügen</value>
+  </data>
+  <data name="PropertiesAvailablePropertiesSection" xml:space="preserve">
+    <value>VERFÜGBARE EIGENSCHAFTEN</value>
+  </data>
+  <data name="PropertiesNotSupportedLabel" xml:space="preserve">
+    <value>nicht unterstützt</value>
+  </data>
+  <data name="PropertiesNotSupportedLabelTooltip" xml:space="preserve">
+    <value>Diese EIgenschaft wird im aktuellen Spiel nicht unterstützt</value>
+  </data>
+  <data name="PropertiesNewWindowButton" xml:space="preserve">
+    <value>Neues Fenster</value>
+  </data>
+  <data name="Replay" xml:space="preserve">
+    <value>Wiederholung</value>
+  </data>
+  <data name="RestoreSimHub" xml:space="preserve">
+    <value>SimHub zurücksetzen</value>
+  </data>
+  <data name="RunAsAdministratorOption" xml:space="preserve">
+    <value>Als Administrator ausführen</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_Brightness" xml:space="preserve">
+    <value>Helligkeit +</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_BrightnessMinus" xml:space="preserve">
+    <value>Helligkeit -</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_MyHardware" xml:space="preserve">
+    <value>Meine Hardware</value>
+  </data>
+  <data name="SettingsDeveloperToolsTab" xml:space="preserve">
+    <value>Entwicklerwerkzeuge</value>
+  </data>
+  <data name="SettingsGamesTitle" xml:space="preserve">
+    <value>SPIELE</value>
+  </data>
+  <data name="SettingsLangageOption" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="SettingsRequiresASimhubRestart" xml:space="preserve">
+    <value>Benötigt SimHub Neustart</value>
+  </data>
+  <data name="StartGame" xml:space="preserve">
+    <value>Spiel starten</value>
+  </data>
+  <data name="StartMinimized" xml:space="preserve">
+    <value>minimiert starten</value>
+  </data>
+  <data name="StartWithWindows" xml:space="preserve">
+    <value>mit Windows starten</value>
+  </data>
+  <data name="ThanksForYourSupport" xml:space="preserve">
+    <value>Danke für Ihre Unterstützung des SimHub Projekts, Ich hoffe es wird Ihnen gefallen. Wotever</value>
+  </data>
+  <data name="LanguageName" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="GameConfigurationManager_CloseButton" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="DefaultLauncherControl_DefineCustomPath" xml:space="preserve">
+    <value>Benutzerdefinierten Pfad festlegen</value>
+  </data>
+  <data name="DefaultLauncherControl_Target" xml:space="preserve">
+    <value>Ziel</value>
+  </data>
+  <data name="GameConfigurationManager_GameIsNotConfiguredInformation" xml:space="preserve">
+    <value>Spiel ist nicht konfiguriert</value>
+  </data>
+  <data name="JoystickPlugin_CONNECTEDCONTROLLERSTitle" xml:space="preserve">
+    <value>VERBUNDENE CONTROLLER</value>
+  </data>
+  <data name="JoystickPlugin_Diagnostic" xml:space="preserve">
+    <value>Diagnose</value>
+  </data>
+  <data name="ControlsAndEvents_MANAGEEVENTSTRIGGERS" xml:space="preserve">
+    <value>VERWALTE EREIGNIS AUSLÖSER</value>
+  </data>
+  <data name="ShakeItSettings_EditProfile" xml:space="preserve">
+    <value>Profil editieren</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager" xml:space="preserve">
+    <value>Profilmanager</value>
+  </data>
+  <data name="ShakeItSettings_AddGroup" xml:space="preserve">
+    <value>Gruppe hinzufügen</value>
+  </data>
+  <data name="ShakeItSettings_AddEffect" xml:space="preserve">
+    <value>Effekt hinzufügen</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_AVAILABLEPROFILES" xml:space="preserve">
+    <value>VERFÜGBARE PROFILE</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_NEWPROFILE" xml:space="preserve">
+    <value>NEUES PROFIL</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_CloneProfile" xml:space="preserve">
+    <value>Profil dublizieren</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_DeleteProfile" xml:space="preserve">
+    <value>Profil löschen</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_ImportProfile" xml:space="preserve">
+    <value>Profil importieren</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_ExportProfile" xml:space="preserve">
+    <value>Profil exportieren</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_LOAD" xml:space="preserve">
+    <value>LADEN</value>
+  </data>
+  <data name="SAVE" xml:space="preserve">
+    <value>SPEICHERN</value>
+  </data>
+  <data name="ShakeItSettings_ADDALL" xml:space="preserve">
+    <value>ALLE HINZUFÜGEN</value>
+  </data>
+  <data name="ShakeItSettings_AVAILABLEEFFECTS" xml:space="preserve">
+    <value>VERFÜGBARE EFFEKTE</value>
+  </data>
+  <data name="ShakeItSettings_EffectListHeader_EditDescription" xml:space="preserve">
+    <value>Bescheibung editieren</value>
+  </data>
+  <data name="SaveLCase" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="GmailPlugin_Password" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="GmailPlugin_LastMail" xml:space="preserve">
+    <value>Letze E-Mail :</value>
+  </data>
+  <data name="GmailPlugin_GeneratePassword" xml:space="preserve">
+    <value>Passwort generieren</value>
+  </data>
+  <data name="ThrustmasterSettings_PROFILES" xml:space="preserve">
+    <value>PROFILE</value>
+  </data>
+  <data name="MobileAccessAssistant_OR" xml:space="preserve">
+    <value>ODER</value>
+  </data>
+  <data name="ShakeItSettings_PROFILEPROPERTIES" xml:space="preserve">
+    <value>PROFILEIGENSCHAFTEN</value>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>Spiel</value>
+  </data>
+  <data name="ADD" xml:space="preserve">
+    <value>HINZUFÜGEN</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="GameConfig" xml:space="preserve">
+    <value>Spiel konfig.</value>
+  </data>
+  <data name="FindAGame" xml:space="preserve">
+    <value>Spiel suchen</value>
+  </data>
+  <data name="SessionDetails_OpenTelemetry" xml:space="preserve">
+    <value>Öffne Telemetrie</value>
+  </data>
+  <data name="MapViewerWindow_DeleteFile" xml:space="preserve">
+    <value>Datei löschen</value>
+  </data>
+  <data name="MapViewerWindow_Next" xml:space="preserve">
+    <value>Nächste</value>
+  </data>
+  <data name="MapViewerWindow_Previous" xml:space="preserve">
+    <value>Vorherige</value>
+  </data>
+  <data name="DashboardEditor_OpenHelp" xml:space="preserve">
+    <value>Hilfe öffnen</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_OpenFolder" xml:space="preserve">
+    <value>Ordner öffnen</value>
+  </data>
+  <data name="ShakeIt_AdvancedOptions_OpenInANewWindow" xml:space="preserve">
+    <value>Im neuen Fenster öffnen</value>
+  </data>
+  <data name="AdminPrivilegesAlert" xml:space="preserve">
+    <value>Um ordnungsgemäß zu funktionieren benötigt SimHub Administrator-Rechte, wollen Sie diese jetzt einschalten ?</value>
+  </data>
+  <data name="AlwaysOnTop" xml:space="preserve">
+    <value>Immer im Vordergrund</value>
+  </data>
+  <data name="AutoDetectCurrentGame" xml:space="preserve">
+    <value>Automatische Erkennung des aktuellen Spiels</value>
+  </data>
+  <data name="Carssettings" xml:space="preserve">
+    <value>Auto Einstellungen</value>
+  </data>
+  <data name="ControlPicker_Label_WaitingForInput" xml:space="preserve">
+    <value>Warte auf Eingabe</value>
+  </data>
+  <data name="EnableItNow" xml:space="preserve">
+    <value>Jetzt Einschalten</value>
+  </data>
+  <data name="FeatureIncludedInDonatorVersion" xml:space="preserve">
+    <value>Funktion in registrierter Version vorhanden</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationSuccessfulMessage" xml:space="preserve">
+    <value>Sie können jetzt {0} mit SimHub verwenden.</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationSuccessfulTitle" xml:space="preserve">
+    <value>Konfiguration erfolgreich !</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationFailedTitle" xml:space="preserve">
+    <value>Konfiguration fehlgeschlagen !</value>
+  </data>
+  <data name="GameList_Label_YouCanNowShowHideAndReorganizeGames" xml:space="preserve">
+    <value>Sie können jetzt Spiele anzeigen, verstecken und neu anordnen</value>
+  </data>
+  <data name="GameList_TelemetryNotConfiguredWarnMessage" xml:space="preserve">
+    <value>{0} Telemetrie ist nicht konfiguriert</value>
+  </data>
+  <data name="PropertiesFilterTextBoxWatermark" xml:space="preserve">
+    <value>Eigenschaften filtern ...</value>
+  </data>
+  <data name="PropertiesShowGameSpecificPropertiesCheckbox" xml:space="preserve">
+    <value>Zeige spielspezifische Eigenschaften ('Rohdaten')</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Aufzeichnen</value>
+  </data>
+  <data name="StartMode.GameList" xml:space="preserve">
+    <value>Spielliste</value>
+  </data>
+  <data name="GameList_Button_SortAlpha" xml:space="preserve">
+    <value>alphabetisch sortieren</value>
+  </data>
+  <data name="ShakeItSettings_ProfileContent" xml:space="preserve">
+    <value>Profilinhalte</value>
+  </data>
+  <data name="SettingsAuthor" xml:space="preserve">
+    <value>Ersteller :</value>
+  </data>
+  <data name="GameConfigurationManager_IpAddress" xml:space="preserve">
+    <value>IP Addresse</value>
+  </data>
+  <data name="GameConfigurationManager_TelemetryMode" xml:space="preserve">
+    <value>Telemetrie Modus</value>
+  </data>
+  <data name="PluginName_LapHitoryPlugin" xml:space="preserve">
+    <value>Statistiken</value>
+  </data>
+  <data name="SettingsSystemInfos" xml:space="preserve">
+    <value>System Info</value>
+  </data>
+  <data name="WaitingForData" xml:space="preserve">
+    <value>Warten auf Daten</value>
+  </data>
+  <data name="Running" xml:space="preserve">
+    <value>Läuft</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>Pausiert</value>
+  </data>
+  <data name="TestDataEditor_UseTestData" xml:space="preserve">
+    <value>Verwende Testdaten</value>
+  </data>
+  <data name="DataCore_SettingsControl_CSharpExpressions" xml:space="preserve">
+    <value>C# Ausdrücke</value>
+  </data>
+  <data name="Constants_Apply" xml:space="preserve">
+    <value>Anwenden</value>
+  </data>
+  <data name="Constants_ApplyUpper" xml:space="preserve">
+    <value>ANWENDEN</value>
+  </data>
+  <data name="GameList_AutomaticSetup_AdministratorPrivilegesMessage" xml:space="preserve">
+    <value>Automatische Konfiguration ist nur verfügbar wenn SimHub als Administrator ausgeführt wird, wollen Sie dies nun einschalten ?</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationFailedMessage" xml:space="preserve">
+    <value>Etwas ist schiefgegangen, vergewissern Sie sich das das Spiel nicht läuft oder versuchen Sie die manuelle Installation.</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Usbd480FlipDisplay180" xml:space="preserve">
+    <value>Bildschirm umkehren (180°)</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_PhoneTablet" xml:space="preserve">
+    <value>Auf dem Phone oder Tablet</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_SecondaryMonitor" xml:space="preserve">
+    <value>Auf sekundärem Monitor</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_SpecificMonitor" xml:space="preserve">
+    <value>Auf spezifischem Monitor</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_USBD480Screen" xml:space="preserve">
+    <value>Auf dem USBD480 Bildschirm</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_VocoreScreen" xml:space="preserve">
+    <value>Auf dem VOCORE Bildschirm</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_AX206Screen" xml:space="preserve">
+    <value>Auf dem AX206 Bildschirm</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_CorsairNexusScreen" xml:space="preserve">
+    <value>Auf dem Corsair Nexus</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_WebDeviceLastSeen" xml:space="preserve">
+    <value>(Zuletzt gesehen : {0})</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabItemUSBD480" xml:space="preserve">
+    <value>USBD480</value>
+  </data>
+  <data name="HigherProcessPriorityComment" xml:space="preserve">
+    <value>Nützlich für CPU intensive Spiele, verwenden Sie es nicht wenn Sie es nicht benötigen</value>
+  </data>
+  <data name="MainWindowToolbarLicenseStatus" xml:space="preserve">
+    <value>Status :</value>
+  </data>
+  <data name="MainWindowToolbarWikiLink" xml:space="preserve">
+    <value>Wiki</value>
+  </data>
+  <data name="MainWindowToolbarRefreshRate" xml:space="preserve">
+    <value>Aktualisierungsrate :</value>
+  </data>
+  <data name="PluginDescription_BA63Plugin" xml:space="preserve">
+    <value>Verbinde ein Diebold Nixdorf BA63 Display</value>
+  </data>
+  <data name="PluginDescription_GmailPlugin" xml:space="preserve">
+    <value>Verbinden Sie Ihr GMail Konto und erhalten Sie Zugang zu Ihren letzten E-Mails </value>
+  </data>
+  <data name="PluginName_GmailPlugin" xml:space="preserve">
+    <value>GMail</value>
+  </data>
+  <data name="PluginName_PersistantTrackerPlugin" xml:space="preserve">
+    <value>Statistiken</value>
+  </data>
+  <data name="PluginName_SerialDashPlugin" xml:space="preserve">
+    <value>Arduino</value>
+  </data>
+  <data name="PluginName_SystemInfoPlugin" xml:space="preserve">
+    <value>System Informationen</value>
+  </data>
+  <data name="RunAsAdministratorOptionComment" xml:space="preserve">
+    <value>Nützlich um alle System Informationen (wie Temperaturen) zu erhalten oder einige Spielerkennungsprobleme zu beheben</value>
+  </data>
+  <data name="GameConfigurationManager_GameIsProperlyConfiguredInfo" xml:space="preserve">
+    <value>Spiel ist ordnungsgemäß konfiguriert</value>
+  </data>
+  <data name="GameConfigurationManager_ConfigureGameNowButton" xml:space="preserve">
+    <value>Spiel jetzt konfigurieren</value>
+  </data>
+  <data name="GameConfigurationManager_AutomaticGameConfigurationTitle" xml:space="preserve">
+    <value>Automatische Spielkonfiguration</value>
+  </data>
+  <data name="GameConfigurationManager_SimHubCanTConfigureTheGameInformation" xml:space="preserve">
+    <value>SimHub kann das Spiel nicht konfigurieren, vergewissern Sie sich, dass es Installiert ist und starten Sie es, damit die Spielkonfigurationsdateien erstellt werden</value>
+  </data>
+  <data name="GameConfigurationManager_ManualGameConfigurationTitle" xml:space="preserve">
+    <value>Manuelle Spielkonfiguration</value>
+  </data>
+  <data name="GameConfigurationManager_ThisGameRequiresAManualConfigurationInformation" xml:space="preserve">
+    <value>Dieses Spiel benötigt eine manuelle Konfiguration</value>
+  </data>
+  <data name="GameConfigurationManager_HavingGameConnectivityIssuesInformation" xml:space="preserve">
+    <value>Bestehen Verbindungsprobleme ? Öffnen der Problembehandlung</value>
+  </data>
+  <data name="DefaultLauncherControl_Arguments" xml:space="preserve">
+    <value>Argumente</value>
+  </data>
+  <data name="ControlsAndEvents_ThrustmasterManagerTabTitle" xml:space="preserve">
+    <value>Thrustmaster Manager</value>
+  </data>
+  <data name="ShakeItSettings_OpenWindowsSoundSettings" xml:space="preserve">
+    <value>Öffne Windows Sound-Einstellungen</value>
+  </data>
+  <data name="ShakeItSettings_TestNow" xml:space="preserve">
+    <value>Jetzt Testen</value>
+  </data>
+  <data name="ShakeItSettings_Mono" xml:space="preserve">
+    <value>Mono</value>
+  </data>
+  <data name="ShakeItSettings_XMotorsConnected" xml:space="preserve">
+    <value>{0} Motoren verbunden</value>
+  </data>
+  <data name="ShakeItSettings_ConnectionError" xml:space="preserve">
+    <value>Verbindungsfehler</value>
+  </data>
+  <data name="ShakeItSettings_Stereo" xml:space="preserve">
+    <value>Links / Rechts</value>
+  </data>
+  <data name="ShakeItSettings_FrontLR" xml:space="preserve">
+    <value>Vorne Links / Rechts</value>
+  </data>
+  <data name="ShakeItSettings_RearLR" xml:space="preserve">
+    <value>Hinten Links / Rechts</value>
+  </data>
+  <data name="ShakeItSettings_StereoFR" xml:space="preserve">
+    <value>Vorne / Hinten</value>
+  </data>
+  <data name="GmailPlugin_Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="ThrustmasterSettings_NoThrustmasterWheelFound" xml:space="preserve">
+    <value>Kein Thrustmaster Lenkrad gefunden</value>
+  </data>
+  <data name="ThrustmasterSettings_WHEELROTATION" xml:space="preserve">
+    <value>LENKRAD ROTATION</value>
+  </data>
+  <data name="ThrustmasterSettings_CENTERING" xml:space="preserve">
+    <value>ZENTRIERUNG</value>
+  </data>
+  <data name="MappingPicker_Source" xml:space="preserve">
+    <value>Quelle</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_MEDIAPLAYERINFORMATION" xml:space="preserve">
+    <value>MEDIA PLAYER INFORMATION</value>
+  </data>
+  <data name="ReplayControls_CreateBookmark" xml:space="preserve">
+    <value>Erstelle Lesezeichen</value>
+  </data>
+  <data name="BindingEditor_UseJavascript" xml:space="preserve">
+    <value>Verwende JavaScript</value>
+  </data>
+  <data name="LoggingControl_NewWindow" xml:space="preserve">
+    <value>Neues Fenster</value>
+  </data>
+  <data name="ReplayControls_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="ReplayControls_End" xml:space="preserve">
+    <value>Ende</value>
+  </data>
+  <data name="Constants_SimHubUpperCase" xml:space="preserve">
+    <value>SIMHUB</value>
+  </data>
+  <data name="SupportedGamePicker_Label_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="SupportedGamePicker_Label_None" xml:space="preserve">
+    <value>Keine</value>
+  </data>
+  <data name="ShakeItEffectCustom_Label_FrontLeft" xml:space="preserve">
+    <value>Vorne Links</value>
+  </data>
+  <data name="ShakeItEffectCustom_Label_RearLeft" xml:space="preserve">
+    <value>Hinten Links</value>
+  </data>
+  <data name="ShakeItEffectCustom_Label_FrontRight" xml:space="preserve">
+    <value>Vorne Rechts</value>
+  </data>
+  <data name="ShakeItEffectCustom_Label_RearRight" xml:space="preserve">
+    <value>Hinten Rechts</value>
+  </data>
+  <data name="ShakeItSingleToneOutput_Title_Frequency" xml:space="preserve">
+    <value>Frequenz</value>
+  </data>
+  <data name="ShakeItSingleToneOutput_CheckBox_DelayMs" xml:space="preserve">
+    <value>Verzögerung (ms)</value>
+  </data>
+  <data name="Constants_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Constants_High" xml:space="preserve">
+    <value>Hoch</value>
+  </data>
+  <data name="Constants_Low" xml:space="preserve">
+    <value>Niedrig</value>
+  </data>
+  <data name="RBGAnimationStandaloneEditor_Label_Columns" xml:space="preserve">
+    <value>Spalten</value>
+  </data>
+  <data name="RBGAnimationStandaloneEditor_Label_Rows" xml:space="preserve">
+    <value>Reihen</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_BT" xml:space="preserve">
+    <value>BT</value>
+  </data>
+  <data name="DataPlotter_GroupHeader_YAxis" xml:space="preserve">
+    <value>Y Achse</value>
+  </data>
+  <data name="DataPlotter_GroupHeader_XAxis" xml:space="preserve">
+    <value>X Achse</value>
+  </data>
+  <data name="Constants_Color" xml:space="preserve">
+    <value>Farbe</value>
+  </data>
+  <data name="Constants_COLORUppercase" xml:space="preserve">
+    <value>FARBE</value>
+  </data>
+  <data name="ShakeItEffectEditor_Label_Algorythm" xml:space="preserve">
+    <value>Algorythmus</value>
+  </data>
+  <data name="Constants_Tyre" xml:space="preserve">
+    <value>Reifen</value>
+  </data>
+  <data name="Constants_SelectAll" xml:space="preserve">
+    <value>Alle auswählen</value>
+  </data>
+  <data name="Constants_DeleteSelection" xml:space="preserve">
+    <value>Auswahl löschen</value>
+  </data>
+  <data name="Constants_ReverseSelection" xml:space="preserve">
+    <value>Auswahl umkehren</value>
+  </data>
+  <data name="Constants_Delete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Constants_Add" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="Constants_Behaviour" xml:space="preserve">
+    <value>Verhalten</value>
+  </data>
+  <data name="Constants_Description" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="Section_Help" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="DashStudioComponentLibrary_GroupHeader_Library" xml:space="preserve">
+    <value>Bibliothek</value>
+  </data>
+  <data name="Constants_Test" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="ShakeItEffectsListMain_Label_Calibration" xml:space="preserve">
+    <value>Kalibrierung</value>
+  </data>
+  <data name="ShakeItEffectsListMain_Label_AutomaticCalibration" xml:space="preserve">
+    <value>Automatische Kalibrierung</value>
+  </data>
+  <data name="ShakeItEffectsListMain_Label_PredefinedCalibration" xml:space="preserve">
+    <value>Vorgegebene Kalibrierung</value>
+  </data>
+  <data name="DashStudioUsbLedModuleSettings_Label_SearchingDevice" xml:space="preserve">
+    <value>Suche Gerät ...</value>
+  </data>
+  <data name="UDPRelaySettings_TargetIPAdress" xml:space="preserve">
+    <value>Ziel IP Addresse</value>
+  </data>
+  <data name="USBDisplaySettings_LabelStringFormat_ConnectedModel" xml:space="preserve">
+    <value>Verbundenes Model : {0}</value>
+  </data>
+  <data name="USBDisplaySettings_SearchingDevice" xml:space="preserve">
+    <value>Suche Gerät ...</value>
+  </data>
+  <data name="WindProfileControl_CheckBox_Left" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="WindProfileControl_CheckBox_Right" xml:space="preserve">
+    <value>Rechts</value>
+  </data>
+  <data name="AdministratorPrivilegesMessage" xml:space="preserve">
+    <value>Möchten Sie wirklich ohne Administratorrechte ausführen? Sie könnten Probleme mit der Spielerkennung haben und einige Funktionen wie Systeminformationen funktionieren nicht. Sie können Administratorrechte jederzeit in den SimHub-Einstellungen aktivieren.</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_ArduinoDisabled" xml:space="preserve">
+    <value>Arduino deaktiviert</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_CustomProtocol" xml:space="preserve">
+    <value>Benutzerdefiniertes Protokoll</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_MultipleArduinos" xml:space="preserve">
+    <value>Mehrere Arduinos</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_SingleArduino" xml:space="preserve">
+    <value>Einzelnes Arduino</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_Unplugged" xml:space="preserve">
+    <value>- Nicht angeschlossen</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_MultipleArduinoSettings" xml:space="preserve">
+    <value>MEHRERE ARDUINO-EINSTELLUNGEN</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_ChooseHowManyArduinosYouWantToConnectToSimhub" xml:space="preserve">
+    <value>Wählen Sie aus, wie viele Arduinos Sie mit SIMHUB verbinden möchten</value>
+  </data>
+  <data name="ArduinoScreenList_CheckBox_EnableLivePreview" xml:space="preserve">
+    <value>Live Vorschau</value>
+  </data>
+  <data name="ArduinoScreenList_Label_OrderingInfo" xml:space="preserve">
+    <value>Ordnung ist wichtig! Verwenden Sie Drag'n'Drop, um Ihre Bildschirme neu anzuordnen | Doppelklick zum Editieren</value>
+  </data>
+  <data name="ArduinoScreenList_SectionTitle_ManageYourArduinoTextDisplays" xml:space="preserve">
+    <value>VERWALTEN SIE IHRE ARDUINO-TEXTANZEIGEN</value>
+  </data>
+  <data name="CarSettings_SectionTitle_DefaultCarSettingsForTheCurrentGame" xml:space="preserve">
+    <value>STANDARDWAGENEINSTELLUNGEN (FÜR DAS AKTUELLE SPIEL)</value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_Alerts" xml:space="preserve">
+    <value>WARNUNGEN</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_ClearLapHistoryForTheCurrentTrackAndCar" xml:space="preserve">
+    <value>Löschen Sie den Rundenverlauf für die aktuelle Strecke und das aktuelle Auto</value>
+  </data>
+  <data name="SettingsGeneralSection" xml:space="preserve">
+    <value>ALLGEMEIN</value>
+  </data>
+  <data name="SettingsGeneralTab" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="SettingsLangageAuthor" xml:space="preserve">
+    <value>Standard Sprache</value>
+  </data>
+  <data name="SettingsPreferredUnitsSection" xml:space="preserve">
+    <value>BEVORZUGTE MESSEINHEITEN</value>
+  </data>
+  <data name="SettingsPressureUnitOption" xml:space="preserve">
+    <value>Druckmesseinheit</value>
+  </data>
+  <data name="SettingsSpeedUnitOption" xml:space="preserve">
+    <value>Geschwindigkeitsmesseinheit</value>
+  </data>
+  <data name="SettingsTemperatureUnitOption" xml:space="preserve">
+    <value>Temperaturmesseinheit</value>
+  </data>
+  <data name="ShakeItSettings_Export" xml:space="preserve">
+    <value>Exportieren</value>
+  </data>
+  <data name="ShakeItSettings_Import" xml:space="preserve">
+    <value>Importieren</value>
+  </data>
+  <data name="RecordSettings_StartRecording" xml:space="preserve">
+    <value>Starte Aufzeichnen</value>
+  </data>
+  <data name="GaugeSettings_TACHOMETER" xml:space="preserve">
+    <value>TACHOMETER</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_Vocore" xml:space="preserve">
+    <value>VOCORE</value>
+  </data>
+  <data name="MainWindowToolbarDiscordServerLink" xml:space="preserve">
+    <value>Discord Server</value>
+  </data>
+  <data name="ImportDash_TheInstallWasSuccessful" xml:space="preserve">
+    <value>Die Installation war erfolgreich</value>
+  </data>
+  <data name="Constants_OKUppercase" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Constants_Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Constants_CancelUpperCase" xml:space="preserve">
+    <value>ABBRECHEN</value>
+  </data>
+  <data name="Constants_Connected" xml:space="preserve">
+    <value>verbunden</value>
+  </data>
+  <data name="Constants_Disconnected" xml:space="preserve">
+    <value>nicht verbunden</value>
+  </data>
+  <data name="Constants_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Constants_Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Constants_No" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="Constants_Minimum" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="Constants_Maximum" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="Constants_Help" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="Constants_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="Constants_Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_ShowOnlyFavorites" xml:space="preserve">
+    <value>Nur Favoriten</value>
+  </data>
+  <data name="Constants_SimHub" xml:space="preserve">
+    <value>SimHub</value>
+  </data>
+  <data name="Constants_Copy" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="Constants_Paste" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_File" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_NewFont" xml:space="preserve">
+    <value>Neue Schriftart</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_LoadFont" xml:space="preserve">
+    <value>Lade Schriftart</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_SaveFont" xml:space="preserve">
+    <value>Speichere Schriftart</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_SaveAs" xml:space="preserve">
+    <value>Speichern als</value>
+  </data>
+  <data name="MatrixfontEditor_Label_Width" xml:space="preserve">
+    <value>Breite</value>
+  </data>
+  <data name="MatrixfontEditor_Label_Height" xml:space="preserve">
+    <value>Höhe</value>
+  </data>
+  <data name="ShakeItToneOutput_Title_Frequencies" xml:space="preserve">
+    <value>Frequenzen</value>
+  </data>
+  <data name="ShakeItExportOutputToPropery_Title_Export" xml:space="preserve">
+    <value>Exportieren</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_RGBMatrix" xml:space="preserve">
+    <value>RGB Matrix</value>
+  </data>
+  <data name="SettingsControlWPF_TabHeader_RGBMatrix" xml:space="preserve">
+    <value>RGB Matrix</value>
+  </data>
+  <data name="NextionSettingsItem_Link_ReadHelp" xml:space="preserve">
+    <value>Hilfe lesen</value>
+  </data>
+  <data name="Constants_Visible" xml:space="preserve">
+    <value>Sichtbar</value>
+  </data>
+  <data name="SettingsBuilderPropertyEditor_Link_Remove" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="Constants_AutomaticShort" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="Constants_ManualShort" xml:space="preserve">
+    <value>Man</value>
+  </data>
+  <data name="ShakeItBuiltInMapMono_Label_Mono" xml:space="preserve">
+    <value>Mono</value>
+  </data>
+  <data name="Constants_Percent" xml:space="preserve">
+    <value>Prozent</value>
+  </data>
+  <data name="NextionSettingsControlWPF_Link_MoreInfos" xml:space="preserve">
+    <value>Mehr Infos ...</value>
+  </data>
+  <data name="Constants_Load" xml:space="preserve">
+    <value>Laden</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Link_ExportSettings" xml:space="preserve">
+    <value>Exportiere Einstellungen</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Link_ImportSettings" xml:space="preserve">
+    <value>Importiere Einstellungen</value>
+  </data>
+  <data name="CarSettings_TabHeader_GeneralSettings" xml:space="preserve">
+    <value>Allgemeine Einstellungen</value>
+  </data>
+  <data name="ThrustmasterPlugin_LeftMenuTitle" xml:space="preserve">
+    <value>Thrustmaster</value>
+  </data>
+  <data name="SettingsThemeOption" xml:space="preserve">
+    <value>Thema</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_ETSATSMap" xml:space="preserve">
+    <value>ETS2/ATS Karte</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_MONITORSOPTIONS" xml:space="preserve">
+    <value>MONITOR OPTIONEN</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabHeader_VOCORE" xml:space="preserve">
+    <value>VOCORE</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_LEDMODULES" xml:space="preserve">
+    <value>LED MODULES</value>
+  </data>
+  <data name="RGBAnimationEditor_MenuItem_Duplicate" xml:space="preserve">
+    <value>Duplizieren</value>
+  </data>
+  <data name="PWMGaugeSettings_Label_Value" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="ChangeGameSplash_Label_ActivatingGame" xml:space="preserve">
+    <value>Aktiviere Spiel ...</value>
+  </data>
+  <data name="MinimizeInTray" xml:space="preserve">
+    <value>Minimieren im Infobereich</value>
+  </data>
+</root>
